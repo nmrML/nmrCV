@@ -40,7 +40,6 @@ import_group:
     module_type: mirror
   - id: ro
     use_base: true
-    module_type: custom
   - id: omo
     module_type: mirror
   - id: iao
