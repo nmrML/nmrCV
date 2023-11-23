@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/nmrCV
+
+idspace: NMRCV
+base_url: /obo/nmrCV
+
+products:
+- nmrCV.owl: https://raw.githubusercontent.com/nmrML/nmrCV/main/nmrCV.owl
+- nmrCV.obo: https://raw.githubusercontent.com/nmrML/nmrCV/main/nmrCV.obo
+
+term_browser: ontobee
+example_terms:
+- NMRCV_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/nmrML/nmrCV/v
+
+- prefix: /tracker/
+  replacement: https://github.com/nmrML/nmrCV/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/NMRCV?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/nmrML/nmrCV/main/
+
