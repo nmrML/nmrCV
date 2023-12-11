@@ -1,2 +1,0 @@
-id	label	alternative term	link(s) to issue(s)	definition	definition source URI	type	super class	contributor URI	example of usage	comment	editor note	obsoleted	obsolescence reason	term replaced by
-ID	AL rdfs:label@en	AL  IAO:0000118@en SPLIT=|	AI rdfs:seeAlso SPLIT=|	AL IAO:0000115@en	>AI dc11:source SPLIT=|	TYPE	SC % SPLIT=|	AI dc11:contributor SPLIT=|	AL IAO:0000112@en	AL rdfs:comment@en SPLIT=|	AL IAO:0000116@en SPLIT=|	AT owl:deprecated^^xsd:boolean	AI IAO:0000231	AI IAO:0100001

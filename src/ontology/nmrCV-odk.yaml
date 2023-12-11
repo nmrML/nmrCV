@@ -22,6 +22,7 @@ documentation:
   documentation_system: mkdocs
 export_formats:
 - owl
+- ttl
 - obo
 reasoner: ELK
 release_artefacts:
@@ -31,19 +32,22 @@ robot_java_args: '-Xmx16G'  # max RAM to be used by Robot in ODK
 use_templates: TRUE
 
 
-## VIBSO specific Settings ##
+## NMR specific Settings ##
 
 import_group:
   products:
-components:
-  products:
-    - filename: nmrCV_classes.owl  # TSV templates to define VIBSO classes
-      use_template: TRUE
-      template_options: --add-prefixes config/context.json
-      templates:
-        - vibso_classes.tsv        # TSV templates to define VIBSO object properties
-    - filename: nmrCV_object_properties.owl
-      use_template: TRUE
-      template_options: --add-prefixes config/context.json
-      templates:
-        - nmrCV_object_properties.tsv
+  - id: bfo
+    module_type: mirror
+  - id: ro
+    use_base: true
+  - id: omo
+    module_type: mirror
+  - id: iao
+    make_base: true
+  - id: chmo
+    make_base: true
+  - id: pato
+    make_base: true
+  - id: obi
+    make_base: true
+
