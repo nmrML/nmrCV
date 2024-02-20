@@ -39,15 +39,11 @@ import_group:
   - id: bfo
     module_type: mirror
   - id: ro
-    use_base: true
   - id: omo
     module_type: mirror
   - id: iao
-    make_base: true
   - id: chmo
-    make_base: true
   - id: pato
-    make_base: true
   - id: obi
-    make_base: true
+
 
