@@ -16,9 +16,9 @@
 # these can be overwritten on the command line
 
 OBOBASE=                    http://purl.obolibrary.org/obo
-URIBASE=                    http://purl.obolibrary.org/obo
+URIBASE=                    http://nmrML.org
 ONT=                        nmrCV
-ONTBASE=                    http://purl.obolibrary.org/obo/nmrCV
+ONTBASE=                    http://nmrML.org/nmrCV
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false
@@ -365,8 +365,9 @@ mirror-bfo: | $(TMPDIR)
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
 mirror-ro: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/ro/ro-base.owl --create-dirs -o $(MIRRORDIR)/ro.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/ro.owl --create-dirs -o $(MIRRORDIR)/ro.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/ro.owl -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
 ## ONTOLOGY: omo
@@ -383,8 +384,7 @@ mirror-omo: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/iao.owl
 mirror-iao: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/iao.owl --create-dirs -o $(MIRRORDIR)/iao.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/iao.owl -o $@.tmp.owl && \
-		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/IAO --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/iao.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
@@ -393,8 +393,7 @@ mirror-iao: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/chmo.owl
 mirror-chmo: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/chmo.owl --create-dirs -o $(MIRRORDIR)/chmo.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/chmo.owl -o $@.tmp.owl && \
-		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/CHMO --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/chmo.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
@@ -403,8 +402,7 @@ mirror-chmo: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/pato.owl
 mirror-pato: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/pato.owl --create-dirs -o $(MIRRORDIR)/pato.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/pato.owl -o $@.tmp.owl && \
-		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/PATO --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/pato.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
@@ -413,8 +411,7 @@ mirror-pato: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/obi.owl
 mirror-obi: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/obi.owl --create-dirs -o $(MIRRORDIR)/obi.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/obi.owl -o $@.tmp.owl && \
-		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/OBI --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/obi.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 

@@ -11,7 +11,7 @@ license: https://creativecommons.org/publicdomain/mark/1.0/
 
 ## general ODK Settings ##
 
-uribase: http://purl.obolibrary.org/obo
+uribase: http://nmrML.org
 repo: nmrCV
 git_main_branch: main
 github_org: nmrML
