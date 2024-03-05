@@ -11,7 +11,7 @@ license: https://creativecommons.org/publicdomain/mark/1.0/
 
 ## general ODK Settings ##
 
-uribase: http://purl.obolibrary.org/obo
+uribase: http://nmrML.org
 repo: nmrCV
 git_main_branch: main
 github_org: nmrML
@@ -39,15 +39,11 @@ import_group:
   - id: bfo
     module_type: mirror
   - id: ro
-    use_base: true
   - id: omo
     module_type: mirror
   - id: iao
-    make_base: true
   - id: chmo
-    make_base: true
   - id: pato
-    make_base: true
   - id: obi
-    make_base: true
+
 

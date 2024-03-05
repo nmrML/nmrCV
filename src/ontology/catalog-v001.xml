@@ -3,26 +3,26 @@
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
 
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/ro_import.obo" uri="imports/ro_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/ro_import.obo" uri="imports/ro_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/omo_import.owl" uri="imports/omo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/omo_import.obo" uri="imports/omo_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/omo_import.obo" uri="imports/omo_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/iao_import.obo" uri="imports/iao_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/iao_import.obo" uri="imports/iao_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/chmo_import.owl" uri="imports/chmo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/chmo_import.obo" uri="imports/chmo_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/chmo_import.owl" uri="imports/chmo_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/chmo_import.obo" uri="imports/chmo_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/pato_import.obo" uri="imports/pato_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/pato_import.obo" uri="imports/pato_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/obi_import.owl" uri="imports/obi_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/nmrCV/imports/obi_import.obo" uri="imports/obi_import.obo"/>
+  <uri name="http://nmrML.org/nmrCV/imports/obi_import.owl" uri="imports/obi_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/obi_import.obo" uri="imports/obi_import.obo"/>
   
 
 
