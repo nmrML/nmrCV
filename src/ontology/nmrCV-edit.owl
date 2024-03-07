@@ -4771,7 +4771,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400126> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400128> (NMR sample)
 
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400128> "def: A sample that has been prepared for chemical analysis by NMR.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400128> "A sample that has been prepared for chemical analysis by NMR.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400128> "NMR sample")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400128> <http://nmrML.org/nmrCV#NMR:1000457>)
 
