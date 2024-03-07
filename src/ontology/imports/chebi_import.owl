@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://nmrML.org/nmrCV/imports/chebi_import.owl>
-<http://nmrML.org/nmrCV/releases/2024-02-21/imports/chebi_import.owl>
-Annotation(owl:versionInfo "2024-02-21")
+<http://nmrML.org/nmrCV/releases/2024-03-07/imports/chebi_import.owl>
+Annotation(owl:versionInfo "2024-03-07")
 
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
