@@ -45,5 +45,9 @@ import_group:
   - id: chmo
   - id: pato
   - id: obi
+  - id: chebi
+    is_large: true
+    use_gzipped: true
+    make_base: true
 
 

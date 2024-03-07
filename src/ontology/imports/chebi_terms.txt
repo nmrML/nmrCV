@@ -1,0 +1,26 @@
+CHEBI:156265 # methanol-d4
+CHEBI:193038 # acetonitrile-d3
+CHEBI:193039 # benzene-d6
+CHEBI:193040 # N,N-dimethylformamide-d7
+CHEBI:193041 # dimethyl sulfoxide-d6
+CHEBI:193042 # dichloromethane-d2
+CHEBI:193043 # ethanol-d6
+CHEBI:193044 # nitrobenzene-d5
+CHEBI:193045 # nitromethane-d3
+CHEBI:193046 # pyridine-d5
+CHEBI:193047 # oxolane-d8
+CHEBI:193048 # toluene-d8
+CHEBI:193049 # acetic acid-d4
+CHEBI:193050 # trifluoroacetic acid-d1
+CHEBI:193131 # 1,1,2-Trichlorotrifluoroethane
+CHEBI:193132 # formic acid-d2
+CHEBI:193133 # methanol-d1
+CHEBI:193134 # 1,1,2,2-tetrachlorethane-d2
+CHEBI:193135 # dimethyl ether-d6
+CHEBI:193136 # fluorosulfonic acid
+CHEBI:193146 # antimony pentafluoride
+CHEBI:193148 # bromine pentafluoride
+CHEBI:41981 # dideuterium oxide
+CHEBI:48236 # trichlorofluoromethane
+CHEBI:78217 # acetone d6
+CHEBI:85365 # deuterated chloroform

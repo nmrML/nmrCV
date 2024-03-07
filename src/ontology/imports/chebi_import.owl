@@ -1,0 +1,19 @@
+Prefix(:=<http://nmrML.org/nmrCV/imports/chebi_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://nmrML.org/nmrCV/imports/chebi_import.owl>
+<http://nmrML.org/nmrCV/releases/2024-02-21/imports/chebi_import.owl>
+Annotation(owl:versionInfo "2024-02-21")
+
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+
+
+)

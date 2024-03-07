@@ -23,7 +23,9 @@
   
   <uri name="http://nmrML.org/nmrCV/imports/obi_import.owl" uri="imports/obi_import.owl"/>
   <uri name="http://nmrML.org/nmrCV/imports/obi_import.obo" uri="imports/obi_import.obo"/>
-  
+
+  <uri name="http://nmrML.org/nmrCV/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/chebi_import.obo" uri="imports/chebi_import.obo"/>
 
 
   
