@@ -882,6 +882,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
 
+
 ############################
 #   Classes
 ############################
@@ -5677,6 +5678,10 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400255>)
+
+# Class: obo:BFO_0000023 (role)
+
+EquivalentClasses(obo:BFO_0000023 obo:CHEBI_50906)
 
 # Class: obo:CHEBI_24431 (chemical entity)
 
