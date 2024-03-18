@@ -2726,7 +2726,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000329> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000330> "Use Chebi entities here.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000330> "NMR solvent"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000330> obo:BFO_0000030)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000330> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449)))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000331> (NMR buffer)
 
