@@ -48,6 +48,4 @@ import_group:
   - id: chebi
     is_large: true
     use_gzipped: true
-    make_base: true
-
 
