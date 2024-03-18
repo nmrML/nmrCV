@@ -2732,7 +2732,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000330> obo:BFO_0000030)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000331> "Use Chebi entities here.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000331> "NMR buffer"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000331> obo:BFO_0000030)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000331> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000332> (presat water suppression)
 
@@ -4542,7 +4542,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400081> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400083> "def: The nucleus of an element or isotope that is being studied during an NMR analysis. Common NMR requirements include direct 1D and 2D proton-only NMR, direct observation of 13C NMR with 1H decoupling, direct observation of other nuclei such as 19F, 31P, 29Si, 31P, 27Al, and 15N (with or without 1H decoupling), triple resonance NMR (especially inverse triple resonance such as 1H observe, 13C and 15N decouple), and inverse 2D and 3D experiments such as HMQC and HMBC.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400083> "acquisition nucleus")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400083> obo:BFO_0000030)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400083> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400086> (quality check peak feature)
 
