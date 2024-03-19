@@ -5799,6 +5799,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33232 obo:BFO_00000
 
 # Class: obo:CHEBI_38589 (hexafluorobenzene)
 
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_38589 <http://nmrML.org/nmrCV#NMR:1000330>)
 SubClassOf(obo:CHEBI_38589 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449))
 
 # Class: obo:CHEBI_41981 (dideuterium oxide)
