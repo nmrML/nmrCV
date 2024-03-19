@@ -5701,6 +5701,18 @@ EquivalentClasses(obo:BFO_0000023 obo:CHEBI_50906)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_156265 <http://nmrML.org/nmrCV#NMR:1000330>)
 
+# Class: obo:CHEBI_16134 (ammonia)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_16134 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_16227 (pyridine)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_16227 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_183318 (triphenylphosphine)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_183318 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_193038 (acetonitrile-d3)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_193038 <http://nmrML.org/nmrCV#NMR:1000330>)
@@ -5785,6 +5797,34 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_193146 <http://nmrM
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_193148 <http://nmrML.org/nmrCV#NMR:1000330>)
 
+# Class: obo:CHEBI_195173 (1-Propanesulfonic acid, 3-(trimethylsilyl)- (sodium salt))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_228806 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_229454 (yttrium nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229454 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_229455 (dimethylcadmium)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229455 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_229456 (xenon oxytetrafluoride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229456 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_229457 (rhodium acetylacetonate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_229458 (titan(III)-nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_24431 (chemical entity)
 
 SubClassOf(obo:CHEBI_24431 obo:BFO_0000040)
@@ -5793,22 +5833,116 @@ SubClassOf(obo:CHEBI_24431 obo:BFO_0000040)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_24432 obo:BFO_0000023)
 
+# Class: obo:CHEBI_26078 (phosphoric acid)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_26078 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_29228 (hydrogen fluoride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_29228 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30183 (tetramethyllead)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30183 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30236 (difluorine)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30236 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30251 (pentacarbonyliron)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30251 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30420 (tetramethyltin)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30420 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30496 (sulfur hexafluoride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30496 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30786 (dimethylmercury)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30786 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_32130 (silver(1+) nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32130 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_32954 (sodium acetate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32954 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_33093 (boron trifluoride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33093 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_33232 (application)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33232 obo:BFO_0000023)
 
+# Class: obo:CHEBI_33681 (helium(0))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33681 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_34856 (morpholine)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_34856 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_36601 (triphenylphosphane oxide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_36601 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_36810 ((trifluoromethyl)benzene)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_36810 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_38472 (acetonitrile)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_38472 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_38585 (1,4-difluorobenzene)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_38585 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_38589 (hexafluorobenzene)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_38589 <http://nmrML.org/nmrCV#NMR:1000330>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_38589 <http://nmrML.org/nmrCV#NMR:1400033>)
 SubClassOf(obo:CHEBI_38589 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449))
+
+# Class: obo:CHEBI_39429 (hexafluoroacetone)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_39429 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_41981 (dideuterium oxide)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:1000330>)
 
+# Class: obo:CHEBI_45892 (trifluoroacetic acid)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_45892 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_4610 (dimethylselenide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_4610 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_4613 (dimethyl telluride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_4613 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_46324 (trimethyl phosphate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_46324 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_47032 (1,4-dioxane)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_47032 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_48236 (trichlorofluoromethane)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1000330>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_50906 (role)
 
@@ -5818,13 +5952,66 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_50906 obo:BFO_00000
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_51086 obo:BFO_0000023)
 
+# Class: obo:CHEBI_5115 (monofluorobenzene)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_5115 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_55317 (tetramethylammonium bromide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_55317 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_59606 (sodium hexachloroplatinate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_59606 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_63005 (sodium nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63005 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_63940 (sodium tungstate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63940 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_66872 (potassium fluoride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_66872 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_77701 (nitromethane)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_78217 (acetone d6)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_78217 <http://nmrML.org/nmrCV#NMR:1000330>)
 
+# Class: obo:CHEBI_85361 (tetramethylsilane)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85361 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_85362 (3-(trimethylsilyl)propane-1-sulfonic acid)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85362 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_85363 (sodium 3-(trimethylsilyl)propionate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85363 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_85364 (ammonium bromide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85364 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_85365 (deuterated chloroform)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85365 <http://nmrML.org/nmrCV#NMR:1000330>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85365 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_85487 (3-(trimethylsilyl)propionic acid)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85487 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_88215 (osmium tetroxide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_88215 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 
 SubClassOf(ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)) <http://nmrML.org/nmrCV#NMR:1400033>)
