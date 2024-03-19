@@ -5827,4 +5827,5 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_78217 <http://nmrML
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85365 <http://nmrML.org/nmrCV#NMR:1000330>)
 
 
+SubClassOf(ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)) <http://nmrML.org/nmrCV#NMR:1400033>)
 )
