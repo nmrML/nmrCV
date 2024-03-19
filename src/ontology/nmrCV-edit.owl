@@ -1012,12 +1012,16 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000017> "obsolete_Ch
 AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000017> "true"^^xsd:boolean)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000017> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000018> (heavy water)
+# Class: <http://nmrML.org/nmrCV#NMR:1000018> (obsolete_heavy water)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000018> "Deprecated in favor of CHEBI equivalent class.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000018> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000018> obo:CHEBI_41981)
 AnnotationAssertion(oboInOwl:consider <http://nmrML.org/nmrCV#NMR:1000018> "CHEBI:41981")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000018> "D2O")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000018> "heavy water"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000018> <http://nmrML.org/nmrCV#NMR:1000330>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000018> "obsolete_heavy water"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000018> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000018> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000019> (sample pH)
 
