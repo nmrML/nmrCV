@@ -832,6 +832,7 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400322>))
+Declaration(Class(oboInOwl:ObsoleteClass))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dce:coverage))
 Declaration(AnnotationProperty(dcterms:description))
@@ -998,11 +999,15 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000016> "Hexafluorob
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000016> <http://nmrML.org/nmrCV#NMR:1000167>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000016> <http://nmrML.org/nmrCV#NMR:1000330>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000017> (Chloroform-d)
+# Class: <http://nmrML.org/nmrCV#NMR:1000017> (obsolete_Chloroform-d)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000017> "Deprecated in favor of CHEBI equivalent class.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000017> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000017> obo:CHEBI_85365)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000017> "CDCl3")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000017> "Chloroform-d"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000017> <http://nmrML.org/nmrCV#NMR:1000330>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000017> "obsolete_Chloroform-d"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000017> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000017> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000018> (heavy water)
 
