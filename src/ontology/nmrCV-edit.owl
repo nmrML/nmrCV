@@ -993,11 +993,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000014> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000015> "peak processing"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000015> <http://nmrML.org/nmrCV#NMR:1400038>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000016> (Hexafluorobenzene)
+# Class: <http://nmrML.org/nmrCV#NMR:1000016> (obsolete_Hexafluorobenzene)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000016> "Hexafluorobenzene"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000016> <http://nmrML.org/nmrCV#NMR:1000167>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000016> <http://nmrML.org/nmrCV#NMR:1000330>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000016> "Deprecated in favor of CHEBI equivalent class.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000016> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000016> obo:CHEBI_38589)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000016> "obsolete_Hexafluorobenzene"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000016> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000016> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000017> (obsolete_Chloroform-d)
 
@@ -5789,6 +5792,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_24432 obo:BFO_00000
 # Class: obo:CHEBI_33232 (application)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33232 obo:BFO_0000023)
+
+# Class: obo:CHEBI_38589 (hexafluorobenzene)
+
+SubClassOf(obo:CHEBI_38589 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449))
 
 # Class: obo:CHEBI_41981 (dideuterium oxide)
 
