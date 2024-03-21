@@ -4296,11 +4296,11 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400031> "def: A co
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400031> "buffer information")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400031> <http://nmrML.org/nmrCV#NMR:1000548>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400032> (shift calibration compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1400032> (chemical shift calibration compound)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "The compound that produced the peak used to reference a spectrum during data pre-processing.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https://github.com/nmrML/nmrCV/issues/4>)
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "shift calibration compound")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "chemical shift calibration compound")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
