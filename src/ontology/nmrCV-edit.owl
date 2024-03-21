@@ -81,6 +81,31 @@ Annotation(doap:maintainer "https://www.wikidata.org/wiki/Q96678459")
 Annotation(owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
 Annotation(owl:versionInfo "2.0_alpha")
 
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002000>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002002>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002003>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002005>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002006>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002007>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002008>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002009>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002010>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002011>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002012>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002013>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002014>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002015>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002016>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002017>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002018>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002019>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002020>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002021>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002022>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002023>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002024>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002025>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000002>))
@@ -889,6 +914,206 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
+# Class: <http://nmrML.org/nmrCV#NMR:0002000> (19F spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002000> "A chemical shift reference compound used for 19F spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 19F spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002000> "2024-03-21T15:00:17Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002000> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002000> "19F spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002000> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002001> (3H spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002001> "A chemical shift reference compound used for 3H spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 3H spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002001> "2024-03-21T14:30:12Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002001> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002001> "3H spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002001> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002002> (3He spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002002> "A chemical shift reference compound used for 3He spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 3He spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002002> "2024-03-21T14:33:21Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002002> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002002> "3He spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002002> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002003> (29Si spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A chemical shift reference compound used for 29Si spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 29Si spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002003> "2024-03-21T15:01:40Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "29Si spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002003> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002005> (57Fe spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002005> "A chemical shift reference compound used for 57Fe spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 57Fe spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002005> "2024-03-21T15:03:48Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002005> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002005> "57Fe spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002005> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002006> (77Se spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002006> "A chemical shift reference compound used for 77Se spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 77Se spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002006> "2024-03-21T15:04:58Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002006> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002006> "77Se spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002007> (89Y spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A chemical shift reference compound used for 89Y spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 89Y spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002007> "2024-03-21T15:06:08Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002007> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002007> "89Y spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002007> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002008> (103Rh spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002008> "A chemical shift reference compound used for 103Rh spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 103Rh spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002008> "2024-03-21T15:06:51Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002008> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002008> "103Rh spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002008> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002009> (107Ag spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002009> "A chemical shift reference compound used for 107Ag spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 107Ag spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002009> "2024-03-21T15:09:03Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002009> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002009> "107Ag spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002009> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002010> (109Ag spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002010> "A chemical shift reference compound used for 109Ag spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 109Ag spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002010> "2024-03-21T15:09:44Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002010> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002010> "109Ag spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002010> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002011> (111Cd spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002011> "A chemical shift reference compound used for 111Cd spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 111Cd spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002011> "2024-03-21T15:10:17Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002011> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002011> "111Cd spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002011> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002012> (113Cd spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002012> "A chemical shift reference compound used for 113Cd spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 113Cd spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002012> "2024-03-21T15:11:04Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002012> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002012> "113Cd spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002012> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002013> (115Sn spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002013> "A chemical shift reference compound used for 115Sn spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 115Sn spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002013> "2024-03-21T15:11:37Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002013> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002013> "115Sn spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002013> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002014> (117Sn spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002014> "A chemical shift reference compound used for 117Sn spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 117Sn spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002014> "2024-03-21T15:12:08Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002014> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002014> "117Sn spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002014> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002015> (119Sn spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002015> "A chemical shift reference compound used for 119Sn spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 119Sn spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002015> "2024-03-21T15:20:24Z")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002015> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002015> "119Sn spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002015> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002016> (123Te spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002016> "A chemical shift reference compound used for 123Te spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 123Te spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002016> "2024-03-21T15:21:04Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002016> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002016> "123Te spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002016> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002017> (125Te spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002017> "A chemical shift reference compound used for 125Te spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 125Te spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002017> "2024-03-21T15:22:09Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002017> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002017> "125Te spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002017> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002018> (129Xe spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002018> "A chemical shift reference compound used for 129Xe spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 129Xe spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002018> "2024-03-21T15:22:40Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002018> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002018> "129Xe spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002018> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002019> (183W spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002019> "A chemical shift reference compound used for 183W spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 183W spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002019> "2024-03-21T15:23:11Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002019> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002019> "183W spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002019> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002020> (187Os spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002020> "A chemical shift reference compound used for 187Os spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 187Os spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002020> "2024-03-21T15:24:11Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002020> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002020> "187Os spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002020> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002021> (195Pt spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002021> "A chemical shift reference compound used for 195Pt spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 195Pt spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002021> "2024-03-21T15:24:41Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002021> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002021> "195Pt spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002021> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002022> (199Hg spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002022> "A chemical shift reference compound used for 199Hg spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 199Hg spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002022> "2024-03-21T15:25:20Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002022> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002022> "199Hg spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002022> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002023> (203Tl spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002023> "A chemical shift reference compound used for 203Tl spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 203Tl spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002023> "2024-03-21T15:25:43Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002023> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002023> "203Tl spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002023> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002024> (205Tl spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002024> "A chemical shift reference compound used for 205Tl spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 205Tl spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002024> "2024-03-21T15:26:29Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002024> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002024> "205Tl spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002024> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002025> (207Pb spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002025> "A chemical shift reference compound used for 207Pb spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 207Pb spectra. The children of this class were manually asserted.")
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002025> "2024-03-21T15:26:54Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002025> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002025> "207Pb spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002025> <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: <http://nmrML.org/nmrCV#NMR:1000000> (integer32)
 
 AnnotationAssertion(dce:coverage <http://nmrML.org/nmrCV#NMR:1000000> "For 1r/1i spectra and for Bruker, this term describe an array of integers (32bits).")
@@ -1065,9 +1290,10 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000025> "1,4-Dioxane
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000025> <http://nmrML.org/nmrCV#NMR:1000026>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000025> <http://nmrML.org/nmrCV#NMR:1000030>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000026> (1H spectrum reference compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000026> (1H spectrum chemical shift reference compound)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000026> "1H spectrum reference compound"@en)
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000026> "A chemical shift reference compound used for 1H spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 1H spectra. The children of this class were manually asserted.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000026> "1H spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000026> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000027> (2,2-Dimethyl-2-silapentane-5-sulfonate)
@@ -1088,9 +1314,10 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000029> "tetramethyl
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000029> <http://nmrML.org/nmrCV#NMR:1000026>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000029> <http://nmrML.org/nmrCV#NMR:1000030>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000030> (13C spectrum reference compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000030> (13C spectrum chemical shift reference compound)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000030> "13C spectrum reference compound"@en)
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000030> "A chemical shift reference compound used for 13C spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 13C spectra. The children of this class were manually asserted.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000030> "13C spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000030> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000031> (NMR instrument model)
@@ -1127,9 +1354,10 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000035> "tetramethyl
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000035> <http://nmrML.org/nmrCV#NMR:1000030>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000035> <http://nmrML.org/nmrCV#NMR:1000036>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000036> (15N spectrum reference compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000036> (15N spectrum chemical shift reference compound)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000036> "15N spectrum reference compound"@en)
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000036> "A chemical shift reference compound used for 15N spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 15N spectra. The children of this class were manually asserted.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000036> "15N spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000036> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000037> (ammonia (liquid))
@@ -1264,9 +1492,10 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000056> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000057> "angle of sinusoid"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000057> <http://nmrML.org/nmrCV#NMR:1400096>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000058> (31P spectrum reference compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000058> (31P spectrum chemical shift reference compound)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000058> "31P spectrum reference compound"@en)
+AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173111795>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000058> "A chemical shift reference compound used for 31P spectra. This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 31P spectra. The children of this class were manually asserted.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000058> "31P spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000058> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000059> (phosphoric acid)
@@ -3260,9 +3489,10 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000429> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000430> "Gaussian maximum position"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000430> <http://nmrML.org/nmrCV#NMR:1000428>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000431> (2H spectrum reference compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000431> (2H spectrum chemical shift reference compound)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000431> "2H spectrum reference compound"@en)
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000431> "A chemical shift reference compound used for 2H spectra.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000431> "2H spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000431> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000433> (ABX2 multiplet pattern)
