@@ -1279,16 +1279,21 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000022> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000023> "Metabolights identifier"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000023> <http://nmrML.org/nmrCV#NMR:1000022>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000024> (acetonitrile)
+# Class: <http://nmrML.org/nmrCV#NMR:1000024> (obsolete_acetonitrile)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000024> "acetonitrile"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000024> <http://nmrML.org/nmrCV#NMR:1000026>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000024> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000024> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000024> "obsolete_acetonitrile"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000024> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000024> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000025> (1,4-Dioxane)
+# Class: <http://nmrML.org/nmrCV#NMR:1000025> (obsolete_1,4-Dioxane)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000025> "1,4-Dioxane"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000025> <http://nmrML.org/nmrCV#NMR:1000026>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000025> <http://nmrML.org/nmrCV#NMR:1000030>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000025> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000025> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000025> "obsolete_1,4-Dioxane"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000025> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000025> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000026> (1H spectrum chemical shift reference compound)
 
@@ -1296,16 +1301,22 @@ AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000026> "1H spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000026> <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000027> (2,2-Dimethyl-2-silapentane-5-sulfonate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000027> (obsolete_2,2-Dimethyl-2-silapentane-5-sulfonate)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000027> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000027> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000027> "DSS")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000027> "2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000027> <http://nmrML.org/nmrCV#NMR:1000026>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000027> "obsolete_2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000027> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000027> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000028> (sodium acetate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000028> (obsolete_sodium acetate)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000028> "sodium acetate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000028> <http://nmrML.org/nmrCV#NMR:1000026>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000028> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000028> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000028> "obsolete_sodium acetate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000028> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000028> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000029> (obsolete_tetramethylsilane)
 
@@ -1340,22 +1351,26 @@ AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000032> "NMR:100003
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000032> "instrument customization")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000032> <http://nmrML.org/nmrCV#NMR:1000496>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000033> (Chloroform-d1)
+# Class: <http://nmrML.org/nmrCV#NMR:1000033> (obsolete_Chloroform-d1)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000033> "Chloroform-d1"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000033> <http://nmrML.org/nmrCV#NMR:1000030>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000033> <http://nmrML.org/nmrCV#NMR:1000431>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000033> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000033> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000033> "obsolete_Chloroform-d1"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000033> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000033> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000034> (keyword)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000034> "keyword")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000034> <http://nmrML.org/nmrCV#NMR:1400117>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000035> (tetramethylammonium bromide)
+# Class: <http://nmrML.org/nmrCV#NMR:1000035> (obsolete_tetramethylammonium bromide)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000035> "tetramethylammonium bromide"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000035> <http://nmrML.org/nmrCV#NMR:1000030>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000035> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000035> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000035> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000035> "obsolete_tetramethylammonium bromide"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000035> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000035> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000036> (15N spectrum chemical shift reference compound)
 
@@ -1363,20 +1378,29 @@ AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000036> "15N spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000036> <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000037> (ammonia (liquid))
+# Class: <http://nmrML.org/nmrCV#NMR:1000037> (obsolete_ammonia (liquid))
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000037> "ammonia (liquid)"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000037> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000037> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000037> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000037> "obsolete_ammonia (liquid)"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000037> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000037> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000038> (ammonium bromide)
+# Class: <http://nmrML.org/nmrCV#NMR:1000038> (obsolete_ammonium bromide)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000038> "ammonium bromide"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000038> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000038> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000038> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000038> "obsolete_ammonium bromide"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000038> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000038> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000039> (1,4-morpholine)
+# Class: <http://nmrML.org/nmrCV#NMR:1000039> (obsolete_1,4-morpholine)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000039> "1,4-morpholine"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000039> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000039> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000039> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000039> "obsolete_1,4-morpholine"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000039> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000039> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000040> (obsolete_nitromethane)
 
@@ -1387,15 +1411,21 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000040> "obsolete_ni
 AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000040> "true"^^xsd:boolean)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000040> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000041> (pyridine)
+# Class: <http://nmrML.org/nmrCV#NMR:1000041> (obsolete_pyridine)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000041> "pyridine"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000041> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000041> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000041> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000041> "obsolete_pyridine"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000041> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000041> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000042> (sodium nitrate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000042> (obsolete_sodium nitrate)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000042> "sodium nitrate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000042> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000042> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000042> obo:OMO_0001002)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000042> "obsolete_sodium nitrate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000042> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000042> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000043> (post-acquisition solvent suppression)
 
@@ -1515,29 +1545,41 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000059> "obsolete_ph
 AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000059> "true"^^xsd:boolean)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000059> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000060> (phosphorus)
+# Class: <http://nmrML.org/nmrCV#NMR:1000060> (obsolete_phosphorus)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000060> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000060> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000060> "P4")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000060> "phosphorus"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000060> <http://nmrML.org/nmrCV#NMR:1000058>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000060> "obsolete_phosphorus"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000060> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000060> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000061> (trimethyl phosphate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000061> (obsolete_trimethyl phosphate)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000061> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000061> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000061> "(CH3O)3PO")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000061> "trimethyl phosphate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000061> <http://nmrML.org/nmrCV#NMR:1000058>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000061> "obsolete_trimethyl phosphate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000061> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000061> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000062> (triphenylphosphine)
+# Class: <http://nmrML.org/nmrCV#NMR:1000062> (obsolete_triphenylphosphine)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000062> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000062> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000062> "P(C6H5)3")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000062> "triphenylphosphine"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000062> <http://nmrML.org/nmrCV#NMR:1000058>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000062> "obsolete_triphenylphosphine"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000062> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000062> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000063> (triphenylphosphine oxide)
+# Class: <http://nmrML.org/nmrCV#NMR:1000063> (obsolete_triphenylphosphine oxide)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000063> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000063> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000063> "O=P(C6H5)3")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000063> "triphenylphosphine oxide"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000063> <http://nmrML.org/nmrCV#NMR:1000058>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000063> "obsolete_triphenylphosphine oxide"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000063> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000063> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000064> (co-dissolved internal reference)
 
@@ -1602,13 +1644,16 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000074> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000075> "spectral referencing"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000075> <http://nmrML.org/nmrCV#NMR:1400038>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000077> (sodium trimethylsilyl-propionate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000077> (obsolete_sodium trimethylsilyl-propionate)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000077> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000077> obo:OMO_0001002)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1000077> "Pohl, L.; Eckle, M. (1969). \"Sodium 3-(trimethylsilyl)tetradeuteriopropionate, a new water-soluble standard for 1H.N.M.R.\". Angewandte Chemie, International Edition in English 8 (5): 381. doi:10.1002/anie.196903811")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000077> "TMSP")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000077> "trimethylsilyl propanoic acid")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000077> "sodium trimethylsilyl-propionate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000077> <http://nmrML.org/nmrCV#NMR:1000030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000077> "obsolete_sodium trimethylsilyl-propionate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000077> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000077> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000078> (linear scaling)
 
@@ -2039,11 +2084,14 @@ AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1000158> "Golotvin & 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000158> "automatic baseline recognition"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000158> <http://nmrML.org/nmrCV#NMR:1400074>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000159> (Trimethylsilyl propionate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000159> (obsolete_Trimethylsilyl propionate)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000159> "It is not a chemical shift reference.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000159> obo:OMO_0001002)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000159> "TSP")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000159> "Trimethylsilyl propionate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000159> <http://nmrML.org/nmrCV#NMR:1000026>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000159> "obsolete_Trimethylsilyl propionate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000159> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000159> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000160> (TMIC lab pulse sequence)
 
