@@ -1307,12 +1307,15 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000027> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000028> "sodium acetate"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000028> <http://nmrML.org/nmrCV#NMR:1000026>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000029> (tetramethylsilane)
+# Class: <http://nmrML.org/nmrCV#NMR:1000029> (obsolete_tetramethylsilane)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000029> "It was replaced by CHEBI entity.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000029> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000029> obo:CHEBI_85361)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000029> "TMS")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000029> "tetramethylsilane"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000029> <http://nmrML.org/nmrCV#NMR:1000026>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000029> <http://nmrML.org/nmrCV#NMR:1000030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000029> "obsolete_tetramethylsilane"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000029> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000029> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000030> (13C spectrum chemical shift reference compound)
 
@@ -1375,10 +1378,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000038> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000039> "1,4-morpholine"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000039> <http://nmrML.org/nmrCV#NMR:1000036>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000040> (nitromethane)
+# Class: <http://nmrML.org/nmrCV#NMR:1000040> (obsolete_nitromethane)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000040> "nitromethane"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000040> <http://nmrML.org/nmrCV#NMR:1000036>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000040> "﻿It was replaced by CHEBI entity.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000040> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000040> obo:CHEBI_77701)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000040> "obsolete_nitromethane"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000040> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000040> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000041> (pyridine)
 
@@ -1498,11 +1505,15 @@ AnnotationAssertion(Annotation(dcterms:source <https://doi.org/10.1351/pac200173
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000058> "31P spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000058> <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000059> (phosphoric acid)
+# Class: <http://nmrML.org/nmrCV#NMR:1000059> (obsolete_phosphoric acid)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000059> "It was replaced by CHEBI entity.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000059> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000059> obo:CHEBI_26078)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000059> "H3PO4")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000059> "phosphoric acid"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000059> <http://nmrML.org/nmrCV#NMR:1000058>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000059> "obsolete_phosphoric acid"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000059> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000059> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000060> (phosphorus)
 
@@ -6065,7 +6076,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_24432 obo:BFO_00000
 
 # Class: obo:CHEBI_26078 (phosphoric acid)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_26078 <http://nmrML.org/nmrCV#NMR:1400033>)
+SubClassOf(obo:CHEBI_26078 <http://nmrML.org/nmrCV#NMR:1000058>)
 
 # Class: obo:CHEBI_29228 (hydrogen fluoride)
 
@@ -6208,7 +6219,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_66872 <http://nmrML
 
 # Class: obo:CHEBI_77701 (nitromethane)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:1400033>)
+SubClassOf(obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:1000036>)
 
 # Class: obo:CHEBI_78217 (acetone d6)
 
@@ -6216,7 +6227,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_78217 <http://nmrML
 
 # Class: obo:CHEBI_85361 (tetramethylsilane)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85361 <http://nmrML.org/nmrCV#NMR:1400033>)
+SubClassOf(obo:CHEBI_85361 <http://nmrML.org/nmrCV#NMR:1000026>)
 
 # Class: obo:CHEBI_85362 (3-(trimethylsilyl)propane-1-sulfonic acid)
 
