@@ -4303,14 +4303,14 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https:
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "shift calibration compound")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift standard)
+# Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
 
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A compound that is added to an NMR sample to enable the alignment of spectra. The power of NMR is that for most nuclei the NMR frequency changes very slightly with different molecular environment or chemical bonding. These shifts are very small, on the order of 1 part in 10+9.  This is referred to as \"Chemical Shift.\" Tables of chemical shifts are tabulated and used to determine molecular structure. Combining NMR chemical shift information with other NMR information such as peak integration, coupling constants and Nuclear Overhauser Enhancement (NOE) can result in complete three-dimensional molecular structures of molecules in solution without using X-ray crystallography.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/33")
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400033> "http://www.nmrnotes.org/NMRPages/refcomps.html")
-AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
-AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/33")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift reference compound")
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400033> "def: A compound that is added to an NMR sample to enable the alignment of spectra. The power of NMR is that for most nuclei the NMR frequency changes very slightly with different molecular environment or chemical bonding. These shifts are very small, on the order of 1 part in 10+9.  This is referred to as \"Chemical Shift.\" Tables of chemical shifts are tabulated and used to determine molecular structure. Combining NMR chemical shift information with other NMR information such as peak integration, coupling constants and Nuclear Overhauser Enhancement (NOE) can result in complete three-dimensional molecular structures of molecules in solution without using X-ray crystallography.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift standard")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift standard")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift reference compound")
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400033> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:1400032> ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400033> <http://nmrML.org/nmrCV#NMR:1400032>)
 
