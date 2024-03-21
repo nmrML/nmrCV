@@ -41,9 +41,11 @@ import_group:
   - id: ro
   - id: omo
     module_type: mirror
-  - id: iao
-  - id: chmo
-  - id: pato
-  - id: obi
-
+  #- id: iao
+  #- id: chmo
+  #- id: pato
+  #- id: obi
+  - id: chebi
+    is_large: true
+    use_gzipped: true
 

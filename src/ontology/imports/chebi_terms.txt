@@ -1,0 +1,76 @@
+CHEBI:156265 # methanol-d4
+CHEBI:193038 # acetonitrile-d3
+CHEBI:193039 # benzene-d6
+CHEBI:193040 # N,N-dimethylformamide-d7
+CHEBI:193041 # dimethyl sulfoxide-d6
+CHEBI:193042 # dichloromethane-d2
+CHEBI:193043 # ethanol-d6
+CHEBI:193044 # nitrobenzene-d5
+CHEBI:193045 # nitromethane-d3
+CHEBI:193046 # pyridine-d5
+CHEBI:193047 # oxolane-d8
+CHEBI:193048 # toluene-d8
+CHEBI:193049 # acetic acid-d4
+CHEBI:193050 # trifluoroacetic acid-d1
+CHEBI:193131 # 1,1,2-Trichlorotrifluoroethane
+CHEBI:193132 # formic acid-d2
+CHEBI:193133 # methanol-d1
+CHEBI:193134 # 1,1,2,2-tetrachlorethane-d2
+CHEBI:193135 # dimethyl ether-d6
+CHEBI:193136 # fluorosulfonic acid
+CHEBI:193146 # antimony pentafluoride
+CHEBI:193148 # bromine pentafluoride
+CHEBI:41981  # dideuterium oxide
+CHEBI:48236  # trichlorofluoromethane
+CHEBI:78217  # acetone d6
+CHEBI:85365  # deuterated chloroform
+CHEBI:197449 # NMR solvent
+CHEBI:36810  # (trifluoromethyl)benzene
+CHEBI:38585  # 1,4-difluorobenzene
+CHEBI:47032  # 1,4-dioxane
+CHEBI:195173 # 1-Propanesulfonic acid, 3-(trimethylsilyl)- (sodium salt)
+CHEBI:228806 # 3-(trimethylsilyl)propane-1-sulfonate
+CHEBI:85362  # 3-(trimethylsilyl)propane-1-sulfonic acid
+CHEBI:85487  # 3-(trimethylsilyl)propionic acid
+CHEBI:38472  # acetonitrile
+CHEBI:16134  # ammonia
+CHEBI:85364  # ammonium bromide
+CHEBI:33093  # boron trifluoride
+CHEBI:85365  # deuterated chloroform
+CHEBI:30236  # difluorine
+CHEBI:4613   # dimethyl telluride
+CHEBI:229455 # dimethylcadmium
+CHEBI:30786  # dimethylmercury
+CHEBI:4610   # dimethylselenide
+CHEBI:33681  # helium(0)
+CHEBI:39429  # hexafluoroacetone
+CHEBI:38589  # hexafluorobenzene
+CHEBI:29228  # hydrogen fluoride 
+CHEBI:5115   # monofluorobenzene
+CHEBI:34856  # morpholine
+CHEBI:77701  # nitromethane
+CHEBI:88215  # osmium tetroxide
+CHEBI:30251  # pentacarbonyliron
+CHEBI:26078  # phosphoric acid
+CHEBI:66872  # potassium fluoride
+CHEBI:16227  # pyridine
+CHEBI:229457 # rhodium acetylacetonate
+CHEBI:32130  # silver(1+) nitrate
+CHEBI:85363  # sodium 3-(trimethylsilyl)propionate
+CHEBI:32954  # sodium acetate
+CHEBI:59606  # sodium hexachloroplatinate
+CHEBI:63005  # sodium nitrate
+CHEBI:63940  # sodium tungstate
+CHEBI:30496  # sulfur hexafluoride
+CHEBI:55317  # tetramethylammonium bromide
+CHEBI:30183  # tetramethyllead
+CHEBI:85361  # tetramethylsilane
+CHEBI:30420  # tetramethyltin
+CHEBI:229458 # titan(III)-nitrate
+CHEBI:48236  # trichlorofluoromethane
+CHEBI:45892  # trifluoroacetic acid
+CHEBI:46324  # trimethyl phosphate
+CHEBI:36601  # triphenylphosphane oxide
+CHEBI:183318 # triphenylphosphine
+CHEBI:229456 # xenon oxytetrafluoride 
+CHEBI:229454 # yttrium nitrate

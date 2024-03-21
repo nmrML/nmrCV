@@ -19,10 +19,7 @@ These are the current imports in NMRCV
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | mirror |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
-| iao | http://purl.obolibrary.org/obo/iao.owl | None |
-| chmo | http://purl.obolibrary.org/obo/chmo.owl | None |
-| pato | http://purl.obolibrary.org/obo/pato.owl | None |
-| obi | http://purl.obolibrary.org/obo/obi.owl | None |
+| chebi | http://purl.obolibrary.org/obo/chebi.owl | None |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
