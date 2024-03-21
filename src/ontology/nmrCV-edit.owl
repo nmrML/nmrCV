@@ -2736,7 +2736,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000329> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000330> (NMR solvent)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000330> "A molecular entity that is used as a solvent in nuclear magnetic resonance (NMR) spectroscopy"@en)
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000330> "A molecular entity that is used as a solvent in nuclear magnetic resonance (NMR) spectroscopy."@en)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000330> "NMR solvent"@en)
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000330> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449)))
 SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1000330> obo:CHEBI_23367)
