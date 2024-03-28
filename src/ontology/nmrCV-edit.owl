@@ -81,6 +81,7 @@ Annotation(doap:maintainer "https://www.wikidata.org/wiki/Q96678459")
 Annotation(owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
 Annotation(owl:versionInfo "2.0_alpha")
 
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002050>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000002>))
@@ -888,6 +889,15 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002050> (characterized compound)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002050> "A compound characterized using data acquired from an NMR analysis.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002050> <https://github.com/nmrML/nmrCV/issues/9>)
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002050> "2024-03-28T11:52:08Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002050> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002050> "characterized compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002050> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000000> (integer32)
 
