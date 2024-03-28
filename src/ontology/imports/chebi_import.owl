@@ -657,7 +657,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_85486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_85487>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_86327>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_88215>))
-Declaration(Class(<http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/chebi#has_functional_parent>))
@@ -667,8 +666,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/chebi#is_conjugate_ba
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/chebi#is_substituent_group_from>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/chebi#is_tautomer_of>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000231>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi#BRAND_NAME>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi#IUPAC_NAME>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi#1_STAR>))
@@ -988,18 +985,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_138675> "gas molecular entity")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_138675> <http://purl.obolibrary.org/obo/CHEBI_33579>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_139358> (obsolete_isotopically modified compound)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_139358> (isotopically modified compound)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_139358> "Any molecular entity in which the isotopic ratio of nuclides for at least one element deviates measurably from that occurring in nature. The term includes both isotopically substituted compounds (in which essentially all the molecules of the compound have only the indicated nuclide(s) at each designated position) and isotopically labeled compounds (a formal mixture of an isotopically unmodified compound with one or more analogous isotopically substituted compound(s).")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_139358> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_139358> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_139358> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_139358> "isotopically modified compounds")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_139358> "CHEBI:139358")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_139358> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_139358> "obsolete_isotopically modified compound")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_139358> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_139358> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_139358> "isotopically modified compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_139358> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_13941> (carbamate)
 
@@ -3534,11 +3528,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24834> "ino
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24834> <http://purl.obolibrary.org/obo/CHEBI_22563>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24834> <http://purl.obolibrary.org/obo/CHEBI_36914>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24835> (obsolete_inorganic molecular entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24835> (inorganic molecular entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24835> "A molecular entity that contains no carbon.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_24835> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_24835> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_24835> "anorganische Verbindungen")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_24835> "inorganic compounds")
@@ -3547,9 +3539,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_24835> "inorganics")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24835> "CHEBI:24835")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24835> "obsolete_inorganic molecular entity")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_24835> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24835> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24835> "inorganic molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24836> (inorganic oxide)
 
@@ -3624,11 +3615,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24868> "organic salt")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24868> <http://purl.obolibrary.org/obo/CHEBI_24866>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24870> (obsolete_ion)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24870> (ion)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24870> "A molecular entity having a net electric charge.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_24870> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_24870> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_24870> "Ion")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_24870> "ion")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/chebi#IUPAC_NAME>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_24870> "ion")
@@ -3638,9 +3627,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_24870> "ions")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24870> "CHEBI:24870")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_24870> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24870> "obsolete_ion")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_24870> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24870> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24870> "ion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24870> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24873> (iron molecular entity)
 
@@ -5974,20 +5962,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33256> "primary amide")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33256> <http://purl.obolibrary.org/obo/CHEBI_32988>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33259> (obsolete_elemental molecular entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33259> (elemental molecular entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33259> "A molecular entity all atoms of which have the same atomic number.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33259> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_33259> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33259> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33259> "homoatomic entity")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33259> "homoatomic molecular entities")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33259> "homoatomic molecular entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33259> "CHEBI:33259")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33259> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33259> "obsolete_elemental molecular entity")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_33259> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33259> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33259> "elemental molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33259> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33261> (organosulfur compound)
 
@@ -6656,19 +6641,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33485> "cha
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33485> <http://purl.obolibrary.org/obo/CHEBI_33304>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33485> <http://purl.obolibrary.org/obo/CHEBI_35406>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33497> (obsolete_transition element molecular entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33497> (transition element molecular entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33497> "A molecular entity containing one or more atoms of a transition element.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33497> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_33497> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33497> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33497> "transition element molecular entities")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33497> "transition metal molecular entity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33497> "CHEBI:33497")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33497> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33497> "obsolete_transition element molecular entity")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_33497> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33497> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33497> "transition element molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33497> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33497> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_27081>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33504> (alkali metal cation)
 
@@ -6838,19 +6821,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_46883>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_29067>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33579> (obsolete_main group molecular entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33579> (main group molecular entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33579> "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_33579> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_33579> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33579> "main group compounds")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_33579> "main group molecular entities")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33579> "CHEBI:33579")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33579> "obsolete_main group molecular entity")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_33579> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33579> "main group molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_33318>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33581> (boron group molecular entity)
 
@@ -7834,20 +7815,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35555> "man
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35555> <http://purl.obolibrary.org/obo/CHEBI_25693>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35555> <http://purl.obolibrary.org/obo/CHEBI_35571>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35568> (obsolete_mancude ring)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35568> (mancude ring)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_35568> "Any molecular entity that consists of a ring having (formally) the maximum number of noncumulative double bonds.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_35568> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_35568> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/chebi#IUPAC_NAME>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/CHEBI_35568> "mancude-ring systems")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_35568> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35568> "mancude rings")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IUPAC") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_35568> "mancunide-ring systems")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35568> "CHEBI:35568")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_35568> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35568> "obsolete_mancude ring")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_35568> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35568> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35568> "mancude ring")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35568> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35571> (mancude organic heterocyclic parent)
 
@@ -8182,18 +8160,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36347> "nuclear particle")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36347> <http://purl.obolibrary.org/obo/CHEBI_36342>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36357> (obsolete_polyatomic entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36357> (polyatomic entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36357> "Any molecular entity consisting of more than one atom.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CHEBI_36357> "This class is irrelevant in the context of NMR.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/OMO_0001000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_36357> "chebi_ontology")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ChEBI") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/CHEBI_36357> "polyatomic entities")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36357> "CHEBI:36357")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36357> "obsolete_polyatomic entity")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CHEBI_36357> "true"^^xsd:boolean)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36357> "polyatomic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_24433>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_36358> (polyatomic ion)
 
