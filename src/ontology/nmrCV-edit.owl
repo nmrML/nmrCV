@@ -2429,11 +2429,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000211> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000212> "BML-NMR identifier"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000212> <http://nmrML.org/nmrCV#NMR:1000022>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000214> (creatinine)
+# Class: <http://nmrML.org/nmrCV#NMR:1000214> (obsolete_creatinine)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000214> "It doesn't regularly serve a role of concentration compound.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000214> obo:OMO_0001000)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000214> "will be further specified via a concentration value")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000214> "creatinine"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000214> <http://nmrML.org/nmrCV#NMR:1000167>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000214> "obsolete_creatinine"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000214> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000214> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000220> (2D pulse sequence)
 
@@ -3578,11 +3581,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000427> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000428> "Gaussian window function parameter"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000428> <http://nmrML.org/nmrCV#NMR:1400096>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000429> ( 2,2-Dimethyl-2-silapentane-5-sulfonate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000429> (obsolete_ 2,2-Dimethyl-2-silapentane-5-sulfonate)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000429> "It doesn't regularly serve a role of concentration compound.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000429> obo:OMO_0001000)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000429> "DSS")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000429> " 2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000429> <http://nmrML.org/nmrCV#NMR:1000167>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000429> "obsolete_ 2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000429> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000429> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000430> (Gaussian maximum position)
 
