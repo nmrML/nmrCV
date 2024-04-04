@@ -85,6 +85,7 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002002>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002003>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002004>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002005>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002006>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002007>))
@@ -949,6 +950,15 @@ AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <ht
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002003> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 29Si spectra. The children of this class were manually asserted.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "29Si spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002003> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002004> (calibration compound)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002004> "A compound that produces one or more peaks used to calibrate the NMR spectrometer and/or the spectrum.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002004> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dce:date <http://nmrML.org/nmrCV#NMR:0002004> "2024-04-04T14:34:19Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002004> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002004> "calibration compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002004> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002005> (57Fe spectrum chemical shift reference compound)
 
@@ -2163,11 +2173,13 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000166
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000166> "field frequency lock"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000166> <http://nmrML.org/nmrCV#NMR:1000548>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000167> (concentration standard)
+# Class: <http://nmrML.org/nmrCV#NMR:1000167> (concentration calibration compound)
 
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000167> "A compound of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000167> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000167> "quantitation standard")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration standard"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000167> <http://nmrML.org/nmrCV#NMR:1400032>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration calibration compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000167> <http://nmrML.org/nmrCV#NMR:0002004>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000168> (NMR acquisition software)
 
@@ -4617,17 +4629,17 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400031> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400032> (chemical shift calibration compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "The compound that produced the peak used to reference a spectrum during data pre-processing.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "A compound that produces one or more peaksused to calibrate the spectrum.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "chemical shift calibration compound")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> <http://nmrML.org/nmrCV#NMR:0002004>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A compound that is added to an NMR sample to enable the alignment of spectra. The power of NMR is that for most nuclei the NMR frequency changes very slightly with different molecular environment or chemical bonding. These shifts are very small, on the order of 1 part in 10+9.  This is referred to as \"Chemical Shift.\" Tables of chemical shifts are tabulated and used to determine molecular structure. Combining NMR chemical shift information with other NMR information such as peak integration, coupling constants and Nuclear Overhauser Enhancement (NOE) can result in complete three-dimensional molecular structures of molecules in solution without using X-ray crystallography.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A compound that produces the peak used as reference frequency in the δ chemical shift scale.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/33")
-AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400033> "http://www.nmrnotes.org/NMRPages/refcomps.html")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift standard")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift reference compound")
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400033> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:1400032> ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)))
