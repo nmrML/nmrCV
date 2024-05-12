@@ -1402,7 +1402,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16134> "amm
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> <http://purl.obolibrary.org/obo/CHEBI_138675>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> <http://purl.obolibrary.org/obo/CHEBI_35107>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> <http://purl.obolibrary.org/obo/CHEBI_37176>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_25212>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50910>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_59740>))
@@ -1512,7 +1511,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> <http://purl.obolibrary.org/obo/CHEBI_35555>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> <http://purl.obolibrary.org/obo/CHEBI_38179>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> <http://purl.obolibrary.org/obo/CHEBI_50893>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16227> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_78298>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_16234> (hydroxide)
@@ -2111,7 +2109,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_183318> "triphenylphosphine")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_183318> <http://purl.obolibrary.org/obo/CHEBI_22712>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_183318> <http://purl.obolibrary.org/obo/CHEBI_35886>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_183318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_183318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_63247>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_18367> (phosphate(3-))
@@ -2752,7 +2749,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_195173> <http://purl.obolibrary.org/obo/chebi#2_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_195173> "1-Propanesulfonic acid, 3-(trimethylsilyl)- (sodium salt)")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_195173> <http://purl.obolibrary.org/obo/CHEBI_33551>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_195173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_197449> (NMR solvent role)
 
@@ -2913,7 +2909,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_228806> <http://purl.obolibrary.org/obo/chebi#2_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_228806> "3-(trimethylsilyl)propane-1-sulfonate")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228806> <http://purl.obolibrary.org/obo/CHEBI_33554>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_85362>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_22916> (boron molecular entity)
@@ -5013,7 +5008,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_29228> "hydrogen fluoride")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29228> <http://purl.obolibrary.org/obo/CHEBI_18140>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29228> <http://purl.obolibrary.org/obo/CHEBI_37176>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_17051>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_29228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_50314>))
 
@@ -5316,7 +5310,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_30236> "difluorine")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30236> <http://purl.obolibrary.org/obo/CHEBI_138675>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30236> <http://purl.obolibrary.org/obo/CHEBI_36890>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_30251> (pentacarbonyliron)
 
@@ -5438,7 +5431,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_30496> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_30496> "sulfur hexafluoride")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30496> <http://purl.obolibrary.org/obo/CHEBI_50094>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30496> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30496> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_37337>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30496> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_76413>))
 
@@ -5708,7 +5700,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_32954> "sodium acetate")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_32954> <http://purl.obolibrary.org/obo/CHEBI_38700>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_32954> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_30089>))
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_32954> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_32988> (amide)
 
@@ -5749,7 +5740,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_33093> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33093> "boron trifluoride")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33093> <http://purl.obolibrary.org/obo/CHEBI_38901>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33093> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33232> (application)
 
@@ -7536,7 +7526,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_34856> "morpholine")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_34856> <http://purl.obolibrary.org/obo/CHEBI_36389>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_34856> <http://purl.obolibrary.org/obo/CHEBI_38785>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_34856> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_34856> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of> <http://purl.obolibrary.org/obo/CHEBI_167868>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35106> (nitrogen hydride)
@@ -8319,7 +8308,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_36601> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36601> "triphenylphosphane oxide")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36601> <http://purl.obolibrary.org/obo/CHEBI_59656>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36601> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_36604> (metal carbonyl)
 
@@ -8403,7 +8391,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36810> "(trifluoromethyl)benzene")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> <http://purl.obolibrary.org/obo/CHEBI_46695>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> <http://purl.obolibrary.org/obo/CHEBI_83565>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_46787>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_78298>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#has_functional_parent> <http://purl.obolibrary.org/obo/CHEBI_41550>))
@@ -8956,7 +8943,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38472> "acetonitrile")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38472> <http://purl.obolibrary.org/obo/CHEBI_134179>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38472> <http://purl.obolibrary.org/obo/CHEBI_80291>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_48358>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_77941>))
 
@@ -9057,7 +9043,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_38585> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38585> "1,4-difluorobenzene")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38585> <http://purl.obolibrary.org/obo/CHEBI_38582>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38585> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_38589> (hexafluorobenzene)
 
@@ -9083,7 +9068,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38589> "hexafluorobenzene")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38589> <http://purl.obolibrary.org/obo/CHEBI_35496>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38589> <http://purl.obolibrary.org/obo/CHEBI_38824>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38589> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_38700> (organic sodium salt)
 
@@ -9315,7 +9299,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_39429> "hexafluoroacetone")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_39429> <http://purl.obolibrary.org/obo/CHEBI_134091>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_39429> <http://purl.obolibrary.org/obo/CHEBI_17087>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_39429> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_39745> (dihydrogenphosphate)
 
@@ -9546,7 +9529,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_45892> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_45892> "trifluoroacetic acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_45892> <http://purl.obolibrary.org/obo/CHEBI_35551>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_45892> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_45892> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33893>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_45892> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_76967>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_45892> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#has_functional_parent> <http://purl.obolibrary.org/obo/CHEBI_15366>))
@@ -9700,7 +9682,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_46324> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_46324> "trimethyl phosphate")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_46324> <http://purl.obolibrary.org/obo/CHEBI_37562>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_46324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_46324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_24850>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_46502> (tungstate)
@@ -9908,7 +9889,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_47032> "1,4-dioxane")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> <http://purl.obolibrary.org/obo/CHEBI_134179>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> <http://purl.obolibrary.org/obo/CHEBI_46923>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_25212>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_48355>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50903>))
@@ -10609,7 +10589,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_5115> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_5115> "monofluorobenzene")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5115> <http://purl.obolibrary.org/obo/CHEBI_83575>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5115> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_51422> (organodiyl group)
 
@@ -10767,7 +10746,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_55317> "tet
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_55317> <http://purl.obolibrary.org/obo/CHEBI_22925>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_55317> <http://purl.obolibrary.org/obo/CHEBI_35273>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_55317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_46020>))
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_55317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_5686> (heterocyclic compound)
 
@@ -10942,7 +10920,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_63005> "sodium nitrate")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_63005> <http://purl.obolibrary.org/obo/CHEBI_38702>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_63005> <http://purl.obolibrary.org/obo/CHEBI_51084>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_63005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_63005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_63247> (reducing agent)
@@ -11148,7 +11125,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_66872> "potassium fluoride")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_66872> <http://purl.obolibrary.org/obo/CHEBI_24060>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_66872> <http://purl.obolibrary.org/obo/CHEBI_26218>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_66872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_66872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_64909>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_72695> (organic molecule)
@@ -11917,7 +11893,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_85362> "3-(trimethylsilyl)propane-1-sulfonic acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85362> <http://purl.obolibrary.org/obo/CHEBI_25713>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85362> <http://purl.obolibrary.org/obo/CHEBI_47901>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85362> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85362> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_228806>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_85363> (sodium 3-(trimethylsilyl)propionate)
@@ -11943,7 +11918,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_85363> "sodium 3-(trimethylsilyl)propionate")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85363> <http://purl.obolibrary.org/obo/CHEBI_38700>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85363> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_85486>))
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85363> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_85364> (ammonium bromide)
 
@@ -11966,7 +11940,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_85364> "ammonium bromide")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85364> <http://purl.obolibrary.org/obo/CHEBI_22925>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85364> <http://purl.obolibrary.org/obo/CHEBI_47704>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85364> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_85365> (deuterated chloroform)
 
@@ -11998,7 +11971,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_85365> "deu
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85365> <http://purl.obolibrary.org/obo/CHEBI_23148>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85365> <http://purl.obolibrary.org/obo/CHEBI_76107>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_197449>))
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_48355>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_85486> (3-(trimethylsilyl)propionate)
@@ -12046,7 +12018,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_85487> "3-(trimethylsilyl)propionic acid")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85487> <http://purl.obolibrary.org/obo/CHEBI_25384>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85487> <http://purl.obolibrary.org/obo/CHEBI_25713>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_228364>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#has_functional_parent> <http://purl.obolibrary.org/obo/CHEBI_30768>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_85487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of> <http://purl.obolibrary.org/obo/CHEBI_85486>))
 
