@@ -107,6 +107,9 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002022>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002023>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002024>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002025>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002026>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002027>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002031>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000002>))
@@ -1148,6 +1151,33 @@ AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002025> "2024-0
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002025> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 207Pb spectra. The children of this class were manually asserted.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002025> "207Pb spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002025> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002026> (NMR calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002026> "A compound that produces one or more peaks used to calibrate the NMR spectrometer and/or the spectrum in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002026> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002026> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002026> "2024-05-12T16:06:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002026> "NMR calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002026> obo:CHEBI_51086)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002027> (NMR chemical shift calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002027> "A compound that produces one or more peaks used for chemical shift calibration in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002027> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002027> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002027> "2024-05-12T16:09:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002027> "NMR chemical shift calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002027> <http://nmrML.org/nmrCV#NMR:0002026>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002031> (NMR concentration calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002031> "A compound of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002031> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002031> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002031> "2024-05-12T16:31:58Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002031> "NMR concentration calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002031> <http://nmrML.org/nmrCV#NMR:0002026>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000000> (integer32)
 
@@ -6137,6 +6167,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_193148 <http://nmrM
 # Class: obo:CHEBI_195173 (1-Propanesulfonic acid, 3-(trimethylsilyl)- (sodium salt))
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
+
+SubClassOf(obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002027>)
 
 # Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
 

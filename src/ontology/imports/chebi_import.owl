@@ -2893,7 +2893,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/chebi#3_STAR>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_228364> "NMR chemical shift reference compound")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/CHEBI_33232>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_228364> <http://purl.obolibrary.org/obo/CHEBI_51086>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_228806> (3-(trimethylsilyl)propane-1-sulfonate)
 
