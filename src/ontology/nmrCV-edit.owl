@@ -3539,21 +3539,27 @@ AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000831> "NMR:100083
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000831> "sample preparation information")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000831> <http://nmrML.org/nmrCV#NMR:1000548>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000859> (molecule)
+# Class: <http://nmrML.org/nmrCV#NMR:1000859> (obsolete_molecule)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000859> "A molecules is a fundamental component of a chemical compound that is the smallest part of the compound that can participate in a chemical reaction.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000859> "Not considered relevant anymore, and if this might change, CHEBI equivalents should be used instead. See also: https://github.com/nmrML/nmrCV/issues/15")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000859> obo:OMO_0001000)
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000859> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000859> "NMR:1000859")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000859> "molecule")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000859> <http://nmrML.org/nmrCV#NMR:1000881>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000859> "obsolete_molecule")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000859> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000859> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000860> (peptide)
+# Class: <http://nmrML.org/nmrCV#NMR:1000860> (obsolete_peptide)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000860> "A compound of low molecular weight that is composed of two or more amino acids.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000860> "Not considered relevant anymore, and if this might change, CHEBI equivalents should be used instead. See also: https://github.com/nmrML/nmrCV/issues/15")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000860> obo:OMO_0001000)
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000860> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000860> "NMR:1000860")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000860> "peptide")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000860> <http://nmrML.org/nmrCV#NMR:1000881>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000860> "obsolete_peptide")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000860> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000860> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000861> (chemical compound attribute)
 
@@ -3644,22 +3650,29 @@ AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000879> "NMR:100087
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000879> "PubMed identifier")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000879> <http://nmrML.org/nmrCV#NMR:1000878>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000881> (chemical compound)
+# Class: <http://nmrML.org/nmrCV#NMR:1000881> (obsolete_chemical compound)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000881> "A substance formed by chemical union of two or more elements or ingredients in definite proportion by weight.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000881> "Not considered relevant anymore, and if this might change, CHEBI equivalents should be used instead. See also: https://github.com/nmrML/nmrCV/issues/15")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000881> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000881> obo:CHEBI_23367)
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000881> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000881> "NMR:1000881")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000881> "Use Chebi entities here.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000881> "chemical compound")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000881> obo:BFO_0000030)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000881> "obsolete_chemical compound")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000881> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000881> oboInOwl:ObsoleteClass)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000882> (protein)
+# Class: <http://nmrML.org/nmrCV#NMR:1000882> (obsolete_protein)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000882> "A compound composed of one or more chains of amino acids in a specific order determined by the base sequence of nucleotides in the DNA coding for the protein.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000882> "Not considered relevant anymore, and if this might change CHEBI equivalents should be used instead. See also: https://github.com/nmrML/nmrCV/issues/15")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000882> obo:OMO_0001000)
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000882> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000882> "NMR:1000882")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000882> "protein")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000882> <http://nmrML.org/nmrCV#NMR:1000881>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000882> "obsolete_protein")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000882> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000882> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000883> (protein short name)
 
