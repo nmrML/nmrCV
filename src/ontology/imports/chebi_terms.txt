@@ -74,3 +74,87 @@ CHEBI:36601  # triphenylphosphane oxide
 CHEBI:183318 # triphenylphosphine
 CHEBI:229456 # xenon oxytetrafluoride 
 CHEBI:229454 # yttrium nitrate
+
+# isotopes
+CHEBI:29236  # protium atom
+CHEBI:29237  # deuterium atom
+CHEBI:29238  # tritium atom
+CHEBI:30218  # helium-3 atom
+CHEBI:52621  # lithium-6 atom
+CHEBI:52458  # lithium-7 atom
+# TODO: add beryllium atom isotopes
+CHEBI:36928  # carbon-13 atom
+CHEBI:36938  # nitrogen-14 atom
+CHEBI:36934  # nitrogen-15 atom
+CHEBI:33819  # oxygen-17 atom
+CHEBI:36940  # fluorine-19 atom
+# TODO: add  # neon atom isotopes
+CHEBI:52634  # sodium-23 atom
+CHEBI:52763  # magnesium-25 atom
+CHEBI:37968  # aluminium-27 atom 
+CHEBI:37974  # silicon-29 atom
+CHEBI:37971  # phosphorus-31 atom
+CHEBI:37980  # sulfur-33 atom
+# TODO: add  # chlorine atom isotopes
+CHEBI:52632  # potassium-39 atom
+# TODO: add  # potassium atom isotopes
+CHEBI:176566 # calcium-43 atom
+CHEBI:52635  # scandium-45 atom
+# TODO: add titanium atom isotopes
+# TODO: add vanadium atom isotopes
+# TODO: add chromium atom isotopes
+CHEBI:176583 # manganese-55 atom
+CHEBI:52623  # iron-57 atom
+CHEBI:176578 # cobalt-59 atom
+# TODO: add nickel atom isotopes
+# TODO: add copper atom isotopes
+# TODO: add zinc atom isotopes
+# TODO: add gallium atom isotopes
+CHEBI:52758  # germanium-73 atom
+CHEBI:176584 # arsenic-75 atom
+CHEBI:52457  # CHEBI:52457
+CHEBI:52743  # bromine-79 atom
+# TODO: add bromine atom isotopes
+# TODO: add krypton atom isotopes
+CHEBI:176572 # rubidium-85 atom
+CHEBI:52459  # rubidium-87 atom
+# TODO: add strontium atom isotopes
+CHEBI:52622  # yttrium-89 atom
+# TODO: add zirconium atom isotopes
+CHEBI:52460  # niobium-93 atom
+CHEBI:52633  # molybdenum-95
+# TODO: add molybdenum atom isotopes
+CHEBI:33371  # technetium-99
+# TODO: add ruthenium atom isotopes
+# TODO: add rhenium atom isotopes
+# TODO: add palladium atom isotopes
+# TODO: add silver atom isotopes
+CHEBI:52619  # cadmium-111
+CHEBI:52620  # cadmium-113
+# TODO: add indium atom isotopes
+CHEBI:52235  # tin-115 atom
+CHEBI:52234  # tin-117 atom
+CHEBI:52230  # tin-119 atom
+CHEBI:52624  # antimony-121 atom
+CHEBI:52626  # antimony-123 atom
+# TODO: add tellurium atom isotopes
+CHEBI:52452  # tellurium-125 atom
+CHEBI:52631  # iodine-127 atom
+CHEBI:52453  # xenon-129 atom
+# TODO: add xenon atom isotopes
+# TODO: add caesium atom isotopes
+# TODO: add barium atom isotopes
+# TODO: add lanthanum atom isotopes
+CHEBI:52627  # lanthanum-139 atom
+# TODO: add lanthanum atom isotopes
+# TODO: add hafnium atom isotopes
+CHEBI:52462  # tungsten-183
+# TODO: add rhenium atom isotopes
+# TODO: add osmium atom isotopes
+# TODO: add iridium atom isotopes
+# TODO: add platinum atom isotopes
+# TODO: add gold atom isotopes
+# TODO: add mercury atom isotopes
+# TODO: add titanium atom isotopes
+# TODO: add lead atom isotopes
+# TODO: add bismuth atom isotopes
