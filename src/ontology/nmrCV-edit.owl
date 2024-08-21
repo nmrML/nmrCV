@@ -832,6 +832,8 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400322>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMRCV:0002001>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMRCV:0002002>))
 Declaration(Class(oboInOwl:ObsoleteClass))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dce:coverage))
@@ -5706,6 +5708,24 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400255>)
 
+# Class: <http://nmrML.org/nmrCV#NMRCV:0002001> (characterized compound)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002001> "A molecular entity characterized in an NMR sample using data acquired from an NMR analysis.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMRCV:0002001> <https://github.com/nmrML/nmrCV/issues/9>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMRCV:0002001> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMRCV:0002001> "2024-08-21T15:06:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMRCV:0002001> "characterized compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMRCV:0002001> obo:CHEBI_23367)
+
+# Class: <http://nmrML.org/nmrCV#NMRCV:0002002> (characterized compound)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002002> "The role of molecular entity being characterized in an NMR sample using data acquired from an NMR analysis")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMRCV:0002002> <https://github.com/nmrML/nmrCV/issues/9>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMRCV:0002002> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMRCV:0002002> "2024-08-21T15:10:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMRCV:0002002> "characterized compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMRCV:0002002> obo:CHEBI_51086)
+
 # Class: obo:BFO_0000023 (role)
 
 EquivalentClasses(obo:BFO_0000023 obo:CHEBI_50906)
@@ -5834,7 +5854,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229456 <http://nmrM
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: obo:CHEBI_229458 (titan(III)-nitrate)
+# Class: obo:CHEBI_229458 (thallium(III) nitrate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
 
