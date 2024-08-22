@@ -5408,11 +5408,11 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400254> "vendor")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400254> "TODO: Belongs in Ref Ontol.")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400254> <http://nmrML.org/nmrCV#NMR:1000010>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR instrument manufacturer)
+# Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR device manufacturer)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400255> "A manufacturer that produces (and eventually sells)  NMR instruments.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR instrument manufacturer")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000496>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
 
