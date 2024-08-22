@@ -5410,9 +5410,9 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400254> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR device manufacturer)
 
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000496>)
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400255> "A manufacturer that produces NMR instruments and/or their parts"@en)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> obo:OBI_0000835)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
 
