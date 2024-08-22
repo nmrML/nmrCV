@@ -82,6 +82,9 @@ Annotation(owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
 Annotation(owl:versionInfo "2.0_alpha")
 
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002003>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002005>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002006>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002007>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000002>))
@@ -897,6 +900,33 @@ AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <ht
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002003> "2024-08-22T14:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "chemical shift calibration compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002003> <http://nmrML.org/nmrCV#NMR:1400032>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002005> (calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002005> "A role which inheres in molecular entity that produces one or more peaks used to calibrate the NMR spectrometer and/or the spectrum.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002005> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002005> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002005> "2024-08-22T15:10:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002005> "calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002006> (chemical shift calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002006> "A role which inheres in molecular entity that produces one or more peaks used for chemical shift calibration.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002006> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002006> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002006> "2024-08-22T15:12:21Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002006> "chemical shift calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002005>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002007> (concentration calibration compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in molecular entity of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002007> <https://github.com/nmrML/nmrCV/issues/4>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002007> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002007> "2024-08-22T15:15:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002007> "concentration calibration compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002007> <http://nmrML.org/nmrCV#NMR:0002005>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000000> (integer32)
 
@@ -5823,6 +5853,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_193148 <http://nmrM
 # Class: obo:CHEBI_195173 (1-Propanesulfonic acid, 3-(trimethylsilyl)- (sodium salt))
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
+
+SubClassOf(obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 
 # Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
 
