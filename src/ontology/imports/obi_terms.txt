@@ -1,0 +1,7 @@
+OBI:0000835 # manufacturer
+OBI:0100026 # organism
+NCBITaxon:9606 # Homo sapiens
+OBI:0000245 # organization
+OBI:0000571 # 'manufacturer role'
+OBI:0000832 # 'measurement device'
+OBI:0400107 # computer

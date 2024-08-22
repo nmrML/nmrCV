@@ -1,0 +1,35 @@
+OBI:0200000 # 'data transformation'
+OBI:0200166 # 'data transformation objective'
+OBI:0200111 # 'data visualization'
+OBI:0000659 # 'specimen collection process'
+OBI:0100051 # specimen
+OBI:0000953 # 'processed specimen'
+OBI:0000112 # 'specimen role'
+OBI:0002076 # 'collection of specimens'
+OBI:0000684 # 'specimen collection objective'
+OBI:0001933 # 'value specification'
+OBI:0000017 # 'regulatory role'
+OBI:0000947 # 'service provider role'
+OBI:0002989 # 'material supplier'
+OBI:0000450 # 'regulatory agency'
+IAO:0000009
+IAO:0000010
+IAO:0000027
+IAO:0000030
+IAO:0000037
+IAO:0000038
+IAO:0000064
+IAO:0000078
+IAO:0000098
+IAO:0000100
+IAO:0000101
+IAO:0000104
+IAO:0000179
+IAO:0000180
+IAO:0000183
+IAO:0000184
+IAO:0000310
+NCBITaxon:10239
+NCBITaxon:2
+NCBITaxon:2157
+NCBITaxon:2759
