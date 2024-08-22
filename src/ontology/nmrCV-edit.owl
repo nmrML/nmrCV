@@ -1855,12 +1855,12 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000166
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000166> "field frequency lock"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000166> <http://nmrML.org/nmrCV#NMR:1000548>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000167> (concentration standard)
+# Class: <http://nmrML.org/nmrCV#NMR:1000167> (concentration calibration compound)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000167> "A molecular entity that has a role concentration calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000167> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000167> "quantitation standard")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration standard"@en)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration calibration compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000167> <http://nmrML.org/nmrCV#NMR:1400032>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000168> (NMR acquisition software)
@@ -4326,14 +4326,14 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https:
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "calibration compound")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift standard)
+# Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A molecular entity that has a role chemical shift reference compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400033> "http://www.nmrnotes.org/NMRPages/refcomps.html")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/33")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift standard")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift reference compound")
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400033> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:0002003> ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400033> <http://nmrML.org/nmrCV#NMR:0002003>)
 
