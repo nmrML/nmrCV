@@ -899,6 +899,7 @@ AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A mole
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002003> "2024-08-22T14:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "chemical shift calibration compound"@en)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:0002003> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:1400032> ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002006>)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002003> <http://nmrML.org/nmrCV#NMR:1400032>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002005> (calibration compound role)
@@ -1891,6 +1892,7 @@ AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000167> "A mole
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000167> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000167> "quantitation standard")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration calibration compound"@en)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000167> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:1400032> ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002007>)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000167> <http://nmrML.org/nmrCV#NMR:1400032>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000168> (NMR acquisition software)
@@ -4354,6 +4356,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400031> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "A molecular entity that has a role calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "calibration compound")
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400032> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002005>)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
