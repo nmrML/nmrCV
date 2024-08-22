@@ -5411,6 +5411,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400254> <http://nmrML.org/nmrCV#NMR:1000
 # Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR device manufacturer)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400255> "A manufacturer that produces NMR instruments and/or their parts"@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400255> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> obo:OBI_0000835)
 
