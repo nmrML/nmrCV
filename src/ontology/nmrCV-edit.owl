@@ -989,7 +989,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002003> (chemical shift calibration compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A molecular entity that has a role chemical shift calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A calibration compound that has a role chemical shift calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002003> "2024-08-22T14:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "chemical shift calibration compound"@en)
@@ -998,7 +998,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:0002003> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002005> (calibration compound role)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002005> "A role which inheres in molecular entity that produces one or more peaks used to calibrate the NMR spectrometer and/or the spectrum.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002005> "A role which inheres in a molecular entity that produces one or more peaks used to calibrate the NMR spectrometer and/or the spectrum.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002005> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002005> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002005> "2024-08-22T15:10:11Z"^^xsd:dateTime)
@@ -1007,7 +1007,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002006> (chemical shift calibration compound role)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002006> "A role which inheres in molecular entity that produces one or more peaks used for chemical shift calibration.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002006> "A role which inheres in a calibration compound that produces one or more peaks used for chemical shift calibration.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002006> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002006> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002006> "2024-08-22T15:12:21Z"^^xsd:dateTime)
@@ -1016,7 +1016,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002007> (concentration calibration compound role)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in molecular entity of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in a molecular entity of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002007> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002007> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002007> "2024-08-22T15:15:36Z"^^xsd:dateTime)
@@ -5409,7 +5409,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A molecular entity that has a role chemical shift reference compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A chemical shift calibration compound that has a role chemical shift reference compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400033> "http://www.nmrnotes.org/NMRPages/refcomps.html")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
@@ -6907,7 +6907,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrM
 
 # Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
 
-SubClassOf(Annotation(rdfs:comment "It was added as a subclass of chemical shift calibration compound role as a grouping due to CHEBI not having fine classification of NMR roles.") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
+SubClassOf(Annotation(rdfs:comment "\"chemical shift calibration compound role\" class was added as a grouping super class for \"NMR chemical shift reference compound\" which was imported from CHEBI due to the lack of fine classification of NMR roles in CHEBI. The same applies for the upper class \"calibration compound\".") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 
 # Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
 
