@@ -5710,7 +5710,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMRCV:0002001> (characterized compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002001> "A molecular entity characterized in an NMR sample using data acquired from an NMR analysis.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002001> "A molecular entity that has a role characterized compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMRCV:0002001> <https://github.com/nmrML/nmrCV/issues/9>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMRCV:0002001> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMRCV:0002001> "2024-08-21T15:06:17Z"^^xsd:dateTime)
@@ -5720,7 +5720,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMRCV:0002001> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMRCV:0002002> (characterized compound role)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002002> "The role of molecular entity being characterized in an NMR sample using data acquired from an NMR analysis")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002002> "A role which inheres in a molecular entity being characterized in an NMR sample using data acquired from an NMR analysis.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMRCV:0002002> <https://github.com/nmrML/nmrCV/issues/9>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMRCV:0002002> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMRCV:0002002> "2024-08-21T15:10:29Z"^^xsd:dateTime)
