@@ -5896,11 +5896,13 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_88215 <http://nmrML
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000388> "Oxford Instruments"@en)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000388>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000388>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock SRL"@en)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000389>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000389>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1000390> (General Electric)
 
@@ -5911,6 +5913,7 @@ ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000390>)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase"@en)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000391>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000391>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1000392> (Phillips)
 
@@ -5925,41 +5928,50 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000393> "Siemens AG"
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400256> "Bruker")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400256>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400256>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400257> "Varian")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400257>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400257>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400258> "JEOL")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400258>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400258>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400259> "MR Resources")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400259>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400259>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400260> "tecmag")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400260> "Tecmag")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400260>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400260>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400264>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400264>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400265> "Wilmad")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400265>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400265>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400266> "JS Research")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400266>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400266>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400270> (Acorn NMR Inc)
 
@@ -5985,6 +5997,7 @@ ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400308>)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400309> "Agilent Technologies")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400309>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400309>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400310> (micromass)
 
