@@ -3188,11 +3188,12 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000211> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000212> "BML-NMR identifier"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000212> <http://nmrML.org/nmrCV#NMR:1000022>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000214> (creatinine)
+# Class: <http://nmrML.org/nmrCV#NMR:1000214> (DEPRECATED creatinine)
 
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000214> "will be further specified via a concentration value")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000214> "creatinine"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000214> <http://nmrML.org/nmrCV#NMR:1000167>)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000214> "DEPRECATED will be further specified via a concentration value")
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000214> "Not considered relevant anymore.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000214> "DEPRECATED creatinine"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000214> "true"^^xsd:boolean)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000220> (2D pulse sequence)
 
@@ -4336,11 +4337,11 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000427> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000428> "Gaussian window function parameter"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000428> <http://nmrML.org/nmrCV#NMR:1400096>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000429> ( 2,2-Dimethyl-2-silapentane-5-sulfonate)
+# Class: <http://nmrML.org/nmrCV#NMR:1000429> (DEPRECATED  2,2-Dimethyl-2-silapentane-5-sulfonate)
 
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000429> "DSS")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000429> " 2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000429> <http://nmrML.org/nmrCV#NMR:1000167>)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000429> "Not considered relevant anymore.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000429> "DEPRECATED  2,2-Dimethyl-2-silapentane-5-sulfonate"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000429> "true"^^xsd:boolean)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000430> (Gaussian maximum position)
 
