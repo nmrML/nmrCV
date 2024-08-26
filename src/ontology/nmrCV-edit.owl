@@ -990,6 +990,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 # Class: <http://nmrML.org/nmrCV#NMR:0002003> (chemical shift calibration compound)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A calibration compound that has a role chemical shift calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002003> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002003> "2024-08-22T14:49:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002003> "chemical shift calibration compound"@en)
@@ -1016,7 +1017,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002007> (concentration calibration compound role)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in a molecular entity of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in a calibration compound of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002007> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002007> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002007> "2024-08-22T15:15:36Z"^^xsd:dateTime)
@@ -2933,7 +2934,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000166> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000167> (concentration calibration compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000167> "A molecular entity that has a role concentration calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000167> "A calibration compound that has a role concentration calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000167> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000167> "quantitation standard")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000167> "concentration calibration compound"@en)
@@ -6908,6 +6909,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrM
 
 # Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
 
+AnnotationAssertion(obo:IAO_0000233 obo:CHEBI_228364 <https://github.com/nmrML/nmrCV/issues/4>)
 SubClassOf(Annotation(rdfs:comment "\"chemical shift calibration compound role\" class was added as a grouping super class for \"NMR chemical shift reference compound\" which was imported from CHEBI due to the lack of fine classification of NMR roles in CHEBI. The same applies for the upper class \"calibration compound\".") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 
 # Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
