@@ -447,12 +447,6 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000384>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000385>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000386>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000387>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000388>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000389>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000390>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000391>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000392>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000393>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000394>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000395>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000396>))
@@ -779,17 +773,8 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400251>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400253>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400254>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400255>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400256>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400257>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400258>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400259>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400260>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400262>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400264>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400265>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400266>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400267>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400270>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400276>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400277>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400278>))
@@ -817,23 +802,38 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400302>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400303>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400304>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400305>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400306>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400307>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400308>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400309>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400310>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400311>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400312>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400313>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400314>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400315>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400316>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400317>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400318>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400322>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000388>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000389>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000390>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000391>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000392>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000393>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400256>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400257>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400258>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400259>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400260>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400264>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400265>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400266>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400270>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400306>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400307>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400308>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400309>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400310>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400311>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400312>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400313>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400314>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400315>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400316>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400317>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400322>))
 Declaration(Class(oboInOwl:ObsoleteClass))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dce:coverage))
@@ -3036,35 +3036,35 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000386> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000387> "Avance I spectrometer"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000387> <http://nmrML.org/nmrCV#NMR:1400198>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000388> (Oxford Instruments)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000388> (Oxford Instruments)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000388> "Oxford Instruments"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000388> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000388> )
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock SRL"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000389> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000389>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000390> (General Electric)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000390> (General Electric)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000390> "General Electric"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000390> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000390>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000391> (Kimble Chase)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000391> (Kimble Chase)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000391> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000391>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000392> (Phillips)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000392> (Phillips)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000392> "Phillips"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000392> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000392>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000393> (Siemens AG)
+# Individual: <http://nmrML.org/nmrCV#NMR:1000393> (Siemens AG)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000393> "Siemens AG"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000393> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000392>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000394> (Varian Inova 500)
 
@@ -5415,32 +5415,30 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400255> <https:
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> obo:OBI_0000835)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
 
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400256> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400256> "Bruker")
-AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400256> "TODO: May not need definition due to its instance character.")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400256> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400256>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400257> "Varian")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400257> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400257>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400258> "JEOL")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400258> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400258>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400259> "MR Resources")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400259> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400259>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400260> "tecmag")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400260> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400260>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400262> (sample temperature information)
 
@@ -5448,20 +5446,20 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400262> "def: In s
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400262> "sample temperature information")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400262> <http://nmrML.org/nmrCV#NMR:1000548>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400264> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400264>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400265> "Wilmad")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400265> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400265>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400266> "JS Research")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400266> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400266>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400267> (data file)
 
@@ -5473,10 +5471,10 @@ AnnotationAssertion(skos:example <http://nmrML.org/nmrCV#NMR:1400267> "an FID ra
 AnnotationAssertion(skos:scopeNote <http://nmrML.org/nmrCV#NMR:1400267> "In the NMR case a file generated by an NMR acquisition computer, console or NMR processing software.")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400267> obo:BFO_0000031)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400270> (Acorn NMR Inc)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400270> (Acorn NMR Inc)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400270> "Acorn NMR Inc")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400270> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400270>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400276> (liquid chromatography NMR)
 
@@ -5624,65 +5622,65 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400305> "J-coupler
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400305> "multiplet feature")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400305> <http://nmrML.org/nmrCV#NMR:1400006>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400306> (ThermoMattson)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400306> (ThermoMattson)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400306> "ThermoMattson")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400306> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400306>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400307> (FOSS)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400307> (FOSS)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400307> "FOSS")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400307> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400307>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400308> (Jasco)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400308> (Jasco)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400308> "Jasco")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400308> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400308>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400309> (Agilent Technologies)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400309> (Agilent Technologies)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400309> "Agilent Technologies")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400309> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400309>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400310> (micromass)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400310> (micromass)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400310> "micromass")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400310> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400310>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400311> (Waters)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400311> (Waters)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400311> "Waters")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400311> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400311>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400312> (ThermoNicolet)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400312> (ThermoNicolet)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400312> "ThermoNicolet")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400312> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400312>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400313> (Perkin Elmer)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400313> (Perkin Elmer)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400313> "Perkin Elmer")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400313> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400313>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400314> (OceanOptics)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400314> (OceanOptics)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400314> "OceanOptics")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400314> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400314>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400315> (ThermoFinnigan)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400315> (ThermoFinnigan)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400315> "ThermoFinnigan")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400315> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400315>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400316> (Applied Biosystems)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400316> (Applied Biosystems)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400316> "Applied Biosystems")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400316> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400316>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400317> (TX)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400317> (TX)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400317> "TX")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400317> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400317>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400318> (Net CDF format)
 
@@ -5704,10 +5702,10 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400322> (acdlabs)
+# Individual: <http://nmrML.org/nmrCV#NMR:1400322> (acdlabs)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400255>)
+ClassAssertion(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1400322>)
 
 # Class: obo:BFO_0000023 (role)
 
