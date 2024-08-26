@@ -7,15 +7,16 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://nmrML.org/nmrCV/imports/obi_import.owl>
-<http://nmrML.org/nmrCV/releases/2024-08-22/imports/obi_import.owl>
+<http://nmrML.org/nmrCV/releases/2024-08-26/imports/obi_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2024-06-10/obi.owl>)
-Annotation(owl:versionInfo "2024-08-22")
+Annotation(owl:versionInfo "2024-08-26")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
@@ -25,6 +26,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000392>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000455>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000456>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000458>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000832>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000835>))
@@ -212,6 +215,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "6/11/9: Edited at workshop. Used to include: is initiated by an agent")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
@@ -338,6 +342,40 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000456> "GROUP: OBI PlanAndPlannedProcess Branch")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000456> "material transformation objective"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000456> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000457> (manufacturing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000457> "manufacturing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000457> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000457> "A planned process with the objective to produce a processed material which will have a function for future use."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "This includes a single scientist making a processed material for personal use."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "A person or organization (having manufacturer role) is a participant in this process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "Manufacturing implies reproducibility and responsibility AR")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000457> "GROUP: OBI PlanAndPlannedProcess Branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000457> "manufacturing"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> <http://purl.obolibrary.org/obo/OBI_0000094>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/BFO_0000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000047>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000458> (manufacturing objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000458> "is the objective to manufacture a material of a certain function (device)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000458> "GROUP: OBI PlanAndPlannedProcess Branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/OBI_0000456>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000571> (manufacturer role)
 
