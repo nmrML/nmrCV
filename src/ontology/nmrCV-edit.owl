@@ -807,6 +807,14 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
 Declaration(Class(oboInOwl:ObsoleteClass))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003000>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003001>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003002>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003003>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003004>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003005>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003006>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003007>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000388>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000389>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000390>))
@@ -837,7 +845,9 @@ Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400317>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400322>))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dce:coverage))
+Declaration(AnnotationProperty(dcterms:date))
 Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:identifier))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(doap:audience))
@@ -5892,15 +5902,103 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_88215 <http://nmrML
 #   Named Individuals
 ############################
 
+# Individual: <http://nmrML.org/nmrCV#NMR:0003000> (Thermo Fischer)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003000> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003000> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003000> "2024-08-26T13:28:30Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:0003000> "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Fischer"@de)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo FIsher Scientific")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Fisher Scientific Inc.")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Scientific™")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003000> "https://thermofisher.com")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003000>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003000>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003001> (Magritek)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003001> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003001> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003001> "2024-08-26T14:26:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003001> "Magritek"@de)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003001> "https://magritek.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003001>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003001>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003002> (Nanalysis)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003002> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003002> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003002> "2024-08-26T14:30:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003002> "Nanalysis"@de)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003002> "https://www.nanalysis.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003002>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003002>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003003> (NMR Service)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003003> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003003> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003003> "2024-08-26T14:32:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003003> "NMR Service"@de)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003003> "NMR Service GmbH")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003003> "https://nmr-service.de/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003003>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003003>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003004> (Deutero)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003004> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003004> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003004> "2024-08-26T14:33:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003004> "Deutero"@de)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003004> "https://www.deutero.de/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003004>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003004>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003005> (Norell®)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003005> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003005> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003005> "2024-08-26T14:36:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003005> "Norell®"@de)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003005> "https://secure.nmrtubes.com/"^^xsd:anyURI)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003006> (Chemagnetics)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003006> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003006> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003006> "2024-08-26T14:40:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003006> "Chemagnetics"@de)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003006>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003006>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003007> (Nalorac)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003007> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003007> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003007> "2024-08-26T14:42:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003007> "Nalorac"@de)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003007>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003007>)
+
 # Individual: <http://nmrML.org/nmrCV#NMR:1000388> (Oxford Instruments)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000388> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:identifier <http://nmrML.org/nmrCV#NMR:1000388> "GB0006650450")
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1000388> "https://en.wikipedia.org/wiki/Oxford_Instruments"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000388> "Oxford Instruments"@en)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000388> "https://www.oxinst.com"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000388>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000388>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000389> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock SRL"@en)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000389> "https://spinlock.com.ar"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000389>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000389>)
 
@@ -5911,7 +6009,10 @@ ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000390>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1000391> (Kimble Chase)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000391> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase"@en)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase Life Science and Research Products LLC")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000391> "https://www.dwk.com/about-us"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000391>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000391>)
 
@@ -5926,50 +6027,75 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000393> "Siemens AG"
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400256> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400256> "https://en.wikipedia.org/wiki/Bruker"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400256> "Bruker")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400256> "Bruker Corporation")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400256> "https://www.bruker.com"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400256>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400256>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400257> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400257> "https://en.wikipedia.org/wiki/Varian,_Inc."^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400257> "Varian")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400257> "Varian, Inc.")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400257>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400257>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400258> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400258> "https://en.wikipedia.org/wiki/JEOL"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400258> "JEOL")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400258> "Nihon Denshi Kabushiki-kaisha"@ja)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400258> "日本電子"@ja)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400258> "https://www.jeol.co.jp")
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400258>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400258>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400259> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400259> "MR Resources")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400259> "https://www.mrr.com/"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400259>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400259>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400260> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400260> "tecmag")
 AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400260> "Tecmag")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400260> "https://tecmag.com/"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400260>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400260>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400264> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific, Inc.")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400264> "https://dotynmr.com"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400264>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400264>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400265> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400265> "Wilmad")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400265> "https://sp-wilmadlabglass.com/"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400265>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400265>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400266> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400266> "JS Research")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400266> "J S RESEARCH INC.")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400266> "JSR")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400266> "https://www.jsresearch.com/"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400266>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400266>)
 
@@ -5995,7 +6121,10 @@ ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400308>)
 
 # Individual: <http://nmrML.org/nmrCV#NMR:1400309> (Agilent Technologies)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400309> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400309> "https://en.wikipedia.org/wiki/Agilent_Technologies"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400309> "Agilent Technologies")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400309> "https://www.agilent.com/"^^xsd:anyURI)
 ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400309>)
 ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400309>)
 
