@@ -10,7 +10,7 @@
 
 $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-        extract -T $(IMPORTDIR)/obi_terms.txt --force true --copy-ontology-annotations true --individuals minimal --method BOT \
+        extract -T $(IMPORTDIR)/obi_terms.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
         query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
         remove -T $(IMPORTDIR)/obi_remove_list.txt --select "self descendants instances" --signature true \
         $(ANNOTATE_CONVERT_FILE); fi
