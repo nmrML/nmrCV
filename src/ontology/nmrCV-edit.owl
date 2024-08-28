@@ -4215,7 +4215,6 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400014> "def: Part
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> <http://nmrML.org/nmrCV#NMR:1400011>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400258>))))))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400015> (console)
 
@@ -5291,6 +5290,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> ObjectSomeValuesFrom(obo:OBI_000
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400232> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400232> "JEOL NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> <http://nmrML.org/nmrCV#NMR:1400014>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400258>))))))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400233> (CapNMR probe)
 
