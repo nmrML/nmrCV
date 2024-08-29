@@ -5477,12 +5477,12 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400280> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400281> "indirect detection probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400281> <http://nmrML.org/nmrCV#NMR:1400014>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400283> (continuous wave NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400283> (continuous wave NMR instrument)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400283> "Continuous wave NMR spectrometers are similar in principle to optical spectrometers. The sample is held in a strong magnetic field, and the frequency of the source is slowly scanned (in some instruments, the source frequency is held constant, and the field is scanned).
    Defprov: http://teaching.shu.ac.uk/hwb/chemistry/tutorials/molspec/nmr3.htm")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400283> "continuous wave NMR")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400283> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400283> "continuous wave NMR instrument")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400283> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400284> (fourier transformation NMR instrument)
 
