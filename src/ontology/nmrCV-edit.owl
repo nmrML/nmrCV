@@ -985,10 +985,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000010> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000011> "data file attribute"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000011> obo:BFO_0000031)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000012> (NMR instrument type)
+# Class: <http://nmrML.org/nmrCV#NMR:1000012> (obsolete_NMR instrument type)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000012> "NMR instrument type"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000012> <http://nmrML.org/nmrCV#NMR:1000496>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000012> "The concept represented by this class is already present ('NMR instrument') and ontologically more correct.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000012> obo:IAO_0000227)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000012> <http://nmrML.org/nmrCV#NMR:1400059>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000012> "obsolete_NMR instrument type"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000012> "true"^^xsd:boolean)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000012> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000013> (1D spectrum coordinate system descriptor)
 
