@@ -2199,6 +2199,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000232> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000233> "Varian autosampler"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000233> <http://nmrML.org/nmrCV#NMR:1400002>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000233> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000234> (Varian SMS 50)
 
@@ -2209,7 +2210,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000234> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000235> "Varian probe"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000235> <http://nmrML.org/nmrCV#NMR:1400014>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000235> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400257>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000235> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000236> (5mm HCN probe)
 
@@ -2414,14 +2415,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000270> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000271> "Bruker tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000271> <http://nmrML.org/nmrCV#NMR:1400132>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000271> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000271> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000272> (JEOL magnet)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000272> "JEOL magnet"@en)
 AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000272> "http://www.jeolusa.com/PRODUCTS/Nuclear-Magnetic-Resonance/Magnets")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000272> <http://nmrML.org/nmrCV#NMR:1400185>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000272> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400258>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000272> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000273> (JEOL ECS magnet)
 
@@ -2452,7 +2453,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000277> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000278> "Wilmad tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000278> <http://nmrML.org/nmrCV#NMR:1400132>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000278> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400265>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000278> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400265>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000283> (4mm Match tube)
 
@@ -2528,7 +2529,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000296> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000297> "Norell tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000297> <http://nmrML.org/nmrCV#NMR:1400132>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000297> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:0003005>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000297> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:0003005>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000298> (JEOL FID file)
 
@@ -2566,7 +2567,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000301> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000302> "Agilent magnet")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000302> "Varian magnet"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000302> <http://nmrML.org/nmrCV#NMR:1400185>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000302> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400257>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000302> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000303> (premium compact narrow bore magnet)
 
@@ -3094,7 +3095,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000399> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000400> "Agilent NMR instrument"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000400> <http://nmrML.org/nmrCV#NMR:1400059>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000400> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400309>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000400> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400309>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000401> (Agilent 400-MR NMR instrument)
 
@@ -5016,7 +5017,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> ObjectSomeValuesFrom(obo:BFO_000
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400186> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400186> "Bruker NMR magnet")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400186> <http://nmrML.org/nmrCV#NMR:1400185>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400186> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400186> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400187> (UltraShield)
 
@@ -5112,7 +5113,7 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400198> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400198> "Bruker NMR instrument")
 AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400198> "https://www.bruker.com/de/products/mr/nmr.html")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400198> <http://nmrML.org/nmrCV#NMR:1400059>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400198> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400198> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400199> (Metabolic Profiler instrument)
 
@@ -5150,7 +5151,7 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400205> "def: In t
    defprov: Bruker website")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400205> "Bruker AutoClean")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400205> <http://nmrML.org/nmrCV#NMR:1400204>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400205> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400205> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400206> (Bruker BEST NMR)
 
@@ -5181,6 +5182,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400208> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400209> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400209> "Bruker autosampler")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400209> <http://nmrML.org/nmrCV#NMR:1400002>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400209> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400210> (B-ACS)
 
@@ -5197,7 +5199,7 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400211> "def: The 
    synonym: Bruker Multiple Adjustable Tube Clamp Holder")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400211> "Bruker MATCH")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> <http://nmrML.org/nmrCV#NMR:1400212>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400212> (NMR sample holder)
 
@@ -5276,7 +5278,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400225> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400226> "JEOL NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400226> <http://nmrML.org/nmrCV#NMR:1400059>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400226> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400258>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400226> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400227> (JNM-ECX Series FT NMR instrument)
 
@@ -5305,14 +5307,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400230> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400231> "https://www.bruker.com/products/mr/nmr/probes/probes.html")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400231> "Bruker NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> <http://nmrML.org/nmrCV#NMR:1400014>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400256>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400232> (JEOL NMR probe)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400232> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400232> "JEOL NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> <http://nmrML.org/nmrCV#NMR:1400014>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400258>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400233> (CapNMR probe)
 
@@ -5323,7 +5325,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400233> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400234> "Varian NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400234> <http://nmrML.org/nmrCV#NMR:1400059>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400234> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400257>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400234> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400235> (Varian MERCURY)
 
@@ -5381,7 +5383,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400244> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400246> "tecmag console")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400246> <http://nmrML.org/nmrCV#NMR:1400015>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400246> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400260>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400246> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400260>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400247> (DISCOVERY console)
 
@@ -5407,7 +5409,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400249> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400250> "tecmag NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400250> <http://nmrML.org/nmrCV#NMR:1400059>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400250> ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(obo:OBI_0000571 ObjectHasValue(obo:RO_0000081 <http://nmrML.org/nmrCV#NMR:1400260>))))))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400250> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400260>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400251> (CAT)
 
