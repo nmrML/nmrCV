@@ -5454,12 +5454,12 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400277> "Includes 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400277> "LC MS NMR")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400277> <http://nmrML.org/nmrCV#NMR:1400276>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400278> (solid phase extraction NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400278> (solid phase extraction NMR instrument)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400278> "SPE NMR")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400278> "A Solid Phase Extraction (SPE) system provides an interface between liquid chromatography (LC) and NMR. For the process of LC-SPE™ NMR a chromatographic separation is done and the peaks of interest are trapped on an individual SPE cartridge after the column. The peak selection is done either by UV detection or by evaluation of the on-line registered MS or MSn spectra.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400278> "solid phase extraction NMR")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400278> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400278> "solid phase extraction NMR instrument")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400278> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400279> (Capillary LC-NMR)
 
