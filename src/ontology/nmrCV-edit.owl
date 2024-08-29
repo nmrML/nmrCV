@@ -2129,12 +2129,12 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000221> "used to b
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000221> "data simulation"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000221> <http://nmrML.org/nmrCV#NMR:1400063>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000222> (dynamic nuclear polarization NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1000222> (dynamic nuclear polarization NMR instrument)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000222> "DNP NMR")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization enhanced NMR system")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization NMR"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000222> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization NMR instrument"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000222> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000223> (chemical shift)
 
