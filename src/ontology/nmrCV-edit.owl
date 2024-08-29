@@ -4158,7 +4158,8 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400001> "def: Part
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400001> "optional part of NMR instrument")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400001> "TODO: Discuss \"obligatory_part_of\".")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> <http://nmrML.org/nmrCV#NMR:1000463>)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400001> ObjectUnionOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400204>))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400002> (NMR autosampler)
 
