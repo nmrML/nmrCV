@@ -4817,7 +4817,8 @@ AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400132> "http
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400132> "sample tube")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400132> "sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400132> "NMR sample tube")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400134> (spectrum pre-processing software)
 
@@ -4989,7 +4990,8 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400172> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400185> "def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.
    altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400185> "NMR magnet")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400186> (Bruker NMR magnet)
 
@@ -5183,7 +5185,8 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectSomeValuesFrom(obo:OBI_000
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400212> "def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400212> "NMR sample holder")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400213> (NMR software)
 
