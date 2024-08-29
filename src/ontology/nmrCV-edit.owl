@@ -4218,12 +4218,13 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> obo:OBI_0000832)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400015> (console)
+# Class: <http://nmrML.org/nmrCV#NMR:1400015> (NMR console)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400015> "def: A component of an NMR instrument that controls the activities of the other components.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "console")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "NMR console")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400015> "TODO: same as or part of acquisition computer?")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400017> (number of acquisition data points)
 
