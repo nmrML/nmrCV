@@ -4417,7 +4417,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400057> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400059> "def: An Instrument which is used to carry out a NMR analysis of some sample.
    synonym: NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400059> "NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400059> <http://nmrML.org/nmrCV#NMR:1000463>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400059> obo:OBI_0000832)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400061> (NMR instrument acquisition parameter set)
 
@@ -5722,7 +5722,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229456 <http://nmrM
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: obo:CHEBI_229458 (titan(III)-nitrate)
+# Class: obo:CHEBI_229458 (thallium(III) nitrate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
 
