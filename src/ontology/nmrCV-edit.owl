@@ -4153,6 +4153,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1002032> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400001> (optional part of NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400001> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400001> "def: Part of an NMR instrument which is not cardinally important and hence optional / facultative for the proper intended function of the instrument.
    synonym: optional part of NMR instrument
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...")
@@ -4199,6 +4200,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400010> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400011> (cardinal part of NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400011> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400011> "def: A part of an NMR instrument which is cardinally important and hence obligatory and compulsatory for the proper intended function of the instrument.
    synonym: cardinal part of NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400011> "cardinal part of NMR instrument")
