@@ -4167,6 +4167,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1002032> <http://nmrML.org/nmrCV#NMR:1000
 # Class: <http://nmrML.org/nmrCV#NMR:1400001> (optional part of NMR instrument)
 
 AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400001> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400001> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400001> "def: Part of an NMR instrument which is not cardinally important and hence optional / facultative for the proper intended function of the instrument.
    synonym: optional part of NMR instrument
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...")
@@ -4177,6 +4178,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400002> (NMR autosampler)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400002> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400002> "def: An optional  part of an NMR instrument used to hold samples prior to NMR analysis and that sequentially loads these samples into the analytical part of the NMR instrument.
    altdef: The autosampler is an automatic sample changer.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "NMR autosampler")
@@ -4214,6 +4216,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400010> <http://nmrML.org/nmrCV#NMR:1000
 # Class: <http://nmrML.org/nmrCV#NMR:1400011> (cardinal part of NMR instrument)
 
 AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400011> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400011> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400011> "def: A part of an NMR instrument which is cardinally important and hence obligatory and compulsatory for the proper intended function of the instrument.
    synonym: cardinal part of NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400011> "cardinal part of NMR instrument")
@@ -4222,6 +4225,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400013> (NMR acquisition computer)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400013> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400013> "def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "NMR acquisition computer")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> obo:OBI_0400107)
@@ -4229,6 +4233,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> ObjectSomeValuesFrom(obo:BFO_000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400014> (NMR probe)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400014> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400014> "def: Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile “single point of failure” that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
@@ -4237,6 +4242,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:BFO_000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400015> (NMR console)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400015> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400015> "def: A component of an NMR instrument that controls the activities of the other components.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "NMR console")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400015> "TODO: same as or part of acquisition computer?")
@@ -4434,6 +4440,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400057> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400059> (NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400059> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400059> "def: An Instrument which is used to carry out a NMR analysis of some sample.
    synonym: NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400059> "NMR instrument")
@@ -4831,6 +4838,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400131> <http://nmrML.org/nmrCV#NMR:1400
 # Class: <http://nmrML.org/nmrCV#NMR:1400132> (NMR sample tube)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400132> "The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400132> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400132> "http://en.wikipedia.org/wiki/NMR_tube")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400132> "https://github.com/nmrML/nmrML/issues/54")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400132> "sample tube")
@@ -5006,6 +5014,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400172> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400185> (NMR magnet)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400185> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400185> "def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.
    altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400185> "NMR magnet")
@@ -5141,6 +5150,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400203> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400204> (NMR tube washing system)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400204> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400204> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400204> "NMR tube washing system")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> obo:OBI_0000968)
@@ -5203,6 +5213,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectHasValue(obo:OBI_0000304 <
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400212> (NMR sample holder)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400212> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400212> "def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400212> "NMR sample holder")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> obo:OBI_0000968)
