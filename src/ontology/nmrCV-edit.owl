@@ -5127,7 +5127,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400203> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400204> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400204> "NMR tube washing system")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> <http://nmrML.org/nmrCV#NMR:1400001>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400205> (Bruker AutoClean)
 
