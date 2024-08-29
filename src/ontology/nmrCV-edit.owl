@@ -3314,14 +3314,18 @@ AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000457> "NMR:100045
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000457> "sample")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000457> obo:BFO_0000030)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000463> (instrument)
+# Class: <http://nmrML.org/nmrCV#NMR:1000463> (obsolete_instrument)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000463> "Description of the instrument or the mass spectrometer.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000463> "not needed as OBI has better equivalent")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000463> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000463> obo:OBI_0000968)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000463> "instrument configuration")
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000463> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000463> "NMR:1000463")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000463> "instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000463> obo:BFO_0000030)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000463> "obsolete_instrument")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000463> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000463> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000489> (Varian/Agilent instrument model)
 
