@@ -2952,10 +2952,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000364> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000365> "bucket fusioning"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000365> <http://nmrML.org/nmrCV#NMR:1000362>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000368> (JNM-ECX Series FT NMR instrument)
+# Class: <http://nmrML.org/nmrCV#NMR:1000368> (obsolete_JNM-ECX Series FT NMR instrument)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000368> "JNM-ECX Series FT NMR instrument"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000368> <http://nmrML.org/nmrCV#NMR:1400226>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000368> "duplicate of http://nmrML.org/nmrCV#NMR:1400227")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000368> obo:IAO_0000227)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000368> <http://nmrML.org/nmrCV#NMR:1400227>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000368> "obsolete_JNM-ECX Series FT NMR instrument"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000368> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000368> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000369> (JNM-ECZR Series FT NMR instrument)
 
