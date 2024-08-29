@@ -4203,11 +4203,12 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400011> "def: A pa
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400011> "cardinal part of NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> <http://nmrML.org/nmrCV#NMR:1000463>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400013> (acquisition computer)
+# Class: <http://nmrML.org/nmrCV#NMR:1400013> (NMR acquisition computer)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400013> "def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "acquisition computer")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> <http://nmrML.org/nmrCV#NMR:1400011>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "NMR acquisition computer")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> obo:OBI_0400107)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400014> (NMR probe)
 
