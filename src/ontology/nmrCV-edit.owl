@@ -4160,12 +4160,12 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400001> "optional pa
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400001> "TODO: Discuss \"obligatory_part_of\".")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> <http://nmrML.org/nmrCV#NMR:1000463>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400002> (autosampler)
+# Class: <http://nmrML.org/nmrCV#NMR:1400002> (NMR autosampler)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400002> "def: An optional  part of an NMR instrument used to hold samples prior to NMR analysis and that sequentially loads these samples into the analytical part of the NMR instrument.
    altdef: The autosampler is an automatic sample changer.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "autosampler")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400001>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "NMR autosampler")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400006> (multiplicity feature)
 
