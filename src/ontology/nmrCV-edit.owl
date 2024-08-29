@@ -4201,7 +4201,8 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400010> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400011> "def: A part of an NMR instrument which is cardinally important and hence obligatory and compulsatory for the proper intended function of the instrument.
    synonym: cardinal part of NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400011> "cardinal part of NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> <http://nmrML.org/nmrCV#NMR:1000463>)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400011> ObjectIntersectionOf(obo:OBI_0000968 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400013> (NMR acquisition computer)
 
