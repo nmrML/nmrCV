@@ -7,3 +7,4 @@ OBI:0000011 # planned process
 OBI:0000457 # manufacturing
 OBI:0000832 # 'measurement device'
 OBI:0400107 # computer
+OBI:0000836 # test tube

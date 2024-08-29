@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://nmrML.org/nmrCV/imports/obi_import.owl>
-<http://nmrML.org/nmrCV/releases/2024-08-26/imports/obi_import.owl>
+<http://nmrML.org/nmrCV/releases/2024-08-29/imports/obi_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2024-06-10/obi.owl>)
-Annotation(owl:versionInfo "2024-08-26")
+Annotation(owl:versionInfo "2024-08-29")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
@@ -22,15 +22,19 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000392>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000455>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000456>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000832>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000835>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000967>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400107>))
@@ -249,6 +253,19 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000245> "organization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000370> (contain function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000370> "contain function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000370> "A syringe, a beaker")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000370> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000370> "A contain function is a function to constrain a material entities location in space"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Bill Bug")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Daniel Schober")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Melanie Courtot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000370> "contain function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000370> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0000392> (information processor function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000392> "information processor function"@en)
@@ -337,6 +354,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/OBI_0000456>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000522> (vial)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000522> "vial")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000522> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000522> "A container made from solid material and primarily used for holding liquid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000522> "https://orcid.org/0000-0002-8844-9165")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000522> "https://en.wikipedia.org/wiki/Vial")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000522> "vial")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000522> <http://purl.obolibrary.org/obo/OBI_0000967>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0000571> (manufacturer role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000571> "manufacturer role")
@@ -369,6 +396,30 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000835> "manufacturer")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000835> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000836> (test tube)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000836> "test tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000836> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000836> "A test tube is a device consisting of a glass or plastic tubing, open at the top, usually with a rounded U-shaped bottom which has the function to contain material")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000836> "Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000836> "collection tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000836> "sample tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000836> "http://en.wikipedia.org/wiki/Test_tube")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000836> "test tube")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000836> <http://purl.obolibrary.org/obo/OBI_0000522>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000836> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000370>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000967> (container)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000967> "container")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000967> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000967> "A device that can be used to restrict the location of material entities over time")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000967> "03/21/2010: Added to allow classification of children (similar to what we want to do for 'measurement device'. Lookint at what classifies here, we may want to reconsider a contain function assigned to a part of an entity is necessarily also a function of the whole (e.g. is a centrifuge a container because it has test tubes as parts?)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000967> "PERSON: Bjoern Peters")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000967> "container")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000967> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000370>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000967> <http://purl.obolibrary.org/obo/OBI_0000968>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000968> (device)
 
