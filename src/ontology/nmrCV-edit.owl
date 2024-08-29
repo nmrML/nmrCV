@@ -5489,7 +5489,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400283> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400284> "In FT-NMR, all frequencies in a spectrum are irradiated simultaneously with a radio frequency pulse. Following the pulse, the nuclei return to thermal equilibrium. A time domain emission signal is recorded by the instrument as the nuclei relax. A frequency domain spectrum is obtained by Fourier transformation.
    Defprov: http://teaching.shu.ac.uk/hwb/chemistry/tutorials/molspec/nmr3.htm")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400284> "fourier transformation NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400284> <http://nmrML.org/nmrCV#NMR:1000012>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400284> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400285> (NMR software data format)
 
