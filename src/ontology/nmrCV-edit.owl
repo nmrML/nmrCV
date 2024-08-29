@@ -992,7 +992,7 @@ AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000012> obo:IAO
 AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000012> <http://nmrML.org/nmrCV#NMR:1400059>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000012> "obsolete_NMR instrument type"@en)
 AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000012> "true"^^xsd:boolean)
-EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000012> oboInOwl:ObsoleteClass)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000012> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000013> (1D spectrum coordinate system descriptor)
 
