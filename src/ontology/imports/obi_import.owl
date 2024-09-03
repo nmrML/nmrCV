@@ -1,0 +1,497 @@
+Prefix(:=<http://nmrML.org/nmrCV/imports/obi_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://nmrML.org/nmrCV/imports/obi_import.owl>
+<http://nmrML.org/nmrCV/releases/2024-08-29/imports/obi_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2024-06-10/obi.owl>)
+Annotation(owl:versionInfo "2024-08-29")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000392>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000453>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000455>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000456>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000522>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000571>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000832>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000835>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000967>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0400107>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000295>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000304>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000417>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000833>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000059>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000079>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000085>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))
+Declaration(AnnotationProperty(<http://protege.stanford.edu/plugins/owl/protege#defaultLanguage>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000114>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000117>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000233>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/format>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/subject>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(Datatype(xsd:date))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000293> (has_specified_input)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000293> "see is_input_of example_of_usage"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000293> "The inverse property of is_specified_input_of"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000293> "8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how 'has participant' works.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Larry Hunter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Melanie Coutot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/RO_0000057>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000295>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000295> (is_specified_input_of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000295> "is_specified_input_of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000295> "some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000295> "A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000295> "Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000295> "PERSON:Bjoern Peters")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000295> "is_specified_input_of"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/RO_0000056>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000299> (has_specified_output)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000299> "has_specified_output")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000299> "The inverse property of is_specified_output_of"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000299> "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000299> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000299> "PERSON: Larry Hunter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000299> "PERSON: Melanie Courtot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000299> "has_specified_output"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/RO_0000057>)
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000312>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000304> (is_manufactured_by)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000304> "is_manufactured_by"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000304> "http://www.affymetrix.com/products/arrays/specific/hgu133.affx is_manufactered_by http://www.affymetrix.com/ (if we decide to use these URIs for the actual entities)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000304> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000304> "c is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the \"Manufacturer Role\", and those people/and or machines were members or of directed by the organization to do this."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000304> "Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000304> "Liju Fan"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000304> "has_make"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000304> "has_manufacturer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000304> "is_manufactured_by"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000304> <http://purl.obolibrary.org/obo/BFO_0000040>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000304> <http://purl.obolibrary.org/obo/OBI_0000835>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000312> (is_specified_output_of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000312> "is_specified_output_of")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000312> "A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000312> "Alan Ruttenberg"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000312> "PERSON:Bjoern Peters")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000312> "is_specified_output_of"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/RO_0000056>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000417> (achieves_planned_objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000417> "achieves_planned_objective")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000417> "A cell sorting process achieves the objective specification 'material separation objective'")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000417> "This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000417> "BP, AR, PPPB branch")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000417> "PPPB branch derived")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000417> "modified according to email thread from 1/23/09 in accordince with DT and PPPB branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000417> "achieves_planned_objective")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000833>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000011>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0000833> (objective_achieved_by)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000833> "objective_achieved_by")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000833> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000833> "This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000833> "OBI")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000833> "OBI")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000833> "objective_achieved_by")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000833> <http://purl.obolibrary.org/obo/IAO_0000005>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000833> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000011> "planned process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000011> "Injecting mice with a vaccine in order to test its efficacy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000011> "A process that realizes a plan which is the concretization of a plan specification."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000011> "'Plan' includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn't have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000011> "We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
+objectives is a planned process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000011> "Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000011> "branch derived")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "6/11/9: Edited at workshop. Used to include: is initiated by an agent")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000047> "Examples include gel matrices, filter paper, parafilm and buffer solutions, mass spectrometer, tissue samples"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000047> "Is a material entity that is created or changed during material processing."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000047> "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000047> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000094>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (material processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000094> "material processing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000094> "A cell lysis, production of a cloning vector, creating a buffer.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000094> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000094> "A planned process which results in physical changes in a specified input material"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000094> "PERSON: Bjoern Peters"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000094> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000094> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000094> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000094> "PERSON: Philippe Rocca Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "material transformation"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000094> "OBI branch derived"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000094> "material processing"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000456>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000047>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/BFO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000245> (organization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000245> "organization"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000245> "PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000245> "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000245> "BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:
+
+1) there are organization_member_roles (president, treasurer, branch
+editor), with individual persons as bearers
+
+2) there are organization_roles (employer, owner, vendor, patent holder)
+
+3) an organization has a charter / rules / bylaws, which specify what roles
+there are, how they should be realized, and how to modify the
+charter/rules/bylaws themselves.
+
+It is debatable what the organization itself is (some kind of dependent
+continuant or an aggregate of people). This also determines who/what the
+bearer of organization_roles' are. My personal favorite is still to define
+organization as a kind of 'legal entity', but thinking it through leads to
+all kinds of questions that are clearly outside the scope of OBI.
+
+Interestingly enough, it does not seem to matter much where we place
+organization itself, as long as we can subclass it (University, Corporation,
+Government Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,
+W3C, University of Oklahoma), and have it play roles.
+
+This leads to my proposal: We define organization through the statements 1 -
+3 above, but without an 'is a' statement for now. We can leave it in its
+current place in the is_a hierarchy (material entity) or move it up to
+'continuant'. We leave further clarifications to BFO, and close this issue
+for now."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000245> "PERSON: Alan Ruttenberg")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000245> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000245> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000245> "PERSON: Susanna Sansone")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000245> "GROUP: OBI")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000245> "organization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000370> (contain function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000370> "contain function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000370> "A syringe, a beaker")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000370> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000370> "A contain function is a function to constrain a material entities location in space"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Bill Bug")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Daniel Schober")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000370> "Melanie Courtot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000370> "contain function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000370> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000392> (information processor function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000392> "information processor function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000392> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000392> "An information processor function is a function that converts information from one form to another, by a lossless process or an extraction process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000392> "Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000392> "data processor function"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000392> "information processor function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000392> <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000453>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000455>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000453> (measure function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000453> "measure function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000453> "A glucometer measures blood glucose concentration, the glucometer has a measure function.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000453> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000453> "Measure function is a function that is borne by a processed material  and realized in a process in which information about some entity is expressed relative to some reference."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000453> "PERSON: Daniel Schober")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000453> "PERSON: Helen Parkinson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000453> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000453> "PERSON:Frank Gibson")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000453> "measure function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000453> <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/OBI_0000047>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000455> (consume data function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000455> "consume data function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000455> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000455> "Process data function is a function that is borne by in a material entity by virtue of its structure. When realized the material entity consumes data."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000455> "PERSON: Daniel Schober")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000455> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000455> "PERSON: Melanie Courtot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000455> "consume data function"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000455> <http://purl.obolibrary.org/obo/BFO_0000034>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/BFO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000456> (material transformation objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000456> "material transformation objective")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000456> "The objective to create a mouse infected with LCM virus. The objective to create a defined solution of PBS.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000456> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000456> "an objective specifiction that creates an specific output object from input materials."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000456> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000456> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000456> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000456> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000456> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000456> "artifact  creation objective"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000456> "GROUP: OBI PlanAndPlannedProcess Branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000456> "material transformation objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000456> <http://purl.obolibrary.org/obo/IAO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000457> (manufacturing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000457> "manufacturing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000457> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000457> "A planned process with the objective to produce a processed material which will have a function for future use."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "This includes a single scientist making a processed material for personal use."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "A person or organization (having manufacturer role) is a participant in this process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000457> "Manufacturing implies reproducibility and responsibility AR")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000457> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000457> "GROUP: OBI PlanAndPlannedProcess Branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000457> "manufacturing"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000458>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> <http://purl.obolibrary.org/obo/OBI_0000094>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/BFO_0000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000457> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000047>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000458> (manufacturing objective)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000458> "is the objective to manufacture a material of a certain function (device)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Frank Gibson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Jennifer Fostel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000458> "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000458> "GROUP: OBI PlanAndPlannedProcess Branch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000458> "manufacturing objective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000458> <http://purl.obolibrary.org/obo/OBI_0000456>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000522> (vial)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000522> "vial")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000522> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000522> "A container made from solid material and primarily used for holding liquid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000522> "https://orcid.org/0000-0002-8844-9165")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000522> "https://en.wikipedia.org/wiki/Vial")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000522> "vial")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000522> <http://purl.obolibrary.org/obo/OBI_0000967>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000571> (manufacturer role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000571> "manufacturer role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000571> "With respect to The Accuri C6 Flow Cytometer System, the organization Accuri bears the role manufacturer role.  With respect to a transformed line of tissue culture cells derived by a specific lab, the lab whose personnel isolated the cll line bears the role manufacturer role.  With respect to a specific antibody produced by an individual scientist, the scientist who purifies, characterizes and distributes the anitbody bears the role manufacturer role.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000571> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000571> "Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000571> "GROUP:  Role Branch")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000571> "OBI")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000571> "manufacturer role")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000832> (measurement device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000832> "measurement device")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000832> "A ruler, a microarray scanner, a Geiger counter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000832> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000832> "A device in which a measure function inheres.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000832> "GROUP:OBI Philly workshop")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000832> "OBI")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000832> "measurement device")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000832> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000453>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000832> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000835> (manufacturer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000835> "manufacturer")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000835> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000835> "A person or organization that has a manufacturer role.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000835> "manufacturer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000835> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OBI_0000245>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000571>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000835> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000836> (test tube)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000836> "test tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000836> <http://purl.obolibrary.org/obo/IAO_0000120>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000836> "A test tube is a device consisting of a glass or plastic tubing, open at the top, usually with a rounded U-shaped bottom which has the function to contain material")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000836> "Bjoern Peters")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000836> "collection tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000836> "sample tube")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000836> "http://en.wikipedia.org/wiki/Test_tube")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000836> "test tube")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000836> <http://purl.obolibrary.org/obo/OBI_0000522>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000836> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000370>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000967> (container)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000967> "container")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000967> <http://purl.obolibrary.org/obo/IAO_0000123>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000967> "A device that can be used to restrict the location of material entities over time")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000967> "03/21/2010: Added to allow classification of children (similar to what we want to do for 'measurement device'. Lookint at what classifies here, we may want to reconsider a contain function assigned to a part of an entity is necessarily also a function of the whole (e.g. is a centrifuge a container because it has test tubes as parts?)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000967> "PERSON: Bjoern Peters")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000967> "container")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000967> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000370>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000967> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000968> (device)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000968> "device")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000968> "A voltmeter is a measurement device which is intended to perform some measure function.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000968> "An autoclave is a device that sterlizes instruments or contaminated waste by applying high temperature and pressure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000968> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000968> "A material entity that is designed to perform a function in a scientific investigation, but is not a reagent.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000968> "2012-12-17 JAO: In common lab usage, there is a distinction made between devices and reagents that is difficult to model. Therefore we have chosen to specifically exclude reagents from the definition of \"device\", and are enumerating the types of roles that a reagent can perform.
+
+2013-6-5 MHB: The following clarifications are outcomes of the May 2013 Philly Workshop. Reagents are distinguished from devices that also participate in scientific techniques by the fact that reagents are chemical or biological in nature and necessarily participate in some chemical interaction or reaction during the realization of their experimental role. By contrast, devices do not participate in such chemical reactions/interactions.  Note that there are cases where devices use reagent components during their operation, where the reagent-device distinction is less clear.  For example:
+
+(1) An HPLC machine is considered a device, but has a column that holds a stationary phase resin as an operational component.  This resin qualifies as a device if it participates purely in size exclusion, but bears a reagent role that is realized in the running of a column if it interacts electrostatically or chemically with the evaluant. The container the resin is in (“the column”) considered alone is a device. So the entire column as well as the entire HPLC machine are devices that have a reagent as an operating part.
+
+(2) A pH meter is a device, but its electrode component bears a reagent role in virtue of its interacting directly with the evaluant in execution of an assay.
+
+(3) A gel running  box  is a device that has a metallic lead as a component that participates in a chemical reaction with the running buffer when a charge is passed through it.  This metallic lead is considered to have a reagent role as a component of this device realized in the running of a gel.
+
+In the examples above, a reagent is an operational component of a device, but the device itself does not realize a reagent role (as bearing a reagent role is not transitive across the part_of relation).  In this way, the asserted disjointness between a reagent and device holds, as both roles are never realized in the same bearer during execution of an assay.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000968> "PERSON: Helen Parkinson")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000968> "instrument")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000968> "OBI development call 2012-12-17.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000968> "device")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000968> <http://purl.obolibrary.org/obo/OBI_0000047>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000094>))
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0100026> (organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "animal"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "fungus"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "plant"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "virus"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0100026> "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0100026> "10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0100026> "13-02-2009:
+OBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.
+This issue is outside the scope of OBI.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0100026> "GROUP: OBI Biomaterial Branch")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0100026> "WEB: http://en.wikipedia.org/wiki/Organism"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0400107> (computer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0400107> "computer")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0400107> "Apple PowerBook, Dell OptiPlex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0400107> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0400107> "A computer is an instrument which manipulates (stores, retrieves, and processes) data according to a list of instructions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0400107> "Melanie Courtot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0400107> "Trish Whetzel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0400107> "http://en.wikipedia.org/wiki/Computer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0400107> "computer")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400107> <http://purl.obolibrary.org/obo/OBI_0000968>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0400107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/OBI_0000392>))
+
+
+)

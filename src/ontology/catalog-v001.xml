@@ -6,6 +6,8 @@
   <uri name="http://nmrML.org/nmrCV/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri name="http://nmrML.org/nmrCV/imports/omo_import.owl" uri="imports/omo_import.owl"/>
   <uri name="http://nmrML.org/nmrCV/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+  <uri name="http://nmrML.org/nmrCV/imports/obi_import.owl" uri="imports/obi_import.owl"/>
 
 </group>
 </catalog>

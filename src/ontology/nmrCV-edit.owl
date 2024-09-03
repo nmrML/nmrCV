@@ -16,6 +16,8 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Ontology(<http://nmrML.org/nmrCV>
 Import(<http://nmrML.org/nmrCV/imports/bfo_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/chebi_import.owl>)
+Import(<http://nmrML.org/nmrCV/imports/iao_import.owl>)
+Import(<http://nmrML.org/nmrCV/imports/obi_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/omo_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/ro_import.owl>)
 Annotation(dce:contributor "Annick Moing")
@@ -445,12 +447,6 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000384>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000385>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000386>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000387>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000388>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000389>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000390>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000391>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000392>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000393>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000394>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000395>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000396>))
@@ -777,17 +773,8 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400251>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400253>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400254>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400255>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400256>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400257>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400258>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400259>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400260>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400262>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400264>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400265>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400266>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400267>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400270>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400276>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400277>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400278>))
@@ -815,27 +802,52 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400302>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400303>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400304>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400305>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400306>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400307>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400308>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400309>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400310>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400311>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400312>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400313>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400314>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400315>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400316>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400317>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400318>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400322>))
 Declaration(Class(oboInOwl:ObsoleteClass))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003000>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003001>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003002>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003003>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003004>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003005>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003006>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003007>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000388>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000389>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000390>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000391>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000392>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1000393>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400256>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400257>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400258>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400259>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400260>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400264>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400265>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400266>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400270>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400306>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400307>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400308>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400309>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400310>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400311>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400312>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400313>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400314>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400315>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400316>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400317>))
+Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:1400322>))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dce:coverage))
+Declaration(AnnotationProperty(dcterms:date))
 Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:identifier))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(doap:audience))
@@ -973,10 +985,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000010> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000011> "data file attribute"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000011> obo:BFO_0000031)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000012> (NMR instrument type)
+# Class: <http://nmrML.org/nmrCV#NMR:1000012> (obsolete_NMR instrument type)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000012> "NMR instrument type"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000012> <http://nmrML.org/nmrCV#NMR:1000496>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000012> "The concept represented by this class is already present ('NMR instrument') and ontologically more correct.")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000012> obo:IAO_0000227)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000012> <http://nmrML.org/nmrCV#NMR:1400059>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000012> "obsolete_NMR instrument type"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000012> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000012> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000013> (1D spectrum coordinate system descriptor)
 
@@ -2117,12 +2133,12 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1000221> "used to b
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000221> "data simulation"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000221> <http://nmrML.org/nmrCV#NMR:1400063>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000222> (dynamic nuclear polarization NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1000222> (dynamic nuclear polarization NMR instrument)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000222> "DNP NMR")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization enhanced NMR system")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization NMR"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000222> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000222> "dynamic nuclear polarization NMR instrument"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000222> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000223> (chemical shift)
 
@@ -2183,6 +2199,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000232> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000233> "Varian autosampler"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000233> <http://nmrML.org/nmrCV#NMR:1400002>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000233> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000234> (Varian SMS 50)
 
@@ -2193,6 +2210,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000234> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000235> "Varian probe"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000235> <http://nmrML.org/nmrCV#NMR:1400014>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000235> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000236> (5mm HCN probe)
 
@@ -2397,12 +2415,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000270> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000271> "Bruker tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000271> <http://nmrML.org/nmrCV#NMR:1400132>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000271> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000272> (JEOL magnet)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000272> "JEOL magnet"@en)
 AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000272> "http://www.jeolusa.com/PRODUCTS/Nuclear-Magnetic-Resonance/Magnets")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000272> <http://nmrML.org/nmrCV#NMR:1400185>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000272> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000273> (JEOL ECS magnet)
 
@@ -2433,6 +2453,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000277> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000278> "Wilmad tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000278> <http://nmrML.org/nmrCV#NMR:1400132>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000278> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400265>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000283> (4mm Match tube)
 
@@ -2508,6 +2529,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000296> <http://nmrML.org/nmrCV#NMR:1000
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000297> "Norell tube"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000297> <http://nmrML.org/nmrCV#NMR:1400132>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000297> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:0003005>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000298> (JEOL FID file)
 
@@ -2545,6 +2567,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000301> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000302> "Agilent magnet")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000302> "Varian magnet"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000302> <http://nmrML.org/nmrCV#NMR:1400185>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000302> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000303> (premium compact narrow bore magnet)
 
@@ -2930,10 +2953,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000364> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000365> "bucket fusioning"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000365> <http://nmrML.org/nmrCV#NMR:1000362>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000368> (JNM-ECX Series FT NMR instrument)
+# Class: <http://nmrML.org/nmrCV#NMR:1000368> (obsolete_JNM-ECX Series FT NMR instrument)
 
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000368> "JNM-ECX Series FT NMR instrument"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000368> <http://nmrML.org/nmrCV#NMR:1400226>)
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000368> "duplicate of http://nmrML.org/nmrCV#NMR:1400227")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000368> obo:IAO_0000227)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000368> <http://nmrML.org/nmrCV#NMR:1400227>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000368> "obsolete_JNM-ECX Series FT NMR instrument"@en)
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000368> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000368> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000369> (JNM-ECZR Series FT NMR instrument)
 
@@ -3034,36 +3061,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000386> <http://nmrML.org/nmrCV#NMR:1000
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000387> "Avance I spectrometer"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000387> <http://nmrML.org/nmrCV#NMR:1400198>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000388> (Oxford Instruments)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000388> "Oxford Instruments"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000388> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock SRL"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000389> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1000390> (General Electric)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000390> "General Electric"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000390> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1000391> (Kimble Chase)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000391> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1000392> (Phillips)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000392> "Phillips"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000392> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1000393> (Siemens AG)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000393> "Siemens AG"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000393> <http://nmrML.org/nmrCV#NMR:1400255>)
-
 # Class: <http://nmrML.org/nmrCV#NMR:1000394> (Varian Inova 500)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000394> "Varian Inova 500"@en)
@@ -3098,6 +3095,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1000399> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000400> "Agilent NMR instrument"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000400> <http://nmrML.org/nmrCV#NMR:1400059>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000400> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400309>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000401> (Agilent 400-MR NMR instrument)
 
@@ -3325,14 +3323,18 @@ AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000457> "NMR:100045
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000457> "sample")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000457> obo:BFO_0000030)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000463> (instrument)
+# Class: <http://nmrML.org/nmrCV#NMR:1000463> (obsolete_instrument)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "MSI:NMR") obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000463> "Description of the instrument or the mass spectrometer.")
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1000463> "not needed as OBI has better equivalent")
+AnnotationAssertion(obo:IAO_0000231 <http://nmrML.org/nmrCV#NMR:1000463> obo:IAO_0000228)
+AnnotationAssertion(obo:IAO_0100001 <http://nmrML.org/nmrCV#NMR:1000463> obo:OBI_0000968)
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1000463> "instrument configuration")
 AnnotationAssertion(oboInOwl:hasOBONamespace <http://nmrML.org/nmrCV#NMR:1000463> "NMR")
 AnnotationAssertion(oboInOwl:id <http://nmrML.org/nmrCV#NMR:1000463> "NMR:1000463")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000463> "instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1000463> obo:BFO_0000030)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000463> "obsolete_instrument")
+AnnotationAssertion(owl:deprecated <http://nmrML.org/nmrCV#NMR:1000463> "true"^^xsd:boolean)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1000463> oboInOwl:ObsoleteClass)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000489> (Varian/Agilent instrument model)
 
@@ -4164,19 +4166,23 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1002032> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400001> (optional part of NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400001> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400001> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400001> "def: Part of an NMR instrument which is not cardinally important and hence optional / facultative for the proper intended function of the instrument.
    synonym: optional part of NMR instrument
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400001> "optional part of NMR instrument")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400001> "TODO: Discuss \"obligatory_part_of\".")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> <http://nmrML.org/nmrCV#NMR:1000463>)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400001> ObjectUnionOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400204>))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> obo:OBI_0000968)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400002> (autosampler)
+# Class: <http://nmrML.org/nmrCV#NMR:1400002> (NMR autosampler)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400002> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400002> "def: An optional  part of an NMR instrument used to hold samples prior to NMR analysis and that sequentially loads these samples into the analytical part of the NMR instrument.
    altdef: The autosampler is an automatic sample changer.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "autosampler")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400001>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "NMR autosampler")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400006> (multiplicity feature)
 
@@ -4209,30 +4215,39 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400010> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400011> (cardinal part of NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000116 <http://nmrML.org/nmrCV#NMR:1400011> "This defined class is a grouping class whose children are inferred based on its logical definition and are materialized by the reasoning step in the creation of the release artefact."@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400011> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400011> "def: A part of an NMR instrument which is cardinally important and hence obligatory and compulsatory for the proper intended function of the instrument.
    synonym: cardinal part of NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400011> "cardinal part of NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> <http://nmrML.org/nmrCV#NMR:1000463>)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400011> ObjectIntersectionOf(obo:OBI_0000968 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> obo:OBI_0000968)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400013> (acquisition computer)
+# Class: <http://nmrML.org/nmrCV#NMR:1400013> (NMR acquisition computer)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400013> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400013> "def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "acquisition computer")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> <http://nmrML.org/nmrCV#NMR:1400011>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "NMR acquisition computer")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> obo:OBI_0400107)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400014> (NMR probe)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400014> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400014> "def: Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile “single point of failure” that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> obo:OBI_0000832)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400015> (console)
+# Class: <http://nmrML.org/nmrCV#NMR:1400015> (NMR console)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400015> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400015> "def: A component of an NMR instrument that controls the activities of the other components.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "console")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "NMR console")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400015> "TODO: same as or part of acquisition computer?")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400017> (number of acquisition data points)
 
@@ -4425,10 +4440,11 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400057> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400059> (NMR instrument)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400059> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400059> "def: An Instrument which is used to carry out a NMR analysis of some sample.
    synonym: NMR instrument")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400059> "NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400059> <http://nmrML.org/nmrCV#NMR:1000463>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400059> obo:OBI_0000832)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400061> (NMR instrument acquisition parameter set)
 
@@ -4822,12 +4838,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400131> <http://nmrML.org/nmrCV#NMR:1400
 # Class: <http://nmrML.org/nmrCV#NMR:1400132> (NMR sample tube)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400132> "The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400132> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400132> "http://en.wikipedia.org/wiki/NMR_tube")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400132> "https://github.com/nmrML/nmrML/issues/54")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400132> "sample tube")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400132> "sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400132> "NMR sample tube")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> obo:OBI_0000836)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400134> (spectrum pre-processing software)
 
@@ -4996,16 +5014,19 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400172> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400185> (NMR magnet)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400185> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400185> "def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.
    altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400185> "NMR magnet")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400186> (Bruker NMR magnet)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400186> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400186> "Bruker NMR magnet")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400186> <http://nmrML.org/nmrCV#NMR:1400185>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400186> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400187> (UltraShield)
 
@@ -5101,6 +5122,7 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400198> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400198> "Bruker NMR instrument")
 AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400198> "https://www.bruker.com/de/products/mr/nmr.html")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400198> <http://nmrML.org/nmrCV#NMR:1400059>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400198> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400199> (Metabolic Profiler instrument)
 
@@ -5112,7 +5134,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400199> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400200> "NMR Instruments using hyphenated analytical techniques combining mass spectrometry and chromatograph.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400200> "Hyphenated NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400200> <http://nmrML.org/nmrCV#NMR:1000012>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400200> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400201> (Capillary LC-NMR)
 
@@ -5128,9 +5150,10 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400203> <http://nmrML.org/nmrCV#NMR:1400
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400204> (NMR tube washing system)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400204> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400204> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400204> "NMR tube washing system")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> <http://nmrML.org/nmrCV#NMR:1400001>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400205> (Bruker AutoClean)
 
@@ -5138,6 +5161,7 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400205> "def: In t
    defprov: Bruker website")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400205> "Bruker AutoClean")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400205> <http://nmrML.org/nmrCV#NMR:1400204>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400205> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400206> (Bruker BEST NMR)
 
@@ -5168,6 +5192,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400208> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400209> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400209> "Bruker autosampler")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400209> <http://nmrML.org/nmrCV#NMR:1400002>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400209> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400210> (B-ACS)
 
@@ -5184,12 +5209,15 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400211> "def: The 
    synonym: Bruker Multiple Adjustable Tube Clamp Holder")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400211> "Bruker MATCH")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> <http://nmrML.org/nmrCV#NMR:1400212>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400212> (NMR sample holder)
 
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400212> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400212> "def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400212> "NMR sample holder")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400213> (NMR software)
 
@@ -5261,6 +5289,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400225> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400226> "JEOL NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400226> <http://nmrML.org/nmrCV#NMR:1400059>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400226> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400227> (JNM-ECX Series FT NMR instrument)
 
@@ -5289,12 +5318,14 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400230> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400231> "https://www.bruker.com/products/mr/nmr/probes/probes.html")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400231> "Bruker NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> <http://nmrML.org/nmrCV#NMR:1400014>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400231> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400256>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400232> (JEOL NMR probe)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400232> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400232> "JEOL NMR probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> <http://nmrML.org/nmrCV#NMR:1400014>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400232> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400258>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400233> (CapNMR probe)
 
@@ -5305,6 +5336,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400233> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400234> "Varian NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400234> <http://nmrML.org/nmrCV#NMR:1400059>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400234> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400257>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400235> (Varian MERCURY)
 
@@ -5362,6 +5394,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400244> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400246> "tecmag console")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400246> <http://nmrML.org/nmrCV#NMR:1400015>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400246> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400260>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400247> (DISCOVERY console)
 
@@ -5387,6 +5420,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400249> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400250> "tecmag NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400250> <http://nmrML.org/nmrCV#NMR:1400059>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400250> ObjectHasValue(obo:OBI_0000304 <http://nmrML.org/nmrCV#NMR:1400260>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400251> (CAT)
 
@@ -5406,59 +5440,18 @@ AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400254> "vendor")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400254> "TODO: Belongs in Ref Ontol.")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400254> <http://nmrML.org/nmrCV#NMR:1000010>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR instrument manufacturer)
+# Class: <http://nmrML.org/nmrCV#NMR:1400255> (NMR device manufacturer)
 
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400255> "A manufacturer that produces (and eventually sells)  NMR instruments.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR instrument manufacturer")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400255> <http://nmrML.org/nmrCV#NMR:1000496>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
-
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400256> "defneed")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400256> "Bruker")
-AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400256> "TODO: May not need definition due to its instance character.")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400256> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400257> "Varian")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400257> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400258> "JEOL")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400258> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400259> "MR Resources")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400259> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400260> "tecmag")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400260> <http://nmrML.org/nmrCV#NMR:1400255>)
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400255> "A manufacturer that produces NMR instruments and/or their parts"@en)
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400255> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400255> ObjectIntersectionOf(obo:OBI_0000835 ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))))))))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400262> (sample temperature information)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400262> "def: In some cases, it is necessary or advisable to control the temperature of the sample at some value other than ambient. The sample may be only slightly solubility at room temperatures, or it may be desirable to control some aspect of the dynamics of the system. In such cases, a default temperature, or some means of selecting this parameter, can be built into the experiment.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400262> "sample temperature information")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400262> <http://nmrML.org/nmrCV#NMR:1000548>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400264> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400265> "Wilmad")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400265> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400266> "JS Research")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400266> <http://nmrML.org/nmrCV#NMR:1400255>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400267> (data file)
 
@@ -5470,34 +5463,29 @@ AnnotationAssertion(skos:example <http://nmrML.org/nmrCV#NMR:1400267> "an FID ra
 AnnotationAssertion(skos:scopeNote <http://nmrML.org/nmrCV#NMR:1400267> "In the NMR case a file generated by an NMR acquisition computer, console or NMR processing software.")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400267> obo:BFO_0000031)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400270> (Acorn NMR Inc)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400270> "Acorn NMR Inc")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400270> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400276> (liquid chromatography NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400276> (liquid chromatography NMR instrument)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400276> "LC NMR")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400276> "liquid chromatography NMR")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400276> "liquid chromatography NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400276> <http://nmrML.org/nmrCV#NMR:1400200>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400277> (LC MS NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400277> (LC MS NMR instrument)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400277> "Includes the connection to a high-resolution TOF-LC-MS system.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400277> "LC MS NMR")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400277> "LC MS NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400277> <http://nmrML.org/nmrCV#NMR:1400276>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400278> (solid phase extraction NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400278> (solid phase extraction NMR instrument)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400278> "SPE NMR")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400278> "A Solid Phase Extraction (SPE) system provides an interface between liquid chromatography (LC) and NMR. For the process of LC-SPE™ NMR a chromatographic separation is done and the peaks of interest are trapped on an individual SPE cartridge after the column. The peak selection is done either by UV detection or by evaluation of the on-line registered MS or MSn spectra.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400278> "solid phase extraction NMR")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400278> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400278> "solid phase extraction NMR instrument")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400278> <http://nmrML.org/nmrCV#NMR:1400059>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400279> (Capillary LC-NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400279> (Capillary LC-NMR instrument)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400279> "Capillary LC-NMR is a hyphenated technique coupling capillary liquid chromatography and NMR, which increases sensitivity dramatically through the use of miniaturization of the chromatographic techniques and NMR detection volume.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400279> "Capillary LC-NMR")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400279> "Capillary LC-NMR instrument")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400279> <http://nmrML.org/nmrCV#NMR:1400276>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400280> (direct detection probe)
@@ -5510,19 +5498,19 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400280> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400281> "indirect detection probe")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400281> <http://nmrML.org/nmrCV#NMR:1400014>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400283> (continuous wave NMR)
+# Class: <http://nmrML.org/nmrCV#NMR:1400283> (continuous wave NMR instrument)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400283> "Continuous wave NMR spectrometers are similar in principle to optical spectrometers. The sample is held in a strong magnetic field, and the frequency of the source is slowly scanned (in some instruments, the source frequency is held constant, and the field is scanned).
    Defprov: http://teaching.shu.ac.uk/hwb/chemistry/tutorials/molspec/nmr3.htm")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400283> "continuous wave NMR")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400283> <http://nmrML.org/nmrCV#NMR:1000012>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400283> "continuous wave NMR instrument")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400283> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400284> (fourier transformation NMR instrument)
 
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400284> "In FT-NMR, all frequencies in a spectrum are irradiated simultaneously with a radio frequency pulse. Following the pulse, the nuclei return to thermal equilibrium. A time domain emission signal is recorded by the instrument as the nuclei relax. A frequency domain spectrum is obtained by Fourier transformation.
    Defprov: http://teaching.shu.ac.uk/hwb/chemistry/tutorials/molspec/nmr3.htm")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400284> "fourier transformation NMR instrument")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400284> <http://nmrML.org/nmrCV#NMR:1000012>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400284> <http://nmrML.org/nmrCV#NMR:1400059>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400285> (NMR software data format)
 
@@ -5621,66 +5609,6 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400305> "J-coupler
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400305> "multiplet feature")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400305> <http://nmrML.org/nmrCV#NMR:1400006>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400306> (ThermoMattson)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400306> "ThermoMattson")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400306> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400307> (FOSS)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400307> "FOSS")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400307> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400308> (Jasco)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400308> "Jasco")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400308> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400309> (Agilent Technologies)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400309> "Agilent Technologies")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400309> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400310> (micromass)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400310> "micromass")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400310> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400311> (Waters)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400311> "Waters")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400311> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400312> (ThermoNicolet)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400312> "ThermoNicolet")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400312> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400313> (Perkin Elmer)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400313> "Perkin Elmer")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400313> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400314> (OceanOptics)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400314> "OceanOptics")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400314> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400315> (ThermoFinnigan)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400315> "ThermoFinnigan")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400315> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400316> (Applied Biosystems)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400316> "Applied Biosystems")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400316> <http://nmrML.org/nmrCV#NMR:1400255>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400317> (TX)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400317> "TX")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400317> <http://nmrML.org/nmrCV#NMR:1400255>)
-
 # Class: <http://nmrML.org/nmrCV#NMR:1400318> (Net CDF format)
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400318> "Net CDF format")
@@ -5700,11 +5628,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:1400322> (acdlabs)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400255>)
 
 # Class: obo:BFO_0000023 (role)
 
@@ -5834,7 +5757,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229456 <http://nmrM
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: obo:CHEBI_229458 (titan(III)-nitrate)
+# Class: obo:CHEBI_229458 (thallium(III) nitrate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
 
@@ -6025,6 +5948,282 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_85487 <http://nmrML
 # Class: obo:CHEBI_88215 (osmium tetroxide)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_88215 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003000> (Thermo Fischer)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003000> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003000> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003000> "2024-08-26T13:28:30Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:0003000> "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Fischer")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo FIsher Scientific")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Fisher Scientific Inc.")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003000> "Thermo Scientific™")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003000> "https://thermofisher.com")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003000>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003000>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003001> (Magritek)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003001> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003001> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003001> "2024-08-26T14:26:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003001> "Magritek")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003001> "https://magritek.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003001>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003001>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003002> (Nanalysis)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003002> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003002> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003002> "2024-08-26T14:30:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003002> "Nanalysis")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003002> "https://www.nanalysis.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003002>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003002>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003003> (NMR Service)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003003> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003003> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003003> "2024-08-26T14:32:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003003> "NMR Service")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:0003003> "NMR Service GmbH")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003003> "https://nmr-service.de/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003003>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003003>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003004> (Deutero)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003004> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003004> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003004> "2024-08-26T14:33:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003004> "Deutero")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003004> "https://www.deutero.de/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003004>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003004>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003005> (Norell®)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003005> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003005> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003005> "2024-08-26T14:36:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003005> "Norell®")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:0003005> "https://secure.nmrtubes.com/"^^xsd:anyURI)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003006> (Chemagnetics)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003006> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003006> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003006> "2024-08-26T14:40:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003006> "Chemagnetics")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003006>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003006>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:0003007> (Nalorac)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0003007> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0003007> <https://orcid.org/0000-0002-1595-3213>)
+AnnotationAssertion(dcterms:date <http://nmrML.org/nmrCV#NMR:0003007> "2024-08-26T14:42:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0003007> "Nalorac")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:0003007>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:0003007>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000388> (Oxford Instruments)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000388> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:identifier <http://nmrML.org/nmrCV#NMR:1000388> "GB0006650450")
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1000388> "https://en.wikipedia.org/wiki/Oxford_Instruments"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000388> "Oxford Instruments"@en)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000388> "https://www.oxinst.com"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000388>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000388>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000389> (Spinlock SRL)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000389> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock SRL"@en)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1000389> "Spinlock")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000389> "https://spinlock.com.ar"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000389>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000389>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000390> (General Electric)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000390> "General Electric"@en)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000390>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000391> (Kimble Chase)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1000391> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase"@en)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1000391> "Kimble Chase Life Science and Research Products LLC")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1000391> "https://www.dwk.com/about-us"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000391>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1000391>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000392> (Phillips)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000392> "Phillips"@en)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1000392>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1000393> (Siemens AG)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000393> "Siemens AG"@en)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400256> (Bruker)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400256> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400256> "https://en.wikipedia.org/wiki/Bruker"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400256> "Bruker")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400256> "Bruker Corporation")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400256> "https://www.bruker.com"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400256>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400256>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400257> (Varian)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400257> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400257> "https://en.wikipedia.org/wiki/Varian,_Inc."^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400257> "Varian")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400257> "Varian, Inc.")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400257>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400257>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400258> (JEOL)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400258> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400258> "https://en.wikipedia.org/wiki/JEOL"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400258> "JEOL")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400258> "Nihon Denshi Kabushiki-kaisha"@ja)
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400258> "日本電子"@ja)
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400258> "https://www.jeol.co.jp")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400258>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400258>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400259> (MR Resources)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400259> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400259> "MR Resources")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400259> "https://www.mrr.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400259>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400259>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400260> (tecmag)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400260> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400260> "tecmag")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400260> "Tecmag")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400260> "https://tecmag.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400260>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400260>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400264> (Doty Scientific)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400264> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400264> "Doty Scientific, Inc.")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400264> "https://dotynmr.com"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400264>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400264>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400265> (Wilmad)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400265> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400265> "Wilmad")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400265> "https://sp-wilmadlabglass.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400265>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400265>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400266> (JS Research)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400266> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400266> "JS Research")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400266> "J S RESEARCH INC.")
+AnnotationAssertion(skos:altLabel <http://nmrML.org/nmrCV#NMR:1400266> "JSR")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400266> "https://www.jsresearch.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400266>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400266>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400270> (Acorn NMR Inc)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400270> "Acorn NMR Inc")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400270>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400306> (ThermoMattson)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400306> "ThermoMattson")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400306>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400307> (FOSS)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400307> "FOSS")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400307>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400308> (Jasco)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400308> "Jasco")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400308>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400309> (Agilent Technologies)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400309> <https://github.com/nmrML/nmrCV/issues/12>)
+AnnotationAssertion(dcterms:source <http://nmrML.org/nmrCV#NMR:1400309> "https://en.wikipedia.org/wiki/Agilent_Technologies"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400309> "Agilent Technologies")
+AnnotationAssertion(foaf:homepage <http://nmrML.org/nmrCV#NMR:1400309> "https://www.agilent.com/"^^xsd:anyURI)
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400309>)
+ClassAssertion(ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>)))))) <http://nmrML.org/nmrCV#NMR:1400309>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400310> (micromass)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400310> "micromass")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400310>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400311> (Waters)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400311> "Waters")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400311>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400312> (ThermoNicolet)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400312> "ThermoNicolet")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400312>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400313> (Perkin Elmer)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400313> "Perkin Elmer")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400313>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400314> (OceanOptics)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400314> "OceanOptics")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400314>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400315> (ThermoFinnigan)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400315> "ThermoFinnigan")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400315>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400316> (Applied Biosystems)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400316> "Applied Biosystems")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400316>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400317> (TX)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400317> "TX")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400317>)
+
+# Individual: <http://nmrML.org/nmrCV#NMR:1400322> (acdlabs)
+
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
+ClassAssertion(obo:OBI_0000245 <http://nmrML.org/nmrCV#NMR:1400322>)
 
 
 SubClassOf(ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)) <http://nmrML.org/nmrCV#NMR:1400033>)
