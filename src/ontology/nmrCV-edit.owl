@@ -5631,11 +5631,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1400322> (acdlabs)
-
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400322> "acdlabs")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400322> <http://nmrML.org/nmrCV#NMR:1400255>)
-
 # Class: <http://nmrML.org/nmrCV#NMRCV:0002001> (characterized compound)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMRCV:0002001> "A molecular entity that has a role characterized compound in nuclear magnetic resonance (NMR) spectroscopy.")
