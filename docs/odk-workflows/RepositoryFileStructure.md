@@ -19,6 +19,8 @@ These are the current imports in NMRCV
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | mirror |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
+| iao | http://purl.obolibrary.org/obo/iao.owl | None |
+| obi | http://purl.obolibrary.org/obo/obi.owl | custom |
 | chebi | http://purl.obolibrary.org/obo/chebi.owl | None |
 
 ## Components
