@@ -1,3 +1,4 @@
 IAO:0000033 # 'directive information entity'
     IAO:0000005 # 'objective specification'
     IAO:0000104 # 'plan specification'
+IAO:0000140 # 'setting datum' 
