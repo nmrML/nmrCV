@@ -1,1 +1,12 @@
-
+RO:0000052 # 'characteristic of'
+RO:0000053 # 'has characteristic'
+BFO_0000050 # 'part of'
+BFO_0000051 # 'has part'
+BFO:0000054 # realized in
+BFO:0000055 # realizes
+RO:0000056 # is participant
+RO:0000057 # has participant
+RO:0000058 # is concretized as
+RO:0000059 # concretizes
+RO:0000079 # function of
+RO:0002351 # has member
