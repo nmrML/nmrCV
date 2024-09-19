@@ -1048,13 +1048,13 @@ AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002006> "2024-0
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002006> "NMR chemical shift calibration compound role"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002005>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:0002007> (concentration calibration compound role)
+# Class: <http://nmrML.org/nmrCV#NMR:0002007> (NMR concentration calibration compound role)
 
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002007> "A role which inheres in a calibration compound of a known concentration that produces one or more peaks used to calibrate a spectrum for quantification.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002007> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002007> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002007> "2024-08-22T15:15:36Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002007> "concentration calibration compound role"@en)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002007> "NMR concentration calibration compound role"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002007> <http://nmrML.org/nmrCV#NMR:0002005>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002008> (3H spectrum chemical shift reference compound)
