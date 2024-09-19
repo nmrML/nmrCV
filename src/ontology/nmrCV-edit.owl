@@ -5447,7 +5447,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400032> obo:CHEBI_23367)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400033> (chemical shift reference compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A chemical shift calibration compound that has a role chemical shift reference compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400033> "A chemical shift calibration compound that has a chemical shift reference compound role in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400033> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1400033> "http://www.nmrnotes.org/NMRPages/refcomps.html")
 AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "https://github.com/nmrML/nmrML/issues/31")
