@@ -1022,7 +1022,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:0002002> obo:CHEBI_51086)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002003> (chemical shift calibration compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A calibration compound that has a role chemical shift calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002003> "A calibration compound that has a chemical shift calibration compound role in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002003> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002003> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002003> "2024-08-22T14:49:21Z"^^xsd:dateTime)
