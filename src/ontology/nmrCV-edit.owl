@@ -83,6 +83,8 @@ Annotation(doap:maintainer "https://www.wikidata.org/wiki/Q96678459")
 Annotation(owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
 Annotation(owl:versionInfo "2.0_alpha")
 
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002002>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002003>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002005>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002006>))
@@ -904,8 +906,6 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400318>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002002>))
 Declaration(Class(oboInOwl:ObsoleteClass))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003000>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003001>))
@@ -1000,6 +1000,25 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002001> (characterized compound)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002001> "A molecular entity that has a characterized compound role in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002001> <https://github.com/nmrML/nmrCV/issues/9>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002001> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002001> "2024-08-21T15:06:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002001> "characterized compound"@en)
+EquivalentClasses(<http://nmrML.org/nmrCV#NMR:0002001> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002002>)))
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002001> obo:CHEBI_23367)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002002> (characterized compound role)
+
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002002> "A role which inheres in a molecular entity being characterized in an NMR sample using data acquired from an NMR analysis.")
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002002> <https://github.com/nmrML/nmrCV/issues/9>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002002> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002002> "2024-08-21T15:10:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002002> "characterized compound role"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002002> obo:CHEBI_51086)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002003> (chemical shift calibration compound)
 
@@ -6723,25 +6742,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
-
-# Class: <http://nmrML.org/nmrCV#NMR:0002001> (characterized compound)
-
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002001> "A molecular entity that has a characterized compound role in nuclear magnetic resonance (NMR) spectroscopy.")
-AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002001> <https://github.com/nmrML/nmrCV/issues/9>)
-AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002001> <https://orcid.org/0009-0001-5998-5030>)
-AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002001> "2024-08-21T15:06:17Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002001> "characterized compound"@en)
-EquivalentClasses(<http://nmrML.org/nmrCV#NMR:0002001> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002002>)))
-SubClassOf(<http://nmrML.org/nmrCV#NMR:0002001> obo:CHEBI_23367)
-
-# Class: <http://nmrML.org/nmrCV#NMR:0002002> (characterized compound role)
-
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002002> "A role which inheres in a molecular entity being characterized in an NMR sample using data acquired from an NMR analysis.")
-AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002002> <https://github.com/nmrML/nmrCV/issues/9>)
-AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002002> <https://orcid.org/0009-0001-5998-5030>)
-AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002002> "2024-08-21T15:10:29Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002002> "characterized compound role"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:0002002> obo:CHEBI_51086)
 
 # Class: obo:BFO_0000023 (role)
 
