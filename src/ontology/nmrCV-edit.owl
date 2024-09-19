@@ -5439,7 +5439,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400031> <http://nmrML.org/nmrCV#NMR:1000
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400032> (calibration compound)
 
-AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "A molecular entity that has a role calibration compound in nuclear magnetic resonance (NMR) spectroscopy.")
+AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400032> "A molecular entity that has a calibration compound role in nuclear magnetic resonance (NMR) spectroscopy.")
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400032> <https://github.com/nmrML/nmrCV/issues/4>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400032> "calibration compound")
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400032> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 <http://nmrML.org/nmrCV#NMR:0002005>)))
