@@ -5293,7 +5293,6 @@ AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400001> "def: Part
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400001> "optional part of NMR instrument")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400001> "TODO: Discuss \"obligatory_part_of\".")
-EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400001> ObjectUnionOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400204>))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400001> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400002> (NMR autosampler)
@@ -5302,7 +5301,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400002> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400002> "def: An optional  part of an NMR instrument used to hold samples prior to NMR analysis and that sequentially loads these samples into the analytical part of the NMR instrument.
    altdef: The autosampler is an automatic sample changer.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "NMR autosampler")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400001>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400006> (multiplicity feature)
 
@@ -6273,7 +6272,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400203> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400204> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400204> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400204> "NMR tube washing system")
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> obo:OBI_0000968)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> <http://nmrML.org/nmrCV#NMR:1400001>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400205> (Bruker AutoClean)
 
