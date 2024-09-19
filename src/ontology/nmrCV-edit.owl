@@ -80,7 +80,7 @@ Annotation(doap:implements "https://github.com/nmrML/nmrML")
 Annotation(doap:location "https://github.com/nmrML/nmrCV")
 Annotation(doap:mailing-list "https://groups.google.com/forum/?hl=en#!forum/nmrml/join")
 Annotation(doap:maintainer "https://www.wikidata.org/wiki/Q96678459")
-Annotation(owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
+Annotation(owl:priorVersion "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo")
 Annotation(owl:versionInfo "2.0_alpha")
 
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
