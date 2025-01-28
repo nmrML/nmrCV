@@ -6974,6 +6974,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_39429 <http://nmrML
 # Class: obo:CHEBI_41981 (dideuterium oxide)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:1000330>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_45892 (trifluoroacetic acid)
 
