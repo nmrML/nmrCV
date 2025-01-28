@@ -6743,10 +6743,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
 
-# Class: obo:BFO_0000023 (role)
-
-EquivalentClasses(obo:BFO_0000023 obo:CHEBI_50906)
-
 # Class: obo:CHEBI_156265 (methanol-d4)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_156265 <http://nmrML.org/nmrCV#NMR:1000330>)
@@ -6880,13 +6876,9 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrM
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: obo:CHEBI_24431 (chemical entity)
+# Class: obo:CHEBI_23367 (molecular entity)
 
-SubClassOf(obo:CHEBI_24431 obo:BFO_0000040)
-
-# Class: obo:CHEBI_24432 (biological role)
-
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_24432 obo:BFO_0000023)
+SubClassOf(obo:CHEBI_23367 obo:BFO_0000040)
 
 # Class: obo:CHEBI_26078 (phosphoric acid)
 
@@ -6934,7 +6926,15 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33093 <http://nmrML
 
 # Class: obo:CHEBI_33232 (application)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33232 obo:BFO_0000023)
+SubClassOf(obo:CHEBI_33232 obo:BFO_0000023)
+
+# Class: obo:CHEBI_33250 (atom)
+
+SubClassOf(obo:CHEBI_33250 obo:BFO_0000040)
+
+# Class: obo:CHEBI_33252 (atomic nucleus)
+
+SubClassOf(obo:CHEBI_33252 obo:BFO_0000040)
 
 # Class: obo:CHEBI_33681 (helium(0))
 
@@ -6999,13 +6999,9 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_47032 <http://nmrML
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1000330>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1400033>)
 
-# Class: obo:CHEBI_50906 (role)
-
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_50906 obo:BFO_0000017)
-
 # Class: obo:CHEBI_51086 (chemical role)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_51086 obo:BFO_0000023)
+SubClassOf(obo:CHEBI_51086 obo:BFO_0000023)
 
 # Class: obo:CHEBI_5115 (monofluorobenzene)
 
@@ -7018,6 +7014,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_55317 <http://nmrML
 # Class: obo:CHEBI_59606 (sodium hexachloroplatinate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_59606 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_59999 (chemical substance)
+
+SubClassOf(obo:CHEBI_59999 obo:BFO_0000040)
 
 # Class: obo:CHEBI_63005 (sodium nitrate)
 
