@@ -3868,10 +3868,11 @@ AnnotationAssertion(dce:source <http://nmrML.org/nmrCV#NMR:1000329> "http://www.
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000329> "AB multiplet pattern"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1000329> <http://nmrML.org/nmrCV#NMR:1400305>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:1000330> (NMR solvent)
+# Class: <http://nmrML.org/nmrCV#NMR:1000330> (NMR solvent (molecular entity))
 
+AnnotationAssertion(obo:IAO_0000111 <http://nmrML.org/nmrCV#NMR:1000330> "NMR solvent"@en)
 AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1000330> "A molecular entity that is used as a solvent in nuclear magnetic resonance (NMR) spectroscopy"@en)
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1000330> "NMR solvent"@en)
+AnnotationAssertion(Annotation(skos:editorialNote "We needed to add material entity in the label to avoid clashes with the similary labeled role class in CHEBI."@en) rdfs:label <http://nmrML.org/nmrCV#NMR:1000330> "NMR solvent (molecular entity)"@en)
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1000330> ObjectIntersectionOf(obo:CHEBI_23367 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_197449)))
 SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1000330> obo:CHEBI_23367)
 
