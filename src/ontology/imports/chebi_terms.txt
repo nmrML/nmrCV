@@ -1,3 +1,29 @@
+# needed root terms
+CHEBI:33250 # atom
+CHEBI:33252 # atomic nucleus
+CHEBI:59999 # 'chemical substance'
+CHEBI:23367 # 'molecular entity'
+    CHEBI:36357 # polyatomic entity
+    CHEBI:33579 # main group molecular entity
+    CHEBI:24835 # inorganic molecular entity
+    CHEBI:33259 # elemental molecular entity
+    CHEBI:33497 # transition element molecular entity
+    CHEBI:35568 # mancude ring
+    CHEBI:24870 # ion
+
+# object relations for needed axioms
+BFO:0000051 # 'has part'
+RO:0000087 # 'has role'
+
+# needed roles 
+CHEBI:51086 # 'chemical role'
+CHEBI:197449 # NMR solvent
+CHEBI:228364 # NMR chemical shift reference compound
+CHEBI:67137 # NMR shift reagent
+
+CHEBI:139358 # isotopically modified compound
+CHEBI:76107  # deuterated compound
+
 CHEBI:156265 # methanol-d4
 CHEBI:193038 # acetonitrile-d3
 CHEBI:193039 # benzene-d6
@@ -24,7 +50,6 @@ CHEBI:41981  # dideuterium oxide
 CHEBI:48236  # trichlorofluoromethane
 CHEBI:78217  # acetone d6
 CHEBI:85365  # deuterated chloroform
-CHEBI:197449 # NMR solvent
 CHEBI:36810  # (trifluoromethyl)benzene
 CHEBI:38585  # 1,4-difluorobenzene
 CHEBI:47032  # 1,4-dioxane
@@ -112,7 +137,7 @@ CHEBI:176578 # cobalt-59 atom
 # TODO: add gallium atom isotopes
 CHEBI:52758  # germanium-73 atom
 CHEBI:176584 # arsenic-75 atom
-CHEBI:52457  # CHEBI:52457
+CHEBI:52457  # selenium-77 atom
 CHEBI:52743  # bromine-79 atom
 # TODO: add bromine atom isotopes
 # TODO: add krypton atom isotopes
