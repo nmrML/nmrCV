@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                1ba644404ead28f12b159a84d638daf10791c394ce2f9060998152d134df9dcc
+CONFIG_HASH=                fd98f62cea8e98a347fcdcf420367f85a1508e39fd0bcd97b7b3b1b954831e0b
 
 
 # ----------------------------------------
@@ -382,11 +382,8 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in nmrCV.Makefile!" && false
 ## Module for ontology: chebi
 
-$(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl $(IMPORTDIR)/chebi_terms_combined.txt
-	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T $(IMPORTDIR)/chebi_terms_combined.txt --force true  --copy-ontology-annotations true --individuals include --method BOT \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
-		$(ANNOTATE_CONVERT_FILE); fi
-
+$(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in nmrCV.Makefile!" && false
 
 .PHONY: refresh-imports
 refresh-imports:
