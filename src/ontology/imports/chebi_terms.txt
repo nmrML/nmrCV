@@ -27,6 +27,7 @@ CHEBI:76107  # deuterated compound
 CHEBI:156265 # methanol-d4
 CHEBI:193038 # acetonitrile-d3
 CHEBI:193039 # benzene-d6
+CHEBI:231538 # Bismut(III)-nitrat
 CHEBI:193040 # N,N-dimethylformamide-d7
 CHEBI:193041 # dimethyl sulfoxide-d6
 CHEBI:193042 # dichloromethane-d2
@@ -45,6 +46,7 @@ CHEBI:193134 # 1,1,2,2-tetrachlorethane-d2
 CHEBI:193135 # dimethyl ether-d6
 CHEBI:193136 # fluorosulfonic acid
 CHEBI:193146 # antimony pentafluoride
+CHEBI:63317  # barium chloride
 CHEBI:193148 # bromine pentafluoride
 CHEBI:41981  # dideuterium oxide
 CHEBI:48236  # trichlorofluoromethane
@@ -60,45 +62,80 @@ CHEBI:85487  # 3-(trimethylsilyl)propionic acid
 CHEBI:38472  # acetonitrile
 CHEBI:16134  # ammonia
 CHEBI:85364  # ammonium bromide
-CHEBI:33093  # boron trifluoride
+CHEBI:231509 # Ammonium pertechnetate
+CHEBI:53473  # beryllium sulfate
+CHEBI:231495 # Boron trifluoride etherate
+CHEBI:231514 # caesium nitrate
+CHEBI:3312   # calcium dichloride
+CHEBI:231503 # Cu(MeCN)4ClO4
 CHEBI:85365  # deuterated chloroform
 CHEBI:30236  # difluorine
 CHEBI:4613   # dimethyl telluride
 CHEBI:229455 # dimethylcadmium
 CHEBI:30786  # dimethylmercury
 CHEBI:4610   # dimethylselenide
+CHEBI:231505 # gallium nitrate
+CHEBI:231513 # Kaliumhexachloroantimonat(V) 
+CHEBI:49696  # krypton atom
 CHEBI:33681  # helium(0)
 CHEBI:39429  # hexafluoroacetone
 CHEBI:38589  # hexafluorobenzene
 CHEBI:29228  # hydrogen fluoride 
+CHEBI:231512 # indium(III) nitrate
+CHEBI:231515 # lanthanum trichloride
+CHEBI:48607  # lithium chloride
 CHEBI:5115   # monofluorobenzene
 CHEBI:34856  # morpholine
+CHEBI:33310  # neon atom
 CHEBI:77701  # nitromethane
 CHEBI:88215  # osmium tetroxide
 CHEBI:30251  # pentacarbonyliron
 CHEBI:26078  # phosphoric acid
+CHEBI:32588  # potassium chloride
+CHEBI:75249  # potassium chromate
+CHEBI:231502 # Potassium cobalticyanide
 CHEBI:66872  # potassium fluoride
+CHEBI:231541 # potassium hexachloroniobate(1−)
+CHEBI:231511 # Potassium hexachloropalladate(IV)
+CHEBI:231510 # Potassium hexacyanoruthenate(ii)
+CHEBI:231537 # Potassium perrhenate
+CHEBI:231536 # Potassium;tantalum(5+);hexachloride
+CHEBI:8346   # potassium iodide
 CHEBI:16227  # pyridine
 CHEBI:229457 # rhodium acetylacetonate
+CHEBI:78672  # rubidium chloride
+CHEBI:231498 # scandium nitrate
 CHEBI:32130  # silver(1+) nitrate
 CHEBI:85363  # sodium 3-(trimethylsilyl)propionate
 CHEBI:32954  # sodium acetate
+CHEBI:63004  # sodium bromide
+CHEBI:26710  # sodium chloride
 CHEBI:59606  # sodium hexachloroplatinate
+CHEBI:75215  # sodium molybdate (anhydrous)
 CHEBI:63005  # sodium nitrate
 CHEBI:63940  # sodium tungstate
 CHEBI:30496  # sulfur hexafluoride
+CHEBI:231507 # Sodium hexafluoroarsenate
+CHEBI:36383  # strontium dichloride
+CHEBI:30372  # tetracarbonylnickel
 CHEBI:55317  # tetramethylammonium bromide
+CHEBI:231506 # tetramethylgermane
 CHEBI:30183  # tetramethyllead
 CHEBI:85361  # tetramethylsilane
+CHEBI:231529 # tetramethylsilane-d12
 CHEBI:30420  # tetramethyltin
+CHEBI:231499 # titanium tetrachloride
 CHEBI:229458 # titan(III)-nitrate
 CHEBI:48236  # trichlorofluoromethane
 CHEBI:45892  # trifluoroacetic acid
 CHEBI:46324  # trimethyl phosphate
 CHEBI:36601  # triphenylphosphane oxide
 CHEBI:183318 # triphenylphosphine
+CHEBI:231500 # Vanadium oxytrichloride
 CHEBI:229456 # xenon oxytetrafluoride 
 CHEBI:229454 # yttrium nitrate
+CHEBI:231504 # zinc nitrate
+CHEBI:231508 # Zirconocene dichloride
 
 # isotopes
 CHEBI:29236  # protium atom

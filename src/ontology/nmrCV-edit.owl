@@ -5532,7 +5532,6 @@ AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400033> "http
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400033> "chemical shift reference compound")
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400033> ObjectIntersectionOf(<http://nmrML.org/nmrCV#NMR:0002003> ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_228364)))
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400033> <http://nmrML.org/nmrCV#NMR:0002003>)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:1400033> <http://nmrML.org/nmrCV#NMR:0002088>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400034> (quality check compound signal)
 
@@ -6949,10 +6948,12 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229455 <http://nmrM
 # Class: obo:CHEBI_229456 (xenon oxytetrafluoride)
 
 SubClassOf(obo:CHEBI_229456 <http://nmrML.org/nmrCV#NMR:0002098>)
+SubClassOf(obo:CHEBI_229456 <http://nmrML.org/nmrCV#NMR:0002159>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229456 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_229457 (rhodium acetylacetonate)
 
+SubClassOf(obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:0002088>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229457 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_229458 (thallium(III) nitrate)
@@ -7067,6 +7068,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_39429 <http://nmrML
 
 # Class: obo:CHEBI_41981 (dideuterium oxide)
 
+SubClassOf(obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:0002125>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:1000330>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_41981 <http://nmrML.org/nmrCV#NMR:1400033>)
 
@@ -7136,6 +7138,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_66872 <http://nmrML
 
 # Class: obo:CHEBI_77701 (nitromethane)
 
+SubClassOf(obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:0002126>)
 SubClassOf(obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:1000036>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:1400033>)
 
