@@ -62,6 +62,7 @@ CHEBI:85487  # 3-(trimethylsilyl)propionic acid
 CHEBI:38472  # acetonitrile
 CHEBI:16134  # ammonia
 CHEBI:85364  # ammonium bromide
+CHEBI:62946  # ammonium sulfate
 CHEBI:231509 # Ammonium pertechnetate
 CHEBI:53473  # beryllium sulfate
 CHEBI:231495 # Boron trifluoride etherate
@@ -84,6 +85,7 @@ CHEBI:29228  # hydrogen fluoride
 CHEBI:231512 # indium(III) nitrate
 CHEBI:231515 # lanthanum trichloride
 CHEBI:48607  # lithium chloride
+CHEBI:6636   # magnesium dichloride
 CHEBI:5115   # monofluorobenzene
 CHEBI:34856  # morpholine
 CHEBI:33310  # neon atom
