@@ -1037,6 +1037,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002005> <https:
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002005> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002005> "2024-08-22T15:10:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002005> "NMR calibration compound role"@en)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
 SubClassOf(Annotation(rdfs:comment "Manually asserted in nmrCV to have a more finegrained differentiation of the used calibration compounds."@en) Annotation(rdfs:isDefinedBy <http://nmrML.org/nmrCV>) <http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002006> (NMR chemical shift calibration compound role)
@@ -5419,6 +5420,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> obo:OBI_0000968)
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400013> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400013> "def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "NMR acquisition computer")
+SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400013> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> obo:OBI_0400107)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -5428,6 +5430,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400014> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400014> "def: Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile “single point of failure” that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
+SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400014> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> obo:OBI_0000832)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -6035,6 +6038,7 @@ AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400132> "http
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400132> "sample tube")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400132> "sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400132> "NMR sample tube")
+SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400132> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> obo:OBI_0000836)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -6637,6 +6641,7 @@ AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400255> "A manu
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400255> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400255> ObjectIntersectionOf(obo:OBI_0000835 ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))))))))
+SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400255> obo:OBI_0000835)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400262> (sample temperature information)
 
@@ -6928,6 +6933,7 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrM
 # Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
 
 AnnotationAssertion(obo:IAO_0000233 obo:CHEBI_228364 <https://github.com/nmrML/nmrCV/issues/4>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 SubClassOf(Annotation(rdfs:comment "\"chemical shift calibration compound role\" class was added as a grouping super class for \"NMR chemical shift reference compound\" which was imported from CHEBI due to the lack of fine classification of NMR roles in CHEBI. The same applies for the upper class \"calibration compound\".") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 
 # Class: obo:CHEBI_228806 (3-(trimethylsilyl)propane-1-sulfonate)
@@ -6962,6 +6968,86 @@ SubClassOf(obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:0002103>)
 SubClassOf(obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:0002104>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_229458 <http://nmrML.org/nmrCV#NMR:1400033>)
 
+# Class: obo:CHEBI_231495 (Boron trifluoride etherate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231495 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231498 (scandium nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231498 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231499 (titanium tetrachloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231499 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231502 (Potassium cobalticyanide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231502 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231503 (Cu(MeCN)4ClO4)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231503 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231504 (zinc nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231504 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231505 (gallium nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231505 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231506 (tetramethylgermane)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231506 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231507 (Sodium hexafluoroarsenate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231507 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231508 (Zirconocene dichloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231508 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231509 (Ammonium pertechnetate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231509 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231510 (Potassium hexacyanoruthenate(ii))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231510 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231511 (Potassium hexachloropalladate(IV))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231511 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231512 (indium(III) nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231512 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231513 (Kaliumhexachloroantimonat(V))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231513 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231514 (caesium nitrate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231514 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231515 (lanthanum trichloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231515 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231536 (Potassium;tantalum(5+);hexachloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231536 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231537 (Potassium perrhenate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231537 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_231538 (Bismut(III)-nitrat)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_231538 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_23367 (molecular entity)
 
 SubClassOf(obo:CHEBI_23367 obo:BFO_0000040)
@@ -6970,6 +7056,10 @@ SubClassOf(obo:CHEBI_23367 obo:BFO_0000040)
 
 SubClassOf(obo:CHEBI_26078 <http://nmrML.org/nmrCV#NMR:1000058>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_26078 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_26710 (sodium chloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_26710 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_29228 (hydrogen fluoride)
 
@@ -6988,6 +7078,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30236 <http://nmrML
 
 SubClassOf(obo:CHEBI_30251 <http://nmrML.org/nmrCV#NMR:0002085>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30251 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_30372 (tetracarbonylnickel)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_30372 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_30420 (tetramethyltin)
 
@@ -7011,6 +7105,10 @@ SubClassOf(obo:CHEBI_32130 <http://nmrML.org/nmrCV#NMR:0002089>)
 SubClassOf(obo:CHEBI_32130 <http://nmrML.org/nmrCV#NMR:0002090>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32130 <http://nmrML.org/nmrCV#NMR:1400033>)
 
+# Class: obo:CHEBI_32588 (potassium chloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32588 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_32954 (sodium acetate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32954 <http://nmrML.org/nmrCV#NMR:1400033>)
@@ -7018,6 +7116,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_32954 <http://nmrML
 # Class: obo:CHEBI_33093 (boron trifluoride)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33093 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_3312 (calcium dichloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_3312 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_33232 (application)
 
@@ -7031,6 +7133,10 @@ SubClassOf(obo:CHEBI_33250 obo:BFO_0000040)
 
 SubClassOf(obo:CHEBI_33252 obo:BFO_0000040)
 
+# Class: obo:CHEBI_33310 (neon atom)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33310 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_33681 (helium(0))
 
 SubClassOf(obo:CHEBI_33681 <http://nmrML.org/nmrCV#NMR:0002082>)
@@ -7039,6 +7145,10 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33681 <http://nmrML
 # Class: obo:CHEBI_34856 (morpholine)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_34856 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_36383 (strontium dichloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_36383 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_36601 (triphenylphosphane oxide)
 
@@ -7102,6 +7212,14 @@ SubClassOf(obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:0002083>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1000330>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48236 <http://nmrML.org/nmrCV#NMR:1400033>)
 
+# Class: obo:CHEBI_48607 (lithium chloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_48607 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_49696 (krypton atom)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_49696 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_51086 (chemical role)
 
 SubClassOf(obo:CHEBI_51086 obo:BFO_0000023)
@@ -7109,6 +7227,10 @@ SubClassOf(obo:CHEBI_51086 obo:BFO_0000023)
 # Class: obo:CHEBI_5115 (monofluorobenzene)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_5115 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_53473 (beryllium sulfate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_53473 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_55317 (tetramethylammonium bromide)
 
@@ -7123,9 +7245,17 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_59606 <http://nmrML
 
 SubClassOf(obo:CHEBI_59999 obo:BFO_0000040)
 
+# Class: obo:CHEBI_63004 (sodium bromide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63004 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_63005 (sodium nitrate)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63005 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_63317 (barium chloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63317 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_63940 (sodium tungstate)
 
@@ -7136,6 +7266,14 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63940 <http://nmrML
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_66872 <http://nmrML.org/nmrCV#NMR:1400033>)
 
+# Class: obo:CHEBI_75215 (sodium molybdate (anhydrous))
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_75215 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_75249 (potassium chromate)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_75249 <http://nmrML.org/nmrCV#NMR:1400033>)
+
 # Class: obo:CHEBI_77701 (nitromethane)
 
 SubClassOf(obo:CHEBI_77701 <http://nmrML.org/nmrCV#NMR:0002126>)
@@ -7145,6 +7283,14 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_77701 <http://nmrML
 # Class: obo:CHEBI_78217 (acetone d6)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_78217 <http://nmrML.org/nmrCV#NMR:1000330>)
+
+# Class: obo:CHEBI_78672 (rubidium chloride)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_78672 <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: obo:CHEBI_8346 (potassium iodide)
+
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_8346 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_85361 (tetramethylsilane)
 
