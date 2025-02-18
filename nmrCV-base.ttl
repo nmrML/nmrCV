@@ -1,51 +1,139 @@
-@prefix : <http://purl.obolibrary.org/obo/nmrCV/nmrCV-base.ttl#> .
+@prefix : <http://nmrML.org/nmrCV/nmrCV-base.ttl#> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://purl.obolibrary.org/obo/nmrCV/nmrCV-base.ttl> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@base <http://nmrML.org/nmrCV/nmrCV-base.ttl> .
 
-<http://purl.obolibrary.org/obo/nmrCV/nmrCV-base.ttl> rdf:type owl:Ontology ;
-                                                       owl:versionIRI <http://purl.obolibrary.org/obo/nmrCV/releases/2023-11-23/nmrCV-base.ttl> ;
-                                                       dce:type <http://purl.obolibrary.org/obo/IAO_8000001> ;
-                                                       dcterms:description "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model." ;
-                                                       dcterms:license <https://creativecommons.org/publicdomain/mark/1.0/> ;
-                                                       dcterms:title "nuclear magnetic resonance CV" ;
-                                                       owl:versionInfo "2023-11-23" .
+<http://nmrML.org/nmrCV/nmrCV-base.ttl> rdf:type owl:Ontology ;
+                                         owl:versionIRI <http://nmrML.org/nmrCV/releases/2025-02-18/nmrCV-base.ttl> ;
+                                         dce:contributor "Annick Moing" ,
+                                                         "Catherine Deborde" ,
+                                                         "Daniel Jacob" ,
+                                                         "Daniel Schober" ,
+                                                         "Joseph Cruz" ,
+                                                         "Michael Wilson" ,
+                                                         "Philippe Rocca-Serra" ,
+                                                         "Reza Salek" ,
+                                                         """Since this is a prolonged effort spanning a larger time period, there naturally were many people involved in the creation over the years and during different times.
+
+People involved in the term creation from ID >1400000 :
+
+This part of the  NMR ontology was originally developed by the ontology working group (http://msi-ontology.sourceforge.net/) of the msi-metabolomicssociety (msi-workgroups.sf.net):
+
+Daniel Schober (EBI)
+Chris Taylor (EBI and HUPO-PSI)
+Dennis Rubtsov (Un of Cambridge, UK)
+Helen Jenkins (Un of Wales, Aberystwyth, UK)
+Irena Spasic (Center for Integrative Systems Biology, Manchester, UK)
+Larissa Soldatova (University of Wales, Aberystwyth, UK)
+Philippe Rocca-Serra (EBI and MGED Society)
+Susanna-Assunta Sansone (EBI)
+
+People involved in the term creation from ID<1400000:
+
+Joseph Cruz
+Daniel Schober
+Michael Wilson
+Reza Salek
+Daniel Jacob
+David Wishart
+
+Terms with IDs  ID<1400000 that were NOT asserted in the original Wishart obo file were created by Daniel Schober (COSMOS WP2). Its IDs were autogenerated with the Protege ID generator. 
+
+Other people that substantially helped in revising the latest and Cosmos governed CV additions were:
+
+Michael Wilson, Wishart Group, Edmonton, Alberta, Canada
+Daniel Jacob, INRA, Bordeaux, France
+Annick Moing, INRA, Bordeaux, France
+Catherine Deborde, INRA, Bordeaux, France
+Reza Salek, EBI, Hinxton, UK
+Philippe Rocca-Serra, University of Oxford, Oxford, UK
+Andrea Porzel, IPB-Halle, Germany
+and the COSMOS WP2 team
+
+A paper describing the overall nmrML data standard and CV has been accepted by Analytical Chemistry (Manuscript ID: ac-2017-02795f.R1), title
+`nmrML: a community supported open data standard for the description, storage, and exchange of NMR data`, author(s): Schober, Daniel; Jacob, Daniel; Wilson, Michael; Cruz, Joseph; Marcu, Ana; Grant, Jason; Moing, Annick; Deborde, Catherine; de Figueiredo, Luis; Haug, Kenneth; Rocca-Serra, Philippe; Easton, John; Ebbels, Timothy; Hao, Jie; Ludwig, Christian; Günther, Ulrich; Rosato, Antonio; Klein, Matthias; Lewis, Ian; Luchinat, Claudio; Jones, Andrew; Grauslys, Arturas; Larralde, Martin; Yokochi, Masashi; Kobayashi, Naohiro; Porzel, Andrea; Griffin, Julian; Viant, Mark; Wishart, David; Steinbeck, Christoph; Salek, Reza; Neumann, Steffen""" ,
+                                                         "Steffen Neumann" ;
+                                         dce:coverage """Nuclear magnetic resonance (NMR) data annotation as required by the msi sanctioned open
+access nmrML XML format developed by the COSMOS EU project.""" ;
+                                         dce:type obo:IAO_8000001 ;
+                                         dcterms:description "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model." ;
+                                         dcterms:license <https://creativecommons.org/publicdomain/mark/1.0/> ;
+                                         dcterms:title "nuclear magnetic resonance CV" ;
+                                         doap:audience "This CV is to be used by metabolomics researchers, or basically any chenomics or proteomics researchers  who apply the  nmrML xml to store their NMRraw data in a vendor agnostic manner. But nmrML can also be used to capture experimental results  and (limited) basic metadata like molecule to spectral feature assignments." ;
+                                         doap:bug-database "https://github.com/nmrML/nmrML/issues" ;
+                                         doap:documenter "Daniel Schober" ;
+                                         doap:implements "https://github.com/nmrML/nmrML" ;
+                                         doap:location "https://github.com/nmrML/nmrCV" ;
+                                         doap:mailing-list "https://groups.google.com/forum/?hl=en#!forum/nmrml/join" ;
+                                         doap:maintainer "https://www.wikidata.org/wiki/Q96678459" ;
+                                         owl:deprecated "http://www.metabolomicscentre.ca/nmrML/msi-nmr.obo" ;
+                                         owl:versionInfo "2.0_alpha" ,
+                                                         "2025-02-18" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+dce:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/coverage
+dce:coverage rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/elements/1.1/type
 dce:type rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
-dcterms:description rdf:type owl:AnnotationProperty ;
-                    rdfs:label "description" .
+dcterms:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/license
-dcterms:license rdf:type owl:AnnotationProperty ;
-                rdfs:label "license" .
+dcterms:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
-dcterms:title rdf:type owl:AnnotationProperty ;
-              rdfs:label "title" .
+dcterms:title rdf:type owl:AnnotationProperty .
 
 
-#################################################################
-#    Classes
-#################################################################
-
-###  http://purl.obolibrary.org/obo/NMRCV_0000000
-<http://purl.obolibrary.org/obo/NMRCV_0000000> rdf:type owl:Class ;
-                                               rdfs:label "root node"@en .
+###  http://usefulinc.com/ns/doap#audience
+doap:audience rdf:type owl:AnnotationProperty .
 
 
-###  Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi
+###  http://usefulinc.com/ns/doap#bug-database
+doap:bug-database rdf:type owl:AnnotationProperty .
+
+
+###  http://usefulinc.com/ns/doap#documenter
+doap:documenter rdf:type owl:AnnotationProperty .
+
+
+###  http://usefulinc.com/ns/doap#implements
+doap:implements rdf:type owl:AnnotationProperty .
+
+
+###  http://usefulinc.com/ns/doap#location
+doap:location rdf:type owl:AnnotationProperty .
+
+
+###  http://usefulinc.com/ns/doap#mailing-list
+doap:mailing-list rdf:type owl:AnnotationProperty .
+
+
+###  http://usefulinc.com/ns/doap#maintainer
+doap:maintainer rdf:type owl:AnnotationProperty .
+
+
+###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi
