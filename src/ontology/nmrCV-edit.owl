@@ -183,6 +183,40 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002172>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002173>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002174>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002175>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002176>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002177>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002178>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002179>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002180>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002181>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002182>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002183>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002184>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002185>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002186>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002187>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002188>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002189>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002190>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002191>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002192>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002193>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002194>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002195>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002196>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002197>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002198>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002199>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002200>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002201>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002202>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002203>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002204>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002205>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002206>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002207>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002208>))
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002209>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1000002>))
@@ -1996,6 +2030,312 @@ AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002175> "2024-0
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002175> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 209Bi spectra. The children of this class were manually asserted.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002175> "209Bi spectrum chemical shift reference compound"@en)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:0002175> <http://nmrML.org/nmrCV#NMR:1400033>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002176> (single pulse excitation method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002176> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002176> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002176> "2025-03-06T23:05:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002176> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002176> "single pulse excitation method"@en)
+AnnotationAssertion(skos:example <http://nmrML.org/nmrCV#NMR:0002176> "In 1H-NMR, 13C-NMR")
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002176> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002177> (relaxation times measurement implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002177> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002177> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002177> "2025-03-06T23:08:58Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002177> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002177> "relaxation times measurement implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002177> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002178> (polarization transfer implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002178> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002178> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002178> "2025-03-06T23:11:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002178> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002178> "polarization transfer implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002178> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002179> (chemical shift correlation implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002179> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002179> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002179> "2025-03-06T23:14:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002179> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002179> "chemical shift correlation implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002179> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002180> (nuclear overhauser effect implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002180> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002180> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002180> "2025-03-06T23:15:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002180> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002180> "nuclear overhauser effect implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002180> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002181> (diffusion measurements implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002181> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002181> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002181> "2025-03-06T23:16:05Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002181> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002181> "diffusion measurements implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002181> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002182> (j-resolved spectroscopy implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002182> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002182> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002182> "2025-03-06T23:16:59Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002182> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002182> "j-resolved spectroscopy implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002182> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002183> (coherence transfer implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002183> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002183> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002183> "2025-03-06T23:17:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002183> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002183> "coherence transfer implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002183> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002184> (water suppression implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002184> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002184> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002184> "2025-03-06T23:22:18Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002184> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002184> "water suppression implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002184> obo:OBI_0001896)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002185> (longitudinal relaxation times (T1​) measurement implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002185> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002185> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002185> "2025-03-06T23:23:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002185> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002185> "longitudinal relaxation times (T1​) measurement implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002185> <http://nmrML.org/nmrCV#NMR:0002177>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002186> (transverse relaxation times (T2​) measurement implementing method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002186> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002186> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002186> "2025-03-06T23:25:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002186> "This is only a grouping class.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002186> "transverse relaxation times (T2​) measurement implementing method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002186> <http://nmrML.org/nmrCV#NMR:0002177>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002187> (inversion recovery method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002187> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002187> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002187> "2025-03-07T11:51:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002187> "inversion recovery method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002187> <http://nmrML.org/nmrCV#NMR:0002185>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002188> (spin echo method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002188> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002188> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002188> "2025-03-07T11:55:46Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002188> "Hahn echo method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002188> "spin echo method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002188> <http://nmrML.org/nmrCV#NMR:0002186>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002189> (Carr-Purcell-Meiboom-Gill method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002189> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002189> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002189> "2025-03-07T14:38:24Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002189> "CPMG method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002189> "Carr-Purcell-Meiboom-Gill method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002189> <http://nmrML.org/nmrCV#NMR:0002186>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002190> (distortionless enhancement by polarization transfer method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002190> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002190> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002190> "2025-03-07T14:41:39Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002190> <DEPT method>)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002190> "distortionless enhancement by polarization transfer method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002190> <http://nmrML.org/nmrCV#NMR:0002178>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002191> (attached proton test method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002191> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002191> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002191> "2025-03-07T14:43:04Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002191> "APT method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002191> "attached proton test method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002191> <http://nmrML.org/nmrCV#NMR:0002178>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002192> (insensitive nuclei enhancement by polarization transfer method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002192> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002192> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002192> "2025-03-07T14:46:28Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002192> "INEPT method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002192> "insensitive nuclei enhancement by polarization transfer method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002192> <http://nmrML.org/nmrCV#NMR:0002178>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002192> <http://nmrML.org/nmrCV#NMR:0002183>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002193> (inverse insensitive nuclei enhancement by polarization transfer method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002193> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002193> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002193> "2025-03-07T14:47:25Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002193> "Inverse-INEPT method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002193> "inverse insensitive nuclei enhancement by polarization transfer method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002193> <http://nmrML.org/nmrCV#NMR:0002178>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002194> (heteronuclear correlation method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002194> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002194> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002194> "2025-03-07T14:48:50Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002194> "HETCOR method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002194> "heteronuclear correlation method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002194> <http://nmrML.org/nmrCV#NMR:0002178>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002194> <http://nmrML.org/nmrCV#NMR:0002179>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002195> (heteronuclear single quantum coherence method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002195> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002195> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002195> "2025-03-07T14:49:47Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002195> "HSQC method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002195> "heteronuclear single quantum coherence method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002195> <http://nmrML.org/nmrCV#NMR:0002178>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002195> <http://nmrML.org/nmrCV#NMR:0002179>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002195> <http://nmrML.org/nmrCV#NMR:0002183>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002196> (correlation spectroscopy method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002196> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002196> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002196> "2025-03-07T15:31:49Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002196> "COSY method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002196> "correlation spectroscopy method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002196> <http://nmrML.org/nmrCV#NMR:0002179>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002197> (heteronuclear multiple bond correlation method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002197> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002197> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002197> "2025-03-07T15:38:12Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002197> "HMBC method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002197> "heteronuclear multiple bond correlation method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002197> <http://nmrML.org/nmrCV#NMR:0002179>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002197> <http://nmrML.org/nmrCV#NMR:0002183>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002198> (total correlation spectroscopy method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002198> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002198> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002198> "2025-03-07T15:41:19Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002198> "TOCSY method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002198> "total correlation spectroscopy method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002198> <http://nmrML.org/nmrCV#NMR:0002179>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002198> <http://nmrML.org/nmrCV#NMR:0002183>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002199> (nuclear overhauser effect spectroscopy method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002199> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002199> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002199> "2025-03-07T15:57:58Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002199> "NOESY method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002199> "nuclear overhauser effect spectroscopy method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002199> <http://nmrML.org/nmrCV#NMR:0002180>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002200> (rotating-frame overhauser enhancement spectroscopy method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002200> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002200> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002200> "2025-03-07T16:18:34Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002200> "ROESY method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002200> "rotating-frame overhauser enhancement spectroscopy method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002200> <http://nmrML.org/nmrCV#NMR:0002180>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002201> (nuclear overhauser effect method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002201> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002201> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002201> "2025-03-07T16:19:21Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002201> "NOE method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002201> "nuclear overhauser effect method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002201> <http://nmrML.org/nmrCV#NMR:0002180>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002202> (diffusion-ordered spectroscopy method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002202> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002202> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002202> "2025-03-07T17:08:13Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002202> "DOSY method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002202> "diffusion-ordered spectroscopy method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002202> <http://nmrML.org/nmrCV#NMR:0002181>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002203> (j-resolved method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002203> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002203> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002203> "2025-03-07T17:10:16Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002203> "j-resolved method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002203> <http://nmrML.org/nmrCV#NMR:0002182>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002204> (heteronuclear multiple quantum coherence method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002204> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002204> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002204> "2025-03-07T17:12:19Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:0002204> "HMQC method")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002204> "heteronuclear multiple quantum coherence method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002204> <http://nmrML.org/nmrCV#NMR:0002183>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002205> (PRESAT method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002205> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002205> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002205> "2025-03-07T17:21:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002205> "PRESAT method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002205> <http://nmrML.org/nmrCV#NMR:0002184>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002206> (excitation sculpting method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002206> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002206> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002206> "2025-03-07T17:22:13Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002206> "excitation sculpting method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002206> <http://nmrML.org/nmrCV#NMR:0002184>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002207> (watergate method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002207> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002207> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002207> "2025-03-07T17:22:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002207> "watergate method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002207> <http://nmrML.org/nmrCV#NMR:0002184>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002208> (water suppression enhanced through T1 effects method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002208> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002208> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002208> "2025-03-07T17:22:59Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002208> "water suppression enhanced through T1 effects method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002208> <http://nmrML.org/nmrCV#NMR:0002184>)
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002209> (jump and return method)
+
+AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002209> <https://github.com/nmrML/nmrCV/issues/56>)
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002209> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002209> "2025-03-07T17:27:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002209> "jump and return method"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002209> <http://nmrML.org/nmrCV#NMR:0002184>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1000000> (integer32)
 

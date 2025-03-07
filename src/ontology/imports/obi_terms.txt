@@ -9,3 +9,4 @@ OBI:0000832 # 'measurement device'
 OBI:0400107 # computer
 OBI:0000836 # test tube
 OBI:0000304 # is_manufactured_by
+OBI:0001896 # investigation assay specification
