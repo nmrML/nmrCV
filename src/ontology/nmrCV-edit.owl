@@ -52,7 +52,7 @@ Annotation(doap:bug-database "https://github.com/nmrML/nmrCV/issues")
 Annotation(doap:implements "https://github.com/nmrML/nmrML")
 Annotation(doap:location "https://github.com/nmrML/nmrCV")
 Annotation(doap:maintainer <https://www.wikidata.org/wiki/Q96678459>)
-Annotation(owl:priorVersion <http://nmrML.org/nmrCV>)
+Annotation(owl:priorVersion <http://nmrML.org/nmrCV_v1.1.owl>)
 Annotation(owl:versionInfo "2.0_alpha")
 
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
