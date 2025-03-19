@@ -48,7 +48,7 @@ access nmrML XML format developed by the COSMOS EU project.</dce:coverage>
         <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
         <dcterms:references>https://doi.org/10.1021/acs.analchem.7b02795</dcterms:references>
         <dcterms:title>nuclear magnetic resonance CV</dcterms:title>
-        <vann:preferredNamespacePrefix>NMR</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix>nmrCV</vann:preferredNamespacePrefix>
         <doap:audience>This CV is to be used by metabolomics researchers, or basically any chenomics or proteomics researchers  who apply the  nmrML xml to store their NMRraw data in a vendor agnostic manner. But nmrML can also be used to capture experimental results  and (limited) basic metadata like molecule to spectral feature assignments.</doap:audience>
         <doap:bug-database>https://github.com/nmrML/nmrCV/issues</doap:bug-database>
         <doap:implements>https://github.com/nmrML/nmrML</doap:implements>

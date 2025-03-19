@@ -63,7 +63,7 @@ property_value: doap:maintainer https://www.wikidata.org/wiki/Q96678459
 property_value: owl:priorVersion nmrCV:v1.1.owl
 property_value: owl:versionInfo "2.0_alpha" xsd:string
 property_value: owl:versionInfo "2025-03-17" xsd:string
-property_value: vann:preferredNamespacePrefix "NMR" xsd:string
+property_value: vann:preferredNamespacePrefix "nmrCV" xsd:string
 
 [Term]
 id: BFO:0000001
