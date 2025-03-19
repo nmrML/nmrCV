@@ -20,13 +20,13 @@ Import(<http://nmrML.org/nmrCV/imports/iao_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/obi_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/omo_import.owl>)
 Import(<http://nmrML.org/nmrCV/imports/ro_import.owl>)
-Annotation(dce:contributor "Joseph Cruz")
-Annotation(dce:contributor "Michael Wilson")
 Annotation(dce:contributor "Chris Taylor")
 Annotation(dce:contributor "Dennis Rubtsov")
 Annotation(dce:contributor "Helen Jenkins")
 Annotation(dce:contributor "Irena Spasic")
+Annotation(dce:contributor "Joseph Cruz")
 Annotation(dce:contributor "Larissa Soldatova")
+Annotation(dce:contributor "Michael Wilson")
 Annotation(dce:coverage "Nuclear magnetic resonance (NMR) data annotation as required by the msi sanctioned open
 access nmrML XML format developed by the COSMOS EU project.")
 Annotation(dce:creator "COSMOS - COordination Of Standards In MetabOlomicS Project - WP2 team")
@@ -55,6 +55,7 @@ Annotation(doap:maintainer <https://www.wikidata.org/wiki/Q96678459>)
 Annotation(owl:priorVersion <http://nmrML.org/nmrCV_v1.1.owl>)
 Annotation(owl:versionInfo "2.0_alpha")
 
+Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002000>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002001>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002002>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002003>))
@@ -878,7 +879,6 @@ Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400318>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400319>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400320>))
 Declaration(Class(<http://nmrML.org/nmrCV#NMR:1400321>))
-Declaration(Class(<http://nmrML.org/nmrCV#NMR:0002000>))
 Declaration(Class(oboInOwl:ObsoleteClass))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003000>))
 Declaration(NamedIndividual(<http://nmrML.org/nmrCV#NMR:0003001>))
@@ -988,6 +988,15 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
+
+# Class: <http://nmrML.org/nmrCV#NMR:0002000> (87Sr spectrum chemical shift reference compound)
+
+AnnotationAssertion(Annotation(dcterms:source <https://www.degruyter.com/document/doi/10.1351/pac200880010059/html>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002000> "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations.")
+AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002000> <https://orcid.org/0009-0001-5998-5030>)
+AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002000> "2025-02-17T15:49:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002000> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted.")
+AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002000> "87Sr spectrum chemical shift reference compound"@en)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:0002000> <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002001> (characterized compound)
 
@@ -6808,15 +6817,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400320> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400321> "Bruker WIN NMR format")
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400321> <http://nmrML.org/nmrCV#NMR:1400285>)
 
-# Class: <http://nmrML.org/nmrCV#NMR:0002000> (87Sr spectrum chemical shift reference compound)
-
-AnnotationAssertion(Annotation(dcterms:source <https://www.degruyter.com/document/doi/10.1351/pac200880010059/html>) obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:0002000> "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations.")
-AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002000> <https://orcid.org/0009-0001-5998-5030>)
-AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002000> "2025-02-17T15:49:36Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:0002000> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted.")
-AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002000> "87Sr spectrum chemical shift reference compound"@en)
-SubClassOf(<http://nmrML.org/nmrCV#NMR:0002000> <http://nmrML.org/nmrCV#NMR:1400033>)
-
 # Class: obo:CHEBI_156265 (methanol-d4)
 
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_156265 <http://nmrML.org/nmrCV#NMR:1000330>)
@@ -7146,8 +7146,8 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_33681 <http://nmrML
 
 # Class: obo:CHEBI_36383 (strontium dichloride)
 
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_36383 <http://nmrML.org/nmrCV#NMR:1400033>)
 SubClassOf(obo:CHEBI_36383 <http://nmrML.org/nmrCV#NMR:0002000>)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_36383 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_38589 (hexafluorobenzene)
 
