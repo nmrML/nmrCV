@@ -3,6 +3,9 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+## Adjust version IRI path to be in line with the nmrML website where the versions are going to be published (GH pages)
+## and add a dcterms:created annotation although it is redundant since we use date based versioning
+ANNOTATE_ONTOLOGY_VERSION = annotate -V http://nmrml.org/cv/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) --annotation http://purl.org/dc/terms/created $(VERSION)
 
 ## Module for ontology: obi
 ## Since the default extract BOT method imports too many unneeded terms, we customize the import module build process by
