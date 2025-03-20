@@ -29,10 +29,6 @@ $(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms.txt
 # If other axioms are needed in the future the nmrCV editors need to make sure to include the needed object properties 
 # and classes used in these, which is quite a time consuming task, but needed, as ROBOT extract pulls in too much 
 # and the CHEBI module would otherwise be too big to load. 
-# Since we also define classes based on the roles borne by some CHEBI terms, e.g. a 'chemical shift reference compound'
-# is equivalent to "'molecular entity' and ('has role' some ''NMR chemical shift reference compound [role]')" 
-# we additionally run a reasoning step to materialize the subclassOf axioms needed to group these CHEBI terms under 
-# the classes we define.
  
 $(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl $(IMPORTDIR)/chebi_terms_combined.txt
 	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) \
@@ -43,5 +39,11 @@ $(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl $(IMPORTDIR)/chebi_terms_c
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
 		    --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
-	$(ROBOT) reason --reasoner ELK -i $(SRC) --exclude-duplicate-axioms true --exclude-tautologies all --equivalent-classes-allowed asserted-only \
-	--annotate-inferred-axioms true --axiom-generators "SubClass" convert -f ofn --output $(SRC)
+		
+		
+# Since we also define classes based on the roles borne by some CHEBI terms, e.g. a 'chemical shift reference compound'
+# is equivalent to "'molecular entity' and ('has role' some ''NMR chemical shift reference compound [role]')" 
+# we manually run a reasoning step to materialize the subclassOf axioms needed to group these CHEBI terms under 
+# the classes we define.
+# $(ROBOT) reason --reasoner ELK -i $(SRC) --exclude-tautologies all --equivalent-classes-allowed asserted-only \
+# --annotate-inferred-axioms true --axiom-generators "SubClass" convert -f ofn --output $(SRC)
