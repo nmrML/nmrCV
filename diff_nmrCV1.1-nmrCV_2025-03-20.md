@@ -2,12 +2,12 @@
 
 ## Left
 - Ontology IRI: `http://nmrML.org/nmrCV`
-- Version IRI: *None*
-- Loaded from: `file:/work/nmrCV_v1.1.owl`
+- Version IRI: `http://nmrml.org/cv/v1.1.0/nmrCV.owl`
+- Loaded from: `file:/work/nmrCV_v1.1.0.owl`
 
 ## Right
 - Ontology IRI: `http://nmrML.org/nmrCV.owl`
-- Version IRI: `http://nmrML.org/nmrCV/releases/2025-03-17/nmrCV.owl`
+- Version IRI: `http://nmrml.org/cv/2025-03-20/nmrCV.owl`
 - Loaded from: `file:/work/nmrCV.owl`
 
 ### Ontology imports 
@@ -180,7 +180,13 @@ access nmrML XML format developed by the COSMOS EU project."
 
 - [creator](http://purl.org/dc/elements/1.1/creator) "COSMOS - COordination Of Standards In MetabOlomicS Project - WP2 team" 
 
-- [abstract](http://purl.org/dc/terms/abstract) "WORK IN PROGRESS: This version of the Nuclear Magnetic Resonance Controlled Vocabulary is an ontology that covers the scope of NMR Spectrocopy by defining terms needed to describe NMR Spectroscopy experiments and their outputs with sufficient details to be considered FAIR in the context of research data managment. It is the successor to the version used within nmrML to annotated NMR data, since the NFDI4Chem project identified gaps in the previous version that needed to be filled in a manner that allows nmrCV in a modular way along with other existing OBO/BFO based ontologies." 
+- [abstract](http://purl.org/dc/terms/abstract) "With this artifact, the Nuclear Magnetic Resonance Controlled Vocabulary (nmrCV) is undergoing a significant evolution to become an ontology designed to describe NMR spectroscopy experiments and their outputs in detail, supporting FAIR research data management. Initially, nmrCV v1.1.0 was deliberately designed as a controlled vocabulary, not a formal ontology with Description Logic (DL) semantics. It was approved by th Metabolomics Standards Initiative (MSI) and serves to provide descriptors for the nuclear magnetic resonance markup language (nmrML), enabling vendor-agnostic NMR data sharing, particularly within NMR metabolomics. Since version 1.1.0, nmrCV had not been updated nor actively maintained.
+
+Recognizing the need for a DL-enabled NMR spectroscopy ontology suitable for use independently of nmrML within a larger ontology framework, and addressing the limitations of the original controlled vocabulary, Germany's National Research Data Infrastructure project for Chemistry (NFDI4Chem) took on the responsibility for nmrCV's further development and maintenance. This decision was made after a discussion about its optimal integration within the broader ontology landscape at the third Ontologies4Chem workshop in fall 2023.
+
+The decision to build upon nmrCV v1.1.0 was based on its existing definition of essential concepts, its BFO alignment, and its planned integration with ontologies like the Ontology for Biomedical Investigations (OBI) and the Chemical Entities of Biological Interest (ChEBI). Improvements in the present version include replacing out-of-scope and placeholder terms with more suitable equivalents from established ontologies like OBI and ChEBI, adhering to the OBO Foundry principles, corrections regarding the BFO subsumption and other established ontology design patterns, as well as the introduction of DL semantics.
+
+⚠️ Compatibility Note: Due to these significant changes, which prioritize ontology rigor over nmrML alignment, this and future versions of nmrCV may introduce breaking changes for nmrML users. Therefore, nmrML users are strongly advised to thoroughly test new nmrCV versions before production deployment. Alternatively, users may choose to continue using nmrCV v1.1.0, which was specifically designed for nmrML compatibility."@en 
 
 - [contributor](http://purl.org/dc/terms/contributor) [Susanna-Assunta Sansone](https://orcid.org/0000-0001-5306-5690) 
 
@@ -202,9 +208,7 @@ access nmrML XML format developed by the COSMOS EU project."
 
 - [contributor](http://purl.org/dc/terms/contributor) [Noura Rayya](https://orcid.org/0009-0001-5998-5030) 
 
-- [created](http://purl.org/dc/terms/created) "2025-03-17"^^[date](http://www.w3.org/2001/XMLSchema#date) 
-
-- [description](http://purl.org/dc/terms/description) "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model." 
+- [created](http://purl.org/dc/terms/created) "2025-03-20" 
 
 - [license](http://purl.org/dc/terms/license) [<https://creativecommons.org/publicdomain/mark/1.0/>](https://creativecommons.org/publicdomain/mark/1.0/) 
 
@@ -220,11 +224,11 @@ access nmrML XML format developed by the COSMOS EU project."
 
 - [maintainer](http://usefulinc.com/ns/doap#maintainer) [NFDI4Chem](https://www.wikidata.org/wiki/Q96678459) 
 
-- [priorVersion](http://www.w3.org/2002/07/owl#priorVersion) [nmrCV_v1.1.owl](http://nmrML.org/nmrCV_v1.1.owl) 
+- [priorVersion](http://www.w3.org/2002/07/owl#priorVersion) [nmrCV.owl](https://nmrml.org/cv/v1.1.0/nmrCV.owl) 
 
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2.0_alpha" 
 
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2025-03-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2025-03-20" 
 
 
 ###  2,2-Dimethyl-2-silapentane-5-sulfonate `http://nmrML.org/nmrCV#NMR:1000429`
@@ -2827,23 +2831,23 @@ access nmrML XML format developed by the COSMOS EU project."
 - [87Rb spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002145) SubClassOf [chemical shift standard](http://nmrML.org/nmrCV#NMR:1400033) 
 
 
-### 87Sr spectrum chemical shift reference compound `http://nmrML.org/nmrCV#NMRCV:0002000`
+### 87Sr spectrum chemical shift reference compound `http://nmrML.org/nmrCV#NMR:0002000`
 
 #### Added
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) [label](http://www.w3.org/2000/01/rdf-schema#label) "87Sr spectrum chemical shift reference compound"@en 
-
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations." 
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A chemical shift reference compound used for 87Sr spectra according to IUPAC recommendations." 
   - [source](http://purl.org/dc/terms/source) [html](https://www.degruyter.com/document/doi/10.1351/pac200880010059/html) 
 
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) [created](http://purl.org/dc/terms/created) "2025-02-17T15:49:36Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) [label](http://www.w3.org/2000/01/rdf-schema#label) "87Sr spectrum chemical shift reference compound"@en 
 
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) [contributor](http://purl.org/dc/terms/contributor) [Noura Rayya](https://orcid.org/0009-0001-5998-5030) 
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted." 
 
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted." 
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) [created](http://purl.org/dc/terms/created) "2025-02-17T15:49:36Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
 
-- Class: [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) 
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) [contributor](http://purl.org/dc/terms/contributor) [Noura Rayya](https://orcid.org/0009-0001-5998-5030) 
 
-- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) SubClassOf [chemical shift standard](http://nmrML.org/nmrCV#NMR:1400033) 
+- Class: [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) 
+
+- [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) SubClassOf [chemical shift standard](http://nmrML.org/nmrCV#NMR:1400033) 
 
 
 ### 89Y spectrum chemical shift reference compound `http://nmrML.org/nmrCV#NMR:0002087`
@@ -17938,11 +17942,11 @@ Cons sometimes specifies a quality which is not a realizable."@en
 
 - [strontium dichloride](http://purl.obolibrary.org/obo/CHEBI_36383) SubClassOf [main group molecular entity](http://purl.obolibrary.org/obo/CHEBI_33579) 
 
+- [strontium dichloride](http://purl.obolibrary.org/obo/CHEBI_36383) SubClassOf [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMR:0002000) 
+
 - [strontium dichloride](http://purl.obolibrary.org/obo/CHEBI_36383) SubClassOf [polyatomic entity](http://purl.obolibrary.org/obo/CHEBI_36357) 
 
 - [strontium dichloride](http://purl.obolibrary.org/obo/CHEBI_36383) SubClassOf [inorganic molecular entity](http://purl.obolibrary.org/obo/CHEBI_24835) 
-
-- [strontium dichloride](http://purl.obolibrary.org/obo/CHEBI_36383) SubClassOf [87Sr spectrum chemical shift reference compound](http://nmrML.org/nmrCV#NMRCV:0002000) 
 
 
 ### subject `http://purl.org/dc/elements/1.1/subject`

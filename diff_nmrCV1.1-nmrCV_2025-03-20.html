@@ -32,13 +32,13 @@ h3 {
 <h3>Left</h3>
 <ul>
 <li>Ontology IRI: &lt;http://nmrML.org/nmrCV&gt;</li>
-<li>Version IRI: <i>None</i></li>
-<li>Loaded from: &lt;file:/work/nmrCV_v1.1.owl&gt;</li>
+<li>Version IRI: &lt;http://nmrml.org/cv/v1.1.0/nmrCV.owl&gt;</li>
+<li>Loaded from: &lt;file:/work/nmrCV_v1.1.0.owl&gt;</li>
 </ul>
 <h3>Right</h3>
 <ul>
 <li>Ontology IRI: &lt;http://nmrML.org/nmrCV.owl&gt;</li>
-<li>Version IRI: &lt;http://nmrML.org/nmrCV/releases/2025-03-17/nmrCV.owl&gt;</li>
+<li>Version IRI: &lt;http://nmrml.org/cv/2025-03-20/nmrCV.owl&gt;</li>
 <li>Loaded from: &lt;file:/work/nmrCV.owl&gt;</li>
 </ul>
 <div class="frame">
@@ -187,7 +187,13 @@ http://www.cosmos-fp7.eu/WP2"^^<a href="http://www.w3.org/2001/XMLSchema#string"
 <li><span class="axiom"><a href="http://purl.org/dc/elements/1.1/coverage">coverage</a> "Nuclear magnetic resonance (NMR) data annotation as required by the msi sanctioned open
 access nmrML XML format developed by the COSMOS EU project."</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/elements/1.1/creator">creator</a> "COSMOS - COordination Of Standards In MetabOlomicS Project - WP2 team"</span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://purl.org/dc/terms/abstract">abstract</a> "WORK IN PROGRESS: This version of the Nuclear Magnetic Resonance Controlled Vocabulary is an ontology that covers the scope of NMR Spectrocopy by defining terms needed to describe NMR Spectroscopy experiments and their outputs with sufficient details to be considered FAIR in the context of research data managment. It is the successor to the version used within nmrML to annotated NMR data, since the NFDI4Chem project identified gaps in the previous version that needed to be filled in a manner that allows nmrCV in a modular way along with other existing OBO/BFO based ontologies."</span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://purl.org/dc/terms/abstract">abstract</a> "With this artifact, the Nuclear Magnetic Resonance Controlled Vocabulary (nmrCV) is undergoing a significant evolution to become an ontology designed to describe NMR spectroscopy experiments and their outputs in detail, supporting FAIR research data management. Initially, nmrCV v1.1.0 was deliberately designed as a controlled vocabulary, not a formal ontology with Description Logic (DL) semantics. It was approved by th Metabolomics Standards Initiative (MSI) and serves to provide descriptors for the nuclear magnetic resonance markup language (nmrML), enabling vendor-agnostic NMR data sharing, particularly within NMR metabolomics. Since version 1.1.0, nmrCV had not been updated nor actively maintained.
+
+Recognizing the need for a DL-enabled NMR spectroscopy ontology suitable for use independently of nmrML within a larger ontology framework, and addressing the limitations of the original controlled vocabulary, Germany's National Research Data Infrastructure project for Chemistry (NFDI4Chem) took on the responsibility for nmrCV's further development and maintenance. This decision was made after a discussion about its optimal integration within the broader ontology landscape at the third Ontologies4Chem workshop in fall 2023.
+
+The decision to build upon nmrCV v1.1.0 was based on its existing definition of essential concepts, its BFO alignment, and its planned integration with ontologies like the Ontology for Biomedical Investigations (OBI) and the Chemical Entities of Biological Interest (ChEBI). Improvements in the present version include replacing out-of-scope and placeholder terms with more suitable equivalents from established ontologies like OBI and ChEBI, adhering to the OBO Foundry principles, corrections regarding the BFO subsumption and other established ontology design patterns, as well as the introduction of DL semantics.
+
+⚠️ Compatibility Note: Due to these significant changes, which prioritize ontology rigor over nmrML alignment, this and future versions of nmrCV may introduce breaking changes for nmrML users. Therefore, nmrML users are strongly advised to thoroughly test new nmrCV versions before production deployment. Alternatively, users may choose to continue using nmrCV v1.1.0, which was specifically designed for nmrML compatibility."@en</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0000-0001-5306-5690">Susanna-Assunta Sansone</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0000-0001-5687-9059">Catherine Deborde</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0000-0001-8604-1732">Reza Salek</a></span> <ul></ul> </li>
@@ -198,8 +204,7 @@ access nmrML XML format developed by the COSMOS EU project."</span> <ul></ul> </
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0000-0002-8148-6895">Andrea Porzel</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0000-0003-1144-3600">Annick Moing</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0009-0001-5998-5030">Noura Rayya</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://purl.org/dc/terms/created">created</a> "2025-03-17"^^<a href="http://www.w3.org/2001/XMLSchema#date">date</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://purl.org/dc/terms/description">description</a> "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model."</span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://purl.org/dc/terms/created">created</a> "2025-03-20"</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/license">license</a> <a href="https://creativecommons.org/publicdomain/mark/1.0/">&lt;https://creativecommons.org/publicdomain/mark/1.0/&gt;</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/references">references</a> "https://doi.org/10.1021/acs.analchem.7b02795"</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.org/dc/terms/title">title</a> "nuclear magnetic resonance CV"</span> <ul></ul> </li>
@@ -207,9 +212,9 @@ access nmrML XML format developed by the COSMOS EU project."</span> <ul></ul> </
 <li><span class="axiom"><a href="http://usefulinc.com/ns/doap#bug-database">bug-database</a> "https://github.com/nmrML/nmrCV/issues"</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://usefulinc.com/ns/doap#location">location</a> "https://github.com/nmrML/nmrCV"</span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://usefulinc.com/ns/doap#maintainer">maintainer</a> <a href="https://www.wikidata.org/wiki/Q96678459">NFDI4Chem</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://www.w3.org/2002/07/owl#priorVersion">priorVersion</a> <a href="http://nmrML.org/nmrCV_v1.1.owl">nmrCV_v1.1.owl</a></span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://www.w3.org/2002/07/owl#priorVersion">priorVersion</a> <a href="https://nmrml.org/cv/v1.1.0/nmrCV.owl">nmrCV.owl</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://www.w3.org/2002/07/owl#versionInfo">versionInfo</a> "2.0_alpha"</span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://www.w3.org/2002/07/owl#versionInfo">versionInfo</a> "2025-03-17"</span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://www.w3.org/2002/07/owl#versionInfo">versionInfo</a> "2025-03-20"</span> <ul></ul> </li>
         </ul>
         
         </div>
@@ -2307,18 +2312,18 @@ access nmrML XML format developed by the COSMOS EU project."</span> <ul></ul> </
         </div>
 
 <div class="frame">
-        <h3>87Sr spectrum chemical shift reference compound <span class="frame-iri">- http://nmrML.org/nmrCV#NMRCV:0002000</span></h3>
+        <h3>87Sr spectrum chemical shift reference compound <span class="frame-iri">- http://nmrML.org/nmrCV#NMR:0002000</span></h3>
         
         
         <h4 class="status-header">Added</h4>
         <ul>
-        <li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> "87Sr spectrum chemical shift reference compound"@en</span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.obolibrary.org/obo/IAO_0000115">definition</a> "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations."</span> <ul><li><span class="axiom"><a href="http://purl.org/dc/terms/source">source</a> <a href="https://www.degruyter.com/document/doi/10.1351/pac200880010059/html">html</a></span> <ul></ul> </li></ul> </li>
-<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.org/dc/terms/created">created</a> "2025-02-17T15:49:36Z"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">dateTime</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0009-0001-5998-5030">Noura Rayya</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://www.w3.org/2000/01/rdf-schema#comment">comment</a> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted."</span> <ul></ul> </li>
-<li><span class="axiom">Class: <a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a> SubClassOf <a href="http://nmrML.org/nmrCV#NMR:1400033">chemical shift standard</a></span> <ul></ul> </li>
+        <li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.obolibrary.org/obo/IAO_0000115">definition</a> "A chemical shift reference compound used for 87Sr spectra according to IUPAC recommendations."</span> <ul><li><span class="axiom"><a href="http://purl.org/dc/terms/source">source</a> <a href="https://www.degruyter.com/document/doi/10.1351/pac200880010059/html">html</a></span> <ul></ul> </li></ul> </li>
+<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://www.w3.org/2000/01/rdf-schema#label">label</a> "87Sr spectrum chemical shift reference compound"@en</span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://www.w3.org/2000/01/rdf-schema#comment">comment</a> "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted."</span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.org/dc/terms/created">created</a> "2025-02-17T15:49:36Z"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">dateTime</a></span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> <a href="http://purl.org/dc/terms/contributor">contributor</a> <a href="https://orcid.org/0009-0001-5998-5030">Noura Rayya</a></span> <ul></ul> </li>
+<li><span class="axiom">Class: <a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a></span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a> SubClassOf <a href="http://nmrML.org/nmrCV#NMR:1400033">chemical shift standard</a></span> <ul></ul> </li>
         </ul>
         
         </div>
@@ -13736,9 +13741,9 @@ Cons sometimes specifies a quality which is not a realizable."@en</span> <ul></u
 <li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> <a href="http://purl.obolibrary.org/obo/chebi/mass">mass</a> "158.52540"</span> <ul></ul> </li>
 <li><span class="axiom">Class: <a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> SubClassOf <a href="http://purl.obolibrary.org/obo/CHEBI_33579">main group molecular entity</a></span> <ul></ul> </li>
+<li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> SubClassOf <a href="http://nmrML.org/nmrCV#NMR:0002000">87Sr spectrum chemical shift reference compound</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> SubClassOf <a href="http://purl.obolibrary.org/obo/CHEBI_36357">polyatomic entity</a></span> <ul></ul> </li>
 <li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> SubClassOf <a href="http://purl.obolibrary.org/obo/CHEBI_24835">inorganic molecular entity</a></span> <ul></ul> </li>
-<li><span class="axiom"><a href="http://purl.obolibrary.org/obo/CHEBI_36383">strontium dichloride</a> SubClassOf <a href="http://nmrML.org/nmrCV#NMRCV:0002000">87Sr spectrum chemical shift reference compound</a></span> <ul></ul> </li>
         </ul>
         
         </div>
