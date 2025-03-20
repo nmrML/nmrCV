@@ -7,9 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://nmrML.org/nmrCV/imports/chebi_import.owl>
-<http://nmrml.org/cv/2025-03-20/imports/chebi_import.owl>
-Annotation(<http://purl.org/dc/terms/created> "2025-03-20")
-Annotation(owl:versionInfo "2025-03-20")
+<http://nmrML.org/nmrCV/releases/2025-03-17/imports/chebi_import.owl>
+Annotation(owl:versionInfo "2025-03-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_139358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_156265>))
@@ -202,7 +201,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/inchikey>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/mass>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/monoisotopicmass>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/smiles>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))

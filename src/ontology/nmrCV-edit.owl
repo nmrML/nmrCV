@@ -1038,7 +1038,6 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002005> <https:
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002005> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002005> "2024-08-22T15:10:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002005> "NMR calibration compound role"@en)
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
 SubClassOf(Annotation(rdfs:comment "Manually asserted in nmrCV to have a more finegrained differentiation of the used calibration compounds."@en) Annotation(rdfs:isDefinedBy <http://nmrML.org/nmrCV>) <http://nmrML.org/nmrCV#NMR:0002005> obo:CHEBI_51086)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002006> (NMR chemical shift calibration compound role)
@@ -1048,7 +1047,6 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:0002006> <https:
 AnnotationAssertion(dcterms:contributor <http://nmrML.org/nmrCV#NMR:0002006> <https://orcid.org/0009-0001-5998-5030>)
 AnnotationAssertion(dcterms:created <http://nmrML.org/nmrCV#NMR:0002006> "2024-08-22T15:12:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:0002006> "NMR chemical shift calibration compound role"@en)
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002005>)
 SubClassOf(Annotation(rdfs:comment "Manually asserted in nmrCV to have a more finegrained differentiation of the used calibration compounds.") Annotation(rdfs:isDefinedBy <http://nmrML.org/nmrCV>) <http://nmrML.org/nmrCV#NMR:0002006> <http://nmrML.org/nmrCV#NMR:0002005>)
 
 # Class: <http://nmrML.org/nmrCV#NMR:0002007> (NMR concentration calibration compound role)
@@ -5376,7 +5374,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400002> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400002> "def: An optional  part of an NMR instrument used to hold samples prior to NMR analysis and that sequentially loads these samples into the analytical part of the NMR instrument.
    altdef: The autosampler is an automatic sample changer.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400002> "NMR autosampler")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400002> <http://nmrML.org/nmrCV#NMR:1400001>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400002> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400006> (multiplicity feature)
 
@@ -5422,7 +5420,6 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400011> obo:OBI_0000968)
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400013> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400013> "def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400013> "NMR acquisition computer")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400013> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> obo:OBI_0400107)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400013> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -5432,7 +5429,6 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400014> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400014> "def: Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile “single point of failure” that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400014> "NMR probe")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400014> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> obo:OBI_0000832)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400014> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -5442,7 +5438,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400015> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400015> "def: A component of an NMR instrument that controls the activities of the other components.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400015> "NMR console")
 AnnotationAssertion(owl:versionInfo <http://nmrML.org/nmrCV#NMR:1400015> "TODO: same as or part of acquisition computer?")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400015> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> obo:OBI_0000968)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400015> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400017> (number of acquisition data points)
@@ -6040,7 +6036,6 @@ AnnotationAssertion(doap:bug-database <http://nmrML.org/nmrCV#NMR:1400132> "http
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://nmrML.org/nmrCV#NMR:1400132> "sample tube")
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400132> "sortal dimensions are Vendor, Size (Diameter, length), Material (glass, quarz, pyrex ...), Frequency, Concentricity, OD and ID")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400132> "NMR sample tube")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400132> <http://nmrML.org/nmrCV#NMR:1400011>)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> obo:OBI_0000836)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400132> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
@@ -6215,7 +6210,7 @@ AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400185> <https:
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400185> "def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.
    altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400185> "NMR magnet")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400185> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> obo:OBI_0000968)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400185> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400186> (Bruker NMR magnet)
@@ -6350,7 +6345,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400203> <http://nmrML.org/nmrCV#NMR:1400
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400204> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400204> "defneed")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400204> "NMR tube washing system")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400204> <http://nmrML.org/nmrCV#NMR:1400001>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400204> obo:OBI_0000968)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400205> (Bruker AutoClean)
 
@@ -6413,7 +6408,7 @@ SubClassOf(<http://nmrML.org/nmrCV#NMR:1400211> ObjectHasValue(obo:OBI_0000304 <
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400212> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:comment <http://nmrML.org/nmrCV#NMR:1400212> "def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample.")
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400212> "NMR sample holder")
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400212> <http://nmrML.org/nmrCV#NMR:1400011>)
+SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> obo:OBI_0000968)
 SubClassOf(<http://nmrML.org/nmrCV#NMR:1400212> ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400213> (NMR software)
@@ -6643,7 +6638,6 @@ AnnotationAssertion(obo:IAO_0000115 <http://nmrML.org/nmrCV#NMR:1400255> "A manu
 AnnotationAssertion(obo:IAO_0000233 <http://nmrML.org/nmrCV#NMR:1400255> <https://github.com/nmrML/nmrCV/issues/12>)
 AnnotationAssertion(rdfs:label <http://nmrML.org/nmrCV#NMR:1400255> "NMR device manufacturer"@en)
 EquivalentClasses(<http://nmrML.org/nmrCV#NMR:1400255> ObjectIntersectionOf(obo:OBI_0000835 ObjectSomeValuesFrom(obo:RO_0000087 ObjectIntersectionOf(obo:OBI_0000571 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:OBI_0000457 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectSomeValuesFrom(obo:BFO_0000050 <http://nmrML.org/nmrCV#NMR:1400059>))))))))
-SubClassOf(Annotation(oboInOwl:is_inferred "true") <http://nmrML.org/nmrCV#NMR:1400255> obo:OBI_0000835)
 
 # Class: <http://nmrML.org/nmrCV#NMR:1400262> (sample temperature information)
 
@@ -6927,7 +6921,6 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_195173 <http://nmrM
 # Class: obo:CHEBI_228364 (NMR chemical shift reference compound)
 
 AnnotationAssertion(obo:IAO_0000233 obo:CHEBI_228364 <https://github.com/nmrML/nmrCV/issues/4>)
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 SubClassOf(Annotation(rdfs:comment "\"chemical shift calibration compound role\" class was added as a grouping super class for \"NMR chemical shift reference compound\" which was imported from CHEBI due to the lack of fine classification of NMR roles in CHEBI. The same applies for the super class \"NMR calibration compound role\".") Annotation(rdfs:isDefinedBy <http://nmrML.org/nmrCV>) obo:CHEBI_228364 <http://nmrML.org/nmrCV#NMR:0002006>)
 
 # Class: obo:CHEBI_229454 (yttrium nitrate)
@@ -7222,10 +7215,6 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_59606 <http://nmrML
 
 SubClassOf(obo:CHEBI_59999 obo:BFO_0000040)
 
-# Class: obo:CHEBI_62946 (ammonium sulfate)
-
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_62946 <http://nmrML.org/nmrCV#NMR:1400033>)
-
 # Class: obo:CHEBI_63004 (sodium bromide)
 
 SubClassOf(obo:CHEBI_63004 <http://nmrML.org/nmrCV#NMR:0002141>)
@@ -7242,10 +7231,6 @@ SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63317 <http://nmrML
 
 SubClassOf(obo:CHEBI_63940 <http://nmrML.org/nmrCV#NMR:0002099>)
 SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_63940 <http://nmrML.org/nmrCV#NMR:1400033>)
-
-# Class: obo:CHEBI_6636 (magnesium dichloride)
-
-SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CHEBI_6636 <http://nmrML.org/nmrCV#NMR:1400033>)
 
 # Class: obo:CHEBI_75215 (sodium molybdate (anhydrous))
 
