@@ -47,7 +47,6 @@ import_group:
   #- id: chmo
   #- id: pato
   - id: obi
-    make_base: true
     module_type: custom
   - id: chebi
     is_large: true

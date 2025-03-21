@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                fd98f62cea8e98a347fcdcf420367f85a1508e39fd0bcd97b7b3b1b954831e0b
+CONFIG_HASH=                e3e373da6a8f656288b0bf7c48d1ae35bfdc5c21d342008ce5749271ea259d1d
 
 
 # ----------------------------------------
@@ -453,7 +453,7 @@ mirror-iao: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/obi.owl
 mirror-obi: | $(TMPDIR)
 	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) remove -i $(TMPDIR)/obi-download.owl --base-iri $(OBOBASE)/OBI --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -i $(TMPDIR)/obi-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: chebi
