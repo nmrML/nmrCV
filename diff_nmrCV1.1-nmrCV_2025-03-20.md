@@ -3537,6 +3537,24 @@ The decision to build upon nmrCV v1.1.0 was based on its existing definition of 
 - [Hexafluorobenzene](http://nmrML.org/nmrCV#NMR:1000016) SubClassOf [ObsoleteClass](http://www.geneontology.org/formats/oboInOwl#ObsoleteClass) 
 
 
+### Homo sapiens `http://purl.obolibrary.org/obo/NCBITaxon_9606`
+
+#### Added
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "human being" 
+
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "Homo sapiens" 
+
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) [label](http://www.w3.org/2000/01/rdf-schema#label) "Homo sapiens" 
+
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "human" 
+
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) [imported from](http://purl.obolibrary.org/obo/IAO_0000412) [ncbitaxon.owl](http://purl.obolibrary.org/obo/ncbitaxon.owl) 
+
+- Class: [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) SubClassOf [organism](http://purl.obolibrary.org/obo/OBI_0100026) 
+
+
 ### Hyphenated NMR instrument `http://nmrML.org/nmrCV#NMR:1400200`
 #### Removed
 - [Hyphenated NMR instrument](http://nmrML.org/nmrCV#NMR:1400200) SubClassOf [NMR instrument type](http://nmrML.org/nmrCV#NMR:1000012) 
@@ -3842,12 +3860,6 @@ The decision to build upon nmrCV v1.1.0 was based on its existing definition of 
 - [N,N-dimethylformamide-d7](http://purl.obolibrary.org/obo/CHEBI_193040) SubClassOf [polyatomic entity](http://purl.obolibrary.org/obo/CHEBI_36357) 
 
 - [N,N-dimethylformamide-d7](http://purl.obolibrary.org/obo/CHEBI_193040) SubClassOf [main group molecular entity](http://purl.obolibrary.org/obo/CHEBI_33579) 
-
-
-### NCBITaxon_9606 `http://purl.obolibrary.org/obo/NCBITaxon_9606`
-
-#### Added
-- Class: [NCBITaxon_9606](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
 
 
 ### NFDI4Chem `https://www.wikidata.org/wiki/Q96678459`
@@ -4583,6 +4595,18 @@ http://purl.obolibrary.org/obo/CHMO_0001841"
 - Individual: [Reza Salek](https://orcid.org/0000-0001-8604-1732) 
 
 
+### Rules 
+
+#### Added
+- [role](http://purl.obolibrary.org/obo/BFO_0000023)(?d), [has characteristic](http://purl.obolibrary.org/obo/RO_0000053)(?e, ?d) -> [has role](http://purl.obolibrary.org/obo/RO_0000087)(?e, ?d) 
+
+- [quality](http://purl.obolibrary.org/obo/BFO_0000019)(?d), [has characteristic](http://purl.obolibrary.org/obo/RO_0000053)(?e, ?d) -> [has quality](http://purl.obolibrary.org/obo/RO_0000086)(?e, ?d) 
+
+- [disposition](http://purl.obolibrary.org/obo/BFO_0000016)(?d), [has characteristic](http://purl.obolibrary.org/obo/RO_0000053)(?e, ?d) -> [has disposition](http://purl.obolibrary.org/obo/RO_0000091)(?e, ?d) 
+
+- [function](http://purl.obolibrary.org/obo/BFO_0000034)(?d), [has characteristic](http://purl.obolibrary.org/obo/RO_0000053)(?e, ?d) -> [has function](http://purl.obolibrary.org/obo/RO_0000085)(?e, ?d) 
+
+
 ### Siemens AG `http://nmrML.org/nmrCV#NMR:1000393`
 #### Removed
 - Class: [Siemens AG](http://nmrML.org/nmrCV#NMR:1000393) 
@@ -4775,18 +4799,6 @@ http://purl.obolibrary.org/obo/CHMO_0001841"
 - [Trimethylsilyl propionate](http://nmrML.org/nmrCV#NMR:1000159) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 - [Trimethylsilyl propionate](http://nmrML.org/nmrCV#NMR:1000159) SubClassOf [ObsoleteClass](http://www.geneontology.org/formats/oboInOwl#ObsoleteClass) 
-
-
-### UBERON_0000465 `http://purl.obolibrary.org/obo/UBERON_0000465`
-
-#### Added
-- Class: [UBERON_0000465](http://purl.obolibrary.org/obo/UBERON_0000465) 
-
-
-### UBERON_0000477 `http://purl.obolibrary.org/obo/UBERON_0000477`
-
-#### Added
-- Class: [UBERON_0000477](http://purl.obolibrary.org/obo/UBERON_0000477) 
 
 
 ### UK spelling synonym `http://purl.obolibrary.org/obo/OMO_0003005`
@@ -5354,8 +5366,6 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 - [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) InverseOf [objective_achieved_by](http://purl.obolibrary.org/obo/OBI_0000833) 
 
 - [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) Domain [planned process](http://purl.obolibrary.org/obo/OBI_0000011) 
-
-- [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) Range [objective specification](http://purl.obolibrary.org/obo/IAO_0000005) 
 
 
 ### acquisition computer `http://nmrML.org/nmrCV#NMR:1400013`
@@ -7494,11 +7504,15 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
 - [concretizes](http://purl.obolibrary.org/obo/RO_0000059) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant."@en 
 
+- [concretizes](http://purl.obolibrary.org/obo/RO_0000059) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant."@en 
+
 - [concretizes](http://purl.obolibrary.org/obo/RO_0000059) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en 
 
 - [concretizes](http://purl.obolibrary.org/obo/RO_0000059) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."@en 
 
 - ObjectProperty: [concretizes](http://purl.obolibrary.org/obo/RO_0000059) 
+
+- [concretizes](http://purl.obolibrary.org/obo/RO_0000059) Domain [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
 - [concretizes](http://purl.obolibrary.org/obo/RO_0000059) Domain [process](http://purl.obolibrary.org/obo/BFO_0000015) or [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
@@ -7600,8 +7614,6 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
 - [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [label](http://www.w3.org/2000/01/rdf-schema#label) "continuant"@en 
 
-- [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy) [bfo.owl](http://purl.obolibrary.org/obo/bfo.owl) 
-
 - [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [has associated axiom(nl)](http://purl.obolibrary.org/obo/IAO_0000601) "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])"@en 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [009-002](http://purl.obolibrary.org/obo/bfo/axiom/009-002) 
 
@@ -7628,6 +7640,10 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
 - [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [008-002](http://purl.obolibrary.org/obo/bfo/axiom/008-002) 
+
+- [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en 
+
+- [continuant](http://purl.obolibrary.org/obo/BFO_0000002) [isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy) [bfo.owl](http://purl.obolibrary.org/obo/bfo.owl) 
 
 - Class: [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
 
@@ -9003,6 +9019,18 @@ In the examples above, a reagent is an operational component of a device, but th
 - [disposition](http://purl.obolibrary.org/obo/BFO_0000016) SubClassOf [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) 
 
 
+### disposition of `http://purl.obolibrary.org/obo/RO_0000092`
+
+#### Added
+- [disposition of](http://purl.obolibrary.org/obo/RO_0000092) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." 
+
+- [disposition of](http://purl.obolibrary.org/obo/RO_0000092) [label](http://www.w3.org/2000/01/rdf-schema#label) "disposition of"@en 
+
+- ObjectProperty: [disposition of](http://purl.obolibrary.org/obo/RO_0000092) 
+
+- [disposition of](http://purl.obolibrary.org/obo/RO_0000092) SubPropertyOf: [characteristic of](http://purl.obolibrary.org/obo/RO_0000052) 
+
+
 ### documenter `http://usefulinc.com/ns/doap#documenter`
 
 #### Added
@@ -9851,6 +9879,8 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
 
 - [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) [BFO CLIF specification label](http://purl.obolibrary.org/obo/BFO_0000180) "GenericallyDependentContinuant" 
 
+- [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time."@en 
+
 - [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [074-001](http://purl.obolibrary.org/obo/bfo/axiom/074-001) 
 
@@ -10139,6 +10169,24 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 - AnnotationProperty: [has curation status](http://purl.obolibrary.org/obo/IAO_0000114) 
 
 
+### has disposition `http://purl.obolibrary.org/obo/RO_0000091`
+
+#### Added
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en 
+
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) [label](http://www.w3.org/2000/01/rdf-schema#label) "has disposition"@en 
+
+- ObjectProperty: [has disposition](http://purl.obolibrary.org/obo/RO_0000091) 
+
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) InverseOf [disposition of](http://purl.obolibrary.org/obo/RO_0000092) 
+
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) Domain [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) 
+
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) Range [disposition](http://purl.obolibrary.org/obo/BFO_0000016) 
+
+- [has disposition](http://purl.obolibrary.org/obo/RO_0000091) SubPropertyOf: [has characteristic](http://purl.obolibrary.org/obo/RO_0000053) 
+
+
 ### has function `http://purl.obolibrary.org/obo/RO_0000085`
 
 #### Added
@@ -10240,6 +10288,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
 - [has part](http://purl.obolibrary.org/obo/BFO_0000051) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en 
 
+- [has part](http://purl.obolibrary.org/obo/BFO_0000051) [imported from](http://purl.obolibrary.org/obo/IAO_0000412) [iao.owl](http://purl.obolibrary.org/obo/iao.owl) 
+
 - [has part](http://purl.obolibrary.org/obo/BFO_0000051) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BFO:0000051" 
 
 - [has part](http://purl.obolibrary.org/obo/BFO_0000051) [is_cyclic](http://www.geneontology.org/formats/oboInOwl#is_cyclic) false 
@@ -10309,6 +10359,26 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
 - [has part](http://purl.obolibrary.org/obo/BFO_0000051) o [realizes](http://purl.obolibrary.org/obo/BFO_0000055) o [characteristic of](http://purl.obolibrary.org/obo/RO_0000052) SubPropertyOf: [has participant](http://purl.obolibrary.org/obo/RO_0000057) 
 
 - [has part](http://purl.obolibrary.org/obo/BFO_0000051) o [has participant](http://purl.obolibrary.org/obo/RO_0000057) SubPropertyOf: [has participant](http://purl.obolibrary.org/obo/RO_0000057) 
+
+
+### has quality `http://purl.obolibrary.org/obo/RO_0000086`
+
+#### Added
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) [label](http://www.w3.org/2000/01/rdf-schema#label) "has quality"@en 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "this apple has quality this red color"@en 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "has_quality"@en 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en 
+
+- ObjectProperty: [has quality](http://purl.obolibrary.org/obo/RO_0000086) 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) Range [quality](http://purl.obolibrary.org/obo/BFO_0000019) 
+
+- [has quality](http://purl.obolibrary.org/obo/RO_0000086) SubPropertyOf: [has characteristic](http://purl.obolibrary.org/obo/RO_0000053) 
 
 
 ### has related synonym `http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym`
@@ -10441,6 +10511,26 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
 - [has symbol](http://purl.obolibrary.org/obo/OMO_0004000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity." 
 
 - AnnotationProperty: [has symbol](http://purl.obolibrary.org/obo/OMO_0004000) 
+
+
+### has value specification `http://purl.obolibrary.org/obo/OBI_0001938`
+
+#### Added
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: James A. Overton" 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [has curation status](http://purl.obolibrary.org/obo/IAO_0000114) [metadata complete](http://purl.obolibrary.org/obo/IAO_0000120) 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [definition source](http://purl.obolibrary.org/obo/IAO_0000119) "OBI" 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [label](http://www.w3.org/2000/01/rdf-schema#label) "has value specification" 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A relation between an information content entity and a value specification that specifies its value."@en 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "has value specification" 
+
+- ObjectProperty: [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) 
+
+- [has value specification](http://purl.obolibrary.org/obo/OBI_0001938) SubPropertyOf: [has part](http://purl.obolibrary.org/obo/BFO_0000051) 
 
 
 ### hasAlternativeId `http://www.geneontology.org/formats/oboInOwl#hasAlternativeId`
@@ -11038,8 +11128,6 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
 #### Added
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a leg"@en 
 
-- [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [label](http://www.w3.org/2000/01/rdf-schema#label) "independent continuant"@en 
-
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [017-002](http://purl.obolibrary.org/obo/bfo/axiom/017-002) 
 
@@ -11061,6 +11149,10 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
 
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [018-002](http://purl.obolibrary.org/obo/bfo/axiom/018-002) 
+
+- [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en 
+
+- [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [label](http://www.w3.org/2000/01/rdf-schema#label) "independent continuant"@en 
 
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) [BFO CLIF specification label](http://purl.obolibrary.org/obo/BFO_0000180) "IndependentContinuant" 
 
@@ -11085,6 +11177,8 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
 - Class: [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) 
 
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) DisjointWith [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
+
+-  DisjointClasses: [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004), [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020), [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) 
 
 - [independent continuant](http://purl.obolibrary.org/obo/BFO_0000004) DisjointWith [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) 
 
@@ -11478,6 +11572,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 ### is concretized as `http://purl.obolibrary.org/obo/RO_0000058`
 
 #### Added
+- [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants."@en 
+
 - [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."@en 
 
 - [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en 
@@ -11491,6 +11587,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 - [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) InverseOf [concretizes](http://purl.obolibrary.org/obo/RO_0000059) 
 
 - [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) Domain [generically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000031) 
+
+- [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) Range [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
 - [is concretized as](http://purl.obolibrary.org/obo/RO_0000058) Range [process](http://purl.obolibrary.org/obo/BFO_0000015) or [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
@@ -12429,7 +12527,7 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 - Class: [manufacturer](http://purl.obolibrary.org/obo/OBI_0000835) 
 
-- [manufacturer](http://purl.obolibrary.org/obo/OBI_0000835) EquivalentTo ([NCBITaxon_9606](http://purl.obolibrary.org/obo/NCBITaxon_9606) or [organization](http://purl.obolibrary.org/obo/OBI_0000245)) and ([has role](http://purl.obolibrary.org/obo/RO_0000087) some [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571)) 
+- [manufacturer](http://purl.obolibrary.org/obo/OBI_0000835) EquivalentTo ([Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) or [organization](http://purl.obolibrary.org/obo/OBI_0000245)) and ([has role](http://purl.obolibrary.org/obo/RO_0000087) some [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571)) 
 
 - [manufacturer](http://purl.obolibrary.org/obo/OBI_0000835) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571) 
 
@@ -12458,7 +12556,9 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 - [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571) SubClassOf [role](http://purl.obolibrary.org/obo/BFO_0000023) 
 
 - [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571) SubClassOf [characteristic of](http://purl.obolibrary.org/obo/RO_0000052) some 
-([NCBITaxon_9606](http://purl.obolibrary.org/obo/NCBITaxon_9606) or [organization](http://purl.obolibrary.org/obo/OBI_0000245)) 
+([Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) or [organization](http://purl.obolibrary.org/obo/OBI_0000245)) 
+
+- [manufacturer role](http://purl.obolibrary.org/obo/OBI_0000571) SubClassOf [realized in](http://purl.obolibrary.org/obo/BFO_0000054) only [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) 
 
 
 ### manufacturing `http://purl.obolibrary.org/obo/OBI_0000457`
@@ -12492,41 +12592,9 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 - Class: [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) 
 
-- [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) EquivalentTo [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) some [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) 
-
-- [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) SubClassOf [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) some [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) 
-
 - [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) SubClassOf [material processing](http://purl.obolibrary.org/obo/OBI_0000094) 
 
 - [manufacturing](http://purl.obolibrary.org/obo/OBI_0000457) SubClassOf [has specified input](http://purl.obolibrary.org/obo/OBI_0000293) some [material entity](http://purl.obolibrary.org/obo/BFO_0000040) 
-
-
-### manufacturing objective `http://purl.obolibrary.org/obo/OBI_0000458`
-
-#### Added
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [definition source](http://purl.obolibrary.org/obo/IAO_0000119) "GROUP: OBI PlanAndPlannedProcess Branch" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Philippe Rocca-Serra" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Bjoern Peters" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "manufacturing objective" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "is the objective to manufacture a material of a certain function (device)"@en 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Melanie Courtot" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [has curation status](http://purl.obolibrary.org/obo/IAO_0000114) [ready for release](http://purl.obolibrary.org/obo/IAO_0000122) 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Frank Gibson" 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [label](http://www.w3.org/2000/01/rdf-schema#label) "manufacturing objective"@en 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Jennifer Fostel" 
-
-- Class: [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) 
-
-- [manufacturing objective](http://purl.obolibrary.org/obo/OBI_0000458) SubClassOf [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) 
 
 
 ### mass `http://purl.obolibrary.org/obo/chebi/mass`
@@ -12539,8 +12607,6 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 #### Added
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy) [bfo.owl](http://purl.obolibrary.org/obo/bfo.owl) 
-
-- [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a tornado"@en 
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a hurricane"@en 
 
@@ -12565,11 +12631,15 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a photon"@en 
 
+- [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en 
+
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [019-002](http://purl.obolibrary.org/obo/bfo/axiom/019-002) 
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [has associated axiom(nl)](http://purl.obolibrary.org/obo/IAO_0000601) "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [020-002](http://purl.obolibrary.org/obo/bfo/axiom/020-002) 
+
+- [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "material entity"@en 
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [BFO CLIF specification label](http://purl.obolibrary.org/obo/BFO_0000180) "MaterialEntity" 
 
@@ -12578,6 +12648,10 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en 
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the undetached arm of a human being"@en 
+
+- [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a tornado"@en 
+
+- [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [imported from](http://purl.obolibrary.org/obo/IAO_0000412) [ido.owl](http://purl.obolibrary.org/obo/ido.owl) 
 
 - [material entity](http://purl.obolibrary.org/obo/BFO_0000040) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a flame"@en 
 
@@ -12630,47 +12704,11 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 - Class: [material processing](http://purl.obolibrary.org/obo/OBI_0000094) 
 
-- [material processing](http://purl.obolibrary.org/obo/OBI_0000094) EquivalentTo [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) some [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) 
-
 - [material processing](http://purl.obolibrary.org/obo/OBI_0000094) SubClassOf [planned process](http://purl.obolibrary.org/obo/OBI_0000011) 
 
 - [material processing](http://purl.obolibrary.org/obo/OBI_0000094) SubClassOf [has specified input](http://purl.obolibrary.org/obo/OBI_0000293) only [material entity](http://purl.obolibrary.org/obo/BFO_0000040) 
 
-- [material processing](http://purl.obolibrary.org/obo/OBI_0000094) SubClassOf [achieves_planned_objective](http://purl.obolibrary.org/obo/OBI_0000417) some [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) 
-
 - [material processing](http://purl.obolibrary.org/obo/OBI_0000094) SubClassOf [has specified output](http://purl.obolibrary.org/obo/OBI_0000299) some [processed material](http://purl.obolibrary.org/obo/OBI_0000047) 
-
-
-### material transformation objective `http://purl.obolibrary.org/obo/OBI_0000456`
-
-#### Added
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Philippe Rocca-Serra" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "The objective to create a mouse infected with LCM virus. The objective to create a defined solution of PBS." 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "material transformation objective" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [has curation status](http://purl.obolibrary.org/obo/IAO_0000114) [ready for release](http://purl.obolibrary.org/obo/IAO_0000122) 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "an objective specifiction that creates an specific output object from input materials."@en 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "artifact  creation objective"@en 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Bjoern Peters" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [label](http://www.w3.org/2000/01/rdf-schema#label) "material transformation objective"@en 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Frank Gibson" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Jennifer Fostel" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [definition source](http://purl.obolibrary.org/obo/IAO_0000119) "GROUP: OBI PlanAndPlannedProcess Branch" 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON: Melanie Courtot" 
-
-- Class: [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) 
-
-- [material transformation objective](http://purl.obolibrary.org/obo/OBI_0000456) SubClassOf [objective specification](http://purl.obolibrary.org/obo/IAO_0000005) 
 
 
 ### may be identical to `http://purl.obolibrary.org/obo/IAO_0006011`
@@ -13893,8 +13931,6 @@ Sample inhomogeneity (poor mixing. solid particles), Temperature gradients acros
 
 - ObjectProperty: [objective_achieved_by](http://purl.obolibrary.org/obo/OBI_0000833) 
 
-- [objective_achieved_by](http://purl.obolibrary.org/obo/OBI_0000833) Domain [objective specification](http://purl.obolibrary.org/obo/IAO_0000005) 
-
 - [objective_achieved_by](http://purl.obolibrary.org/obo/OBI_0000833) Range [planned process](http://purl.obolibrary.org/obo/OBI_0000011) 
 
 
@@ -14000,6 +14036,8 @@ No imports"@en
 - [occurrent](http://purl.obolibrary.org/obo/BFO_0000003) [label](http://www.w3.org/2000/01/rdf-schema#label) "occurrent"@en 
 
 - [occurrent](http://purl.obolibrary.org/obo/BFO_0000003) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region"@en 
+
+- [occurrent](http://purl.obolibrary.org/obo/BFO_0000003) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An entity that has temporal parts and that happens, unfolds or develops through time."@en 
 
 - [occurrent](http://purl.obolibrary.org/obo/BFO_0000003) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "Occurrent doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process."@en 
   - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "per discussion with Barry Smith" 
@@ -14275,6 +14313,8 @@ for now."@en
 ### organizational term `http://purl.obolibrary.org/obo/IAO_0000121`
 
 #### Added
+- [organizational term](http://purl.obolibrary.org/obo/IAO_0000121) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "PERSON:Alan Ruttenberg" 
+
 - [organizational term](http://purl.obolibrary.org/obo/IAO_0000121) [label](http://www.w3.org/2000/01/rdf-schema#label) "organizational term"@en 
 
 - [organizational term](http://purl.obolibrary.org/obo/IAO_0000121) [editor preferred term](http://purl.obolibrary.org/obo/IAO_0000111) "organizational term"@en 
@@ -15018,6 +15058,8 @@ objectives is a planned process."
 
 - [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [term editor](http://purl.obolibrary.org/obo/IAO_0000117) "Bjoern Peters" 
 
+- [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that realizes a plan which is the concretization of a plan specification."@en 
+
 - [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [definition source](http://purl.obolibrary.org/obo/IAO_0000119) "branch derived" 
 
 - [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [label](http://www.w3.org/2000/01/rdf-schema#label) "planned process"@en 
@@ -15030,15 +15072,9 @@ objectives is a planned process."
 
 - [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "Injecting mice with a vaccine in order to test its efficacy" 
 
-- [planned process](http://purl.obolibrary.org/obo/OBI_0000011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that realizes a plan which is the concretization of a plan specification."@en 
-
 - Class: [planned process](http://purl.obolibrary.org/obo/OBI_0000011) 
 
-- [planned process](http://purl.obolibrary.org/obo/OBI_0000011) EquivalentTo [realizes](http://purl.obolibrary.org/obo/BFO_0000055) some ([concretizes](http://purl.obolibrary.org/obo/RO_0000059) some [plan specification](http://purl.obolibrary.org/obo/IAO_0000104)) 
-
 - [planned process](http://purl.obolibrary.org/obo/OBI_0000011) SubClassOf [process](http://purl.obolibrary.org/obo/BFO_0000015) 
-
-- [planned process](http://purl.obolibrary.org/obo/OBI_0000011) SubClassOf [realizes](http://purl.obolibrary.org/obo/BFO_0000055) some ([concretizes](http://purl.obolibrary.org/obo/RO_0000059) some [plan specification](http://purl.obolibrary.org/obo/IAO_0000104)) 
 
 
 ### plural form `http://purl.obolibrary.org/obo/OMO_0003004`
@@ -15585,6 +15621,8 @@ objectives is a planned process."
 - [process](http://purl.obolibrary.org/obo/BFO_0000015) SubClassOf [entity](http://nmrML.org/nmrCV#BFO_0000001) 
 
 #### Added
+- [process](http://purl.obolibrary.org/obo/BFO_0000015) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t."@en 
+
 - [process](http://purl.obolibrary.org/obo/BFO_0000015) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "a process of meiosis"@en 
 
 - [process](http://purl.obolibrary.org/obo/BFO_0000015) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the course of a disease"@en 
@@ -16024,6 +16062,30 @@ extracts the real spectrum and the Im function extracts the imaginary spectrum f
 - [quality](http://purl.obolibrary.org/obo/BFO_0000019) SubClassOf [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) 
 
 
+### quality of `http://purl.obolibrary.org/obo/RO_0000080`
+
+#### Added
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "A quality inheres in its bearer at all times for which the quality exists."@en 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "quality_of"@en 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "this red color is a quality of this apple"@en 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [alternative term](http://purl.obolibrary.org/obo/IAO_0000118) "is quality of"@en 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) [label](http://www.w3.org/2000/01/rdf-schema#label) "quality of"@en 
+
+- ObjectProperty: [quality of](http://purl.obolibrary.org/obo/RO_0000080) 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) InverseOf [has quality](http://purl.obolibrary.org/obo/RO_0000086) 
+
+- [quality of](http://purl.obolibrary.org/obo/RO_0000080) SubPropertyOf: [characteristic of](http://purl.obolibrary.org/obo/RO_0000052) 
+
+
 ### ready for release `http://purl.obolibrary.org/obo/IAO_0000122`
 
 #### Added
@@ -16061,6 +16123,8 @@ extracts the real spectrum and the Im function extracts the imaginary spectrum f
 - [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) [BFO OWL specification label](http://purl.obolibrary.org/obo/BFO_0000179) "realizable" 
 
 - [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) [isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy) [bfo.owl](http://purl.obolibrary.org/obo/bfo.owl) 
+
+- [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en 
 
 - [realizable entity](http://purl.obolibrary.org/obo/BFO_0000017) [has associated axiom(nl)](http://purl.obolibrary.org/obo/IAO_0000601) "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"@en 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [060-002](http://purl.obolibrary.org/obo/bfo/axiom/060-002) 
@@ -16265,6 +16329,8 @@ extracts the real spectrum and the Im function extracts the imaginary spectrum f
 
 - [role](http://purl.obolibrary.org/obo/BFO_0000023) [elucidation](http://purl.obolibrary.org/obo/IAO_0000600) "b is a role means: b is a realizable entity &amp; b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be&amp; b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [061-001](http://purl.obolibrary.org/obo/bfo/axiom/061-001) 
+
+- [role](http://purl.obolibrary.org/obo/BFO_0000023) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en 
 
 - [role](http://purl.obolibrary.org/obo/BFO_0000023) [label](http://www.w3.org/2000/01/rdf-schema#label) "role"@en 
 
@@ -17848,14 +17914,14 @@ Cons sometimes specifies a quality which is not a realizable."@en
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [050-003](http://purl.obolibrary.org/obo/bfo/axiom/050-003) 
 
+- [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same."@en 
+
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b&rsquo;s existence. (axiom label in BFO2 Reference: [050-003])"@en 
   - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [050-003](http://purl.obolibrary.org/obo/bfo/axiom/050-003) 
 
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the smell of this portion of mozzarella"@en 
 
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key"@en 
-
-- [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the shape of this hole."@en 
 
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "of one-sided specifically dependent continuants: the mass of this tomato"@en 
 
@@ -17872,6 +17938,14 @@ Cons sometimes specifies a quality which is not a realizable."@en
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [BFO CLIF specification label](http://purl.obolibrary.org/obo/BFO_0000180) "SpecificallyDependentContinuant" 
 
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the function of this heart: to pump blood"@en 
+
+- [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, &hellip; cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b&rsquo;s existence (axiom label in BFO2 Reference: [131-004])"@en 
+  - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [131-004](http://purl.obolibrary.org/obo/bfo/axiom/131-004) 
+
+- [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [example of usage](http://purl.obolibrary.org/obo/IAO_0000112) "the shape of this hole."@en 
+
+- [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [has associated axiom(fol)](http://purl.obolibrary.org/obo/IAO_0000602) "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " 
+  - [has axiom label](http://purl.obolibrary.org/obo/IAO_0010000) [131-004](http://purl.obolibrary.org/obo/bfo/axiom/131-004) 
 
 - [specifically dependent continuant](http://purl.obolibrary.org/obo/BFO_0000020) [BFO OWL specification label](http://purl.obolibrary.org/obo/BFO_0000179) "sdc" 
 
