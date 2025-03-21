@@ -7,9 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://nmrML.org/nmrCV/imports/omo_import.owl>
-<http://nmrML.org/nmrCV/releases/2025-03-17/imports/omo_import.owl>
+<http://nmrml.org/cv/2025-03-20/imports/omo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/omo/releases/2024-11-13/omo.owl>)
-Annotation(owl:versionInfo "2025-03-17")
+Annotation(<http://purl.org/dc/terms/created> "2025-03-20")
+Annotation(owl:versionInfo "2025-03-20")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))

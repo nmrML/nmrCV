@@ -9,8 +9,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix chebi: <http://purl.obolibrary.org/obo/chebi/> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
 @prefix chebi1: <http://purl.obolibrary.org/obo/chebi#> .
 @prefix chebi2: <http://purl.obolibrary.org/obo/chebi#2> .
 @prefix chebi3: <http://purl.obolibrary.org/obo/chebi#3> .
@@ -21,7 +23,7 @@
 @base <http://nmrML.org/nmrCV.ttl> .
 
 <http://nmrML.org/nmrCV.ttl> rdf:type owl:Ontology ;
-                              owl:versionIRI <http://nmrML.org/nmrCV/releases/2025-03-17/nmrCV.ttl> ;
+                              owl:versionIRI <http://nmrml.org/cv/2025-03-20/nmrCV.ttl> ;
                               dce:contributor "Chris Taylor" ,
                                               "Dennis Rubtsov" ,
                                               "Helen Jenkins" ,
@@ -32,7 +34,13 @@
                               dce:coverage """Nuclear magnetic resonance (NMR) data annotation as required by the msi sanctioned open
 access nmrML XML format developed by the COSMOS EU project.""" ;
                               dce:creator "COSMOS - COordination Of Standards In MetabOlomicS Project - WP2 team" ;
-                              dcterms:abstract "WORK IN PROGRESS: This version of the Nuclear Magnetic Resonance Controlled Vocabulary is an ontology that covers the scope of NMR Spectrocopy by defining terms needed to describe NMR Spectroscopy experiments and their outputs with sufficient details to be considered FAIR in the context of research data managment. It is the successor to the version used within nmrML to annotated NMR data, since the NFDI4Chem project identified gaps in the previous version that needed to be filled in a manner that allows nmrCV in a modular way along with other existing OBO/BFO based ontologies." ;
+                              dcterms:abstract """With this artifact, the Nuclear Magnetic Resonance Controlled Vocabulary (nmrCV) is undergoing a significant evolution to become an ontology designed to describe NMR spectroscopy experiments and their outputs in detail, supporting FAIR research data management. Initially, nmrCV v1.1.0 was deliberately designed as a controlled vocabulary, not a formal ontology with Description Logic (DL) semantics. It was approved by th Metabolomics Standards Initiative (MSI) and serves to provide descriptors for the nuclear magnetic resonance markup language (nmrML), enabling vendor-agnostic NMR data sharing, particularly within NMR metabolomics. Since version 1.1.0, nmrCV had not been updated nor actively maintained.
+
+Recognizing the need for a DL-enabled NMR spectroscopy ontology suitable for use independently of nmrML within a larger ontology framework, and addressing the limitations of the original controlled vocabulary, Germany's National Research Data Infrastructure project for Chemistry (NFDI4Chem) took on the responsibility for nmrCV's further development and maintenance. This decision was made after a discussion about its optimal integration within the broader ontology landscape at the third Ontologies4Chem workshop in fall 2023.
+
+The decision to build upon nmrCV v1.1.0 was based on its existing definition of essential concepts, its BFO alignment, and its planned integration with ontologies like the Ontology for Biomedical Investigations (OBI) and the Chemical Entities of Biological Interest (ChEBI). Improvements in the present version include replacing out-of-scope and placeholder terms with more suitable equivalents from established ontologies like OBI and ChEBI, adhering to the OBO Foundry principles, corrections regarding the BFO subsumption and other established ontology design patterns, as well as the introduction of DL semantics.
+
+⚠️ Compatibility Note: Due to these significant changes, which prioritize ontology rigor over nmrML alignment, this and future versions of nmrCV may introduce breaking changes for nmrML users. Therefore, nmrML users are strongly advised to thoroughly test new nmrCV versions before production deployment. Alternatively, users may choose to continue using nmrCV v1.1.0, which was specifically designed for nmrML compatibility."""@en ;
                               dcterms:contributor <https://orcid.org/0000-0001-5306-5690> ,
                                                   <https://orcid.org/0000-0001-5687-9059> ,
                                                   <https://orcid.org/0000-0001-8604-1732> ,
@@ -43,8 +51,7 @@ access nmrML XML format developed by the COSMOS EU project.""" ;
                                                   <https://orcid.org/0000-0002-8148-6895> ,
                                                   <https://orcid.org/0000-0003-1144-3600> ,
                                                   <https://orcid.org/0009-0001-5998-5030> ;
-                              dcterms:created "2025-03-17"^^xsd:date ;
-                              dcterms:description "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model." ;
+                              dcterms:created "2025-03-20" ;
                               dcterms:license <https://creativecommons.org/publicdomain/mark/1.0/> ;
                               dcterms:references "https://doi.org/10.1021/acs.analchem.7b02795" ;
                               dcterms:title "nuclear magnetic resonance CV" ;
@@ -54,9 +61,9 @@ access nmrML XML format developed by the COSMOS EU project.""" ;
                               doap:implements "https://github.com/nmrML/nmrML" ;
                               doap:location "https://github.com/nmrML/nmrCV" ;
                               doap:maintainer <https://www.wikidata.org/wiki/Q96678459> ;
-                              owl:priorVersion <http://nmrML.org/nmrCV_v1.1.owl> ;
+                              owl:priorVersion <https://nmrml.org/cv/v1.1.0/nmrCV.owl> ;
                               owl:versionInfo "2.0_alpha" ,
-                                              "2025-03-17" .
+                                              "2025-03-20" .
 
 #################################################################
 #    Annotation properties
@@ -1134,6 +1141,7 @@ obo:BFO_0000051 rdf:type owl:ObjectProperty ;
 
 A continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."""@en ;
                 obo:IAO_0000118 "has_part"@en ;
+                obo:IAO_0000412 obo:iao.owl ;
                 obo:RO_0001900 obo:RO_0001901 ;
                 oboInOwl:hasDbXref "BFO:0000051" ;
                 oboInOwl:hasOBONamespace "chebi_ontology" ;
@@ -1271,7 +1279,6 @@ obo:OBI_0000312 rdf:type owl:ObjectProperty ;
 obo:OBI_0000417 rdf:type owl:ObjectProperty ;
                 owl:inverseOf obo:OBI_0000833 ;
                 rdfs:domain obo:OBI_0000011 ;
-                rdfs:range obo:IAO_0000005 ;
                 obo:IAO_0000111 "achieves_planned_objective" ;
                 obo:IAO_0000112 "A cell sorting process achieves the objective specification 'material separation objective'" ;
                 obo:IAO_0000114 obo:IAO_0000120 ;
@@ -1284,7 +1291,6 @@ obo:OBI_0000417 rdf:type owl:ObjectProperty ;
 
 ###  http://purl.obolibrary.org/obo/OBI_0000833
 obo:OBI_0000833 rdf:type owl:ObjectProperty ;
-                rdfs:domain obo:IAO_0000005 ;
                 rdfs:range obo:OBI_0000011 ;
                 obo:IAO_0000111 "objective_achieved_by" ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
@@ -1292,6 +1298,17 @@ obo:OBI_0000833 rdf:type owl:ObjectProperty ;
                 obo:IAO_0000117 "OBI" ;
                 obo:IAO_0000119 "OBI" ;
                 rdfs:label "objective_achieved_by" .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0001938
+obo:OBI_0001938 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf obo:BFO_0000051 ;
+                obo:IAO_0000111 "has value specification" ;
+                obo:IAO_0000114 obo:IAO_0000120 ;
+                obo:IAO_0000115 "A relation between an information content entity and a value specification that specifies its value."@en ;
+                obo:IAO_0000117 "PERSON: James A. Overton" ;
+                obo:IAO_0000119 "OBI" ;
+                rdfs:label "has value specification" .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000052
@@ -1364,20 +1381,23 @@ obo:RO_0000057 rdf:type owl:ObjectProperty ;
 obo:RO_0000058 rdf:type owl:ObjectProperty ;
                owl:inverseOf obo:RO_0000059 ;
                rdfs:domain obo:BFO_0000031 ;
-               rdfs:range [ rdf:type owl:Class ;
+               rdfs:range obo:BFO_0000020 ,
+                          [ rdf:type owl:Class ;
                             owl:unionOf ( obo:BFO_0000015
                                           obo:BFO_0000020
                                         )
                           ] ;
                obo:IAO_0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en ,
                                "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."@en ;
-               obo:IAO_0000115 "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."@en ;
+               obo:IAO_0000115 "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes."@en ,
+                               "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants."@en ;
                rdfs:label "is concretized as"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000059
 obo:RO_0000059 rdf:type owl:ObjectProperty ;
-               rdfs:domain [ rdf:type owl:Class ;
+               rdfs:domain obo:BFO_0000020 ,
+                           [ rdf:type owl:Class ;
                              owl:unionOf ( obo:BFO_0000015
                                            obo:BFO_0000020
                                          )
@@ -1385,7 +1405,8 @@ obo:RO_0000059 rdf:type owl:ObjectProperty ;
                rdfs:range obo:BFO_0000031 ;
                obo:IAO_0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)."@en ,
                                "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)."@en ;
-               obo:IAO_0000115 "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant."@en ;
+               obo:IAO_0000115 "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant."@en ,
+                               "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant."@en ;
                rdfs:label "concretizes"@en .
 
 
@@ -1401,6 +1422,19 @@ obo:RO_0000079 rdf:type owl:ObjectProperty ;
                                "is function of"@en ;
                rdfs:comment "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." ;
                rdfs:label "function of"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000080
+obo:RO_0000080 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000052 ;
+               owl:inverseOf obo:RO_0000086 ;
+               obo:IAO_0000112 "this red color is a quality of this apple"@en ;
+               obo:IAO_0000115 "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A quality inheres in its bearer at all times for which the quality exists."@en ;
+               obo:IAO_0000118 "is quality of"@en ,
+                               "quality_of"@en ;
+               rdfs:comment "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." ;
+               rdfs:label "quality of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000081
@@ -1428,6 +1462,17 @@ obo:RO_0000085 rdf:type owl:ObjectProperty ;
                rdfs:label "has function"@en .
 
 
+###  http://purl.obolibrary.org/obo/RO_0000086
+obo:RO_0000086 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000053 ;
+               rdfs:range obo:BFO_0000019 ;
+               obo:IAO_0000112 "this apple has quality this red color"@en ;
+               obo:IAO_0000115 "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en ;
+               obo:IAO_0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en ;
+               obo:IAO_0000118 "has_quality"@en ;
+               rdfs:label "has quality"@en .
+
+
 ###  http://purl.obolibrary.org/obo/RO_0000087
 obo:RO_0000087 rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf obo:RO_0000053 ;
@@ -1445,6 +1490,23 @@ obo:RO_0000087 rdf:type owl:ObjectProperty ;
                oboInOwl:shorthand "has_role" ;
                rdfs:label "has role" ,
                           "has role"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000091
+obo:RO_0000091 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000053 ;
+               owl:inverseOf obo:RO_0000092 ;
+               rdfs:domain obo:BFO_0000004 ;
+               rdfs:range obo:BFO_0000016 ;
+               obo:IAO_0000115 "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en ;
+               rdfs:label "has disposition"@en .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000092
+obo:RO_0000092 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf obo:RO_0000052 ;
+               rdfs:comment "This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020." ;
+               rdfs:label "disposition of"@en .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002131
@@ -1588,6 +1650,23 @@ obo:RO_0010002 rdf:type owl:ObjectProperty ;
 #################################################################
 #    Classes
 #################################################################
+
+###  http://nmrML.org/nmrCV#NMR:0002000
+<http://nmrML.org/nmrCV#NMR:0002000> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://nmrML.org/nmrCV#NMR:1400033> ;
+                                     obo:IAO_0000115 "A chemical shift reference compound used for 87Sr spectra according to IUPAC recommendations." ;
+                                     dcterms:contributor <https://orcid.org/0009-0001-5998-5030> ;
+                                     dcterms:created "2025-02-17T15:49:36Z"^^xsd:dateTime ;
+                                     rdfs:comment "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted." ;
+                                     rdfs:label "87Sr spectrum chemical shift reference compound"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://nmrML.org/nmrCV#NMR:0002000> ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "A chemical shift reference compound used for 87Sr spectra according to IUPAC recommendations." ;
+   dcterms:source <https://www.degruyter.com/document/doi/10.1351/pac200880010059/html>
+ ] .
+
 
 ###  http://nmrML.org/nmrCV#NMR:0002001
 <http://nmrML.org/nmrCV#NMR:0002001> rdf:type owl:Class ;
@@ -10271,23 +10350,6 @@ Line sharpening can be optimized during data acquisition or performed during dat
                                      rdfs:label "Bruker WIN NMR format" .
 
 
-###  http://nmrML.org/nmrCV#NMRCV:0002000
-<http://nmrML.org/nmrCV#NMRCV:0002000> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://nmrML.org/nmrCV#NMR:1400033> ;
-                                       obo:IAO_0000115 "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations." ;
-                                       dcterms:contributor <https://orcid.org/0009-0001-5998-5030> ;
-                                       dcterms:created "2025-02-17T15:49:36Z"^^xsd:dateTime ;
-                                       rdfs:comment "This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted." ;
-                                       rdfs:label "87Sr spectrum chemical shift reference compound"@en .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://nmrML.org/nmrCV#NMRCV:0002000> ;
-   owl:annotatedProperty obo:IAO_0000115 ;
-   owl:annotatedTarget "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations." ;
-   dcterms:source <https://www.degruyter.com/document/doi/10.1351/pac200880010059/html>
- ] .
-
-
 ###  http://purl.obolibrary.org/obo/BFO_0000001
 obo:BFO_0000001 rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing ;
@@ -10330,6 +10392,7 @@ obo:BFO_0000002 rdf:type owl:Class ;
                                  ] ;
                 obo:BFO_0000179 "continuant" ;
                 obo:BFO_0000180 "Continuant" ;
+                obo:IAO_0000115 "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en ;
                 obo:IAO_0000116 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"@en ,
                                 "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants"@en ;
                 obo:IAO_0000600 "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])"@en ;
@@ -10416,6 +10479,7 @@ obo:BFO_0000003 rdf:type owl:Class ;
                                  ] ;
                 obo:BFO_0000179 "occurrent" ;
                 obo:BFO_0000180 "Occurrent" ;
+                obo:IAO_0000115 "An entity that has temporal parts and that happens, unfolds or develops through time."@en ;
                 obo:IAO_0000116 "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region"@en ,
                                 "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players."@en ,
                                 "Occurrent doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process."@en ,
@@ -10502,6 +10566,7 @@ obo:BFO_0000004 rdf:type owl:Class ;
                 obo:IAO_0000602 "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] " ,
                                 "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] " ,
                                 "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] " ;
+                rdfs:comment "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en ;
                 rdfs:isDefinedBy obo:bfo.owl ;
                 rdfs:label "independent continuant"@en .
 
@@ -10806,6 +10871,7 @@ obo:BFO_0000015 rdf:type owl:Class ;
                 obo:IAO_0000115 "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en ;
                 obo:IAO_0000116 "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"@en ;
                 obo:IAO_0000602 "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] " ;
+                rdfs:comment "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t."@en ;
                 rdfs:isDefinedBy obo:bfo.owl ;
                 rdfs:label "process"@en .
 
@@ -10882,6 +10948,7 @@ obo:BFO_0000017 rdf:type owl:Class ;
                                 "the function of your reproductive organs"@en ,
                                 "the role of being a doctor"@en ,
                                 "the role of this boundary to delineate where Utah and Colorado meet"@en ;
+                obo:IAO_0000115 "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en ;
                 obo:IAO_0000600 "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"@en ;
                 obo:IAO_0000601 "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"@en ;
                 obo:IAO_0000602 "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] " ,
@@ -11008,11 +11075,21 @@ obo:BFO_0000020 rdf:type owl:Class ;
                                 "the role of being a doctor"@en ,
                                 "the shape of this hole."@en ,
                                 "the smell of this portion of mozzarella"@en ;
-                obo:IAO_0000115 "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en ;
+                obo:IAO_0000115 "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])"@en ,
+                                "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en ;
                 obo:IAO_0000116 "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc."@en ;
-                obo:IAO_0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " ;
+                obo:IAO_0000602 "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " ,
+                                "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " ;
+                rdfs:comment "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same."@en ;
                 rdfs:isDefinedBy obo:bfo.owl ;
                 rdfs:label "specifically dependent continuant"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:BFO_0000020 ;
+   owl:annotatedProperty obo:IAO_0000115 ;
+   owl:annotatedTarget "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])"@en ;
+   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/131-004>
+ ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource obo:BFO_0000020 ;
@@ -11027,6 +11104,13 @@ obo:BFO_0000020 rdf:type owl:Class ;
    owl:annotatedTarget "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc."@en ;
    obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/0000005> ;
    rdfs:comment "per discussion with Barry Smith"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:BFO_0000020 ;
+   owl:annotatedProperty obo:IAO_0000602 ;
+   owl:annotatedTarget "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " ;
+   obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/131-004>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -11049,6 +11133,7 @@ obo:BFO_0000023 rdf:type owl:Class ;
                                 "the role of a stone in marking a property boundary"@en ,
                                 "the role of subject in a clinical trial"@en ,
                                 "the student role"@en ;
+                obo:IAO_0000115 "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en ;
                 obo:IAO_0000116 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en ;
                 obo:IAO_0000600 "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en ;
                 obo:IAO_0000602 "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] " ;
@@ -11302,6 +11387,7 @@ obo:BFO_0000031 rdf:type owl:Class ;
                                 "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."@en ;
                 obo:IAO_0000115 "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])"@en ;
                 obo:IAO_0000602 "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] " ;
+                rdfs:comment "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time."@en ;
                 rdfs:isDefinedBy obo:bfo.owl ;
                 rdfs:label "generically dependent continuant"@en .
 
@@ -11425,6 +11511,7 @@ obo:BFO_0000040 rdf:type owl:Class ;
                 owl:disjointWith obo:BFO_0000141 ;
                 obo:BFO_0000179 "material" ;
                 obo:BFO_0000180 "MaterialEntity" ;
+                obo:IAO_0000111 "material entity"@en ;
                 obo:IAO_0000112 "a flame"@en ,
                                 "a forest fire"@en ,
                                 "a human being"@en ,
@@ -11437,9 +11524,11 @@ obo:BFO_0000040 rdf:type owl:Class ;
                                 "an energy wave"@en ,
                                 "an epidemic"@en ,
                                 "the undetached arm of a human being"@en ;
+                obo:IAO_0000115 "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en ;
                 obo:IAO_0000116 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en ,
                                 "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en ,
                                 "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en ;
+                obo:IAO_0000412 obo:ido.owl ;
                 obo:IAO_0000600 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en ;
                 obo:IAO_0000601 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en ,
                                 "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en ;
@@ -16857,6 +16946,21 @@ obo:CHEBI_231514 rdf:type owl:Class ;
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource obo:CHEBI_231514 ;
+   owl:annotatedProperty oboInOwl:hasExactSynonym ;
+   owl:annotatedTarget "caesium nitrate" ;
+   oboInOwl:hasDbXref "IUPAC" ;
+   oboInOwl:hasSynonymType chebi1:IUPAC_NAME
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:CHEBI_231514 ;
+   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+   owl:annotatedTarget "CsNO3" ;
+   oboInOwl:hasDbXref "ChEBI"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource obo:CHEBI_231514 ;
    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
    owl:annotatedTarget "cesium nitrate" ;
    oboInOwl:hasDbXref "NIST_Chemistry_WebBook"
@@ -16923,21 +17027,6 @@ obo:CHEBI_231514 rdf:type owl:Class ;
    owl:annotatedProperty oboInOwl:hasDbXref ;
    owl:annotatedTarget "PMID:35411853" ;
    oboInOwl:source "Europe PMC"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:CHEBI_231514 ;
-   owl:annotatedProperty oboInOwl:hasExactSynonym ;
-   owl:annotatedTarget "caesium nitrate" ;
-   oboInOwl:hasDbXref "IUPAC" ;
-   oboInOwl:hasSynonymType chebi1:IUPAC_NAME
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:CHEBI_231514 ;
-   owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
-   owl:annotatedTarget "CsNO3" ;
-   oboInOwl:hasDbXref "ChEBI"
  ] .
 
 
@@ -20473,7 +20562,7 @@ obo:CHEBI_36357 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/CHEBI_36383
 obo:CHEBI_36383 rdf:type owl:Class ;
-                rdfs:subClassOf <http://nmrML.org/nmrCV#NMRCV:0002000> ,
+                rdfs:subClassOf <http://nmrML.org/nmrCV#NMR:0002000> ,
                                 obo:CHEBI_24835 ,
                                 obo:CHEBI_33579 ,
                                 obo:CHEBI_36357 ;
@@ -27788,26 +27877,18 @@ obo:IAO_8000020 rdf:type owl:Class ;
 
 
 ###  http://purl.obolibrary.org/obo/NCBITaxon_9606
-obo:NCBITaxon_9606 rdf:type owl:Class .
+obo:NCBITaxon_9606 rdf:type owl:Class ;
+                   rdfs:subClassOf obo:OBI_0100026 ;
+                   obo:IAO_0000111 "Homo sapiens" ;
+                   obo:IAO_0000118 "human" ,
+                                   "human being" ;
+                   obo:IAO_0000412 obo:ncbitaxon.owl ;
+                   rdfs:label "Homo sapiens" .
 
 
 ###  http://purl.obolibrary.org/obo/OBI_0000011
 obo:OBI_0000011 rdf:type owl:Class ;
-                owl:equivalentClass [ rdf:type owl:Restriction ;
-                                      owl:onProperty obo:BFO_0000055 ;
-                                      owl:someValuesFrom [ rdf:type owl:Restriction ;
-                                                           owl:onProperty obo:RO_0000059 ;
-                                                           owl:someValuesFrom obo:IAO_0000104
-                                                         ]
-                                    ] ;
-                rdfs:subClassOf obo:BFO_0000015 ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty obo:BFO_0000055 ;
-                                  owl:someValuesFrom [ rdf:type owl:Restriction ;
-                                                       owl:onProperty obo:RO_0000059 ;
-                                                       owl:someValuesFrom obo:IAO_0000104
-                                                     ]
-                                ] ;
+                rdfs:subClassOf obo:BFO_0000015 ;
                 obo:IAO_0000111 "planned process" ;
                 obo:IAO_0000112 "Injecting mice with a vaccine in order to test its efficacy" ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
@@ -27847,18 +27928,10 @@ obo:OBI_0000047 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/OBI_0000094
 obo:OBI_0000094 rdf:type owl:Class ;
-                owl:equivalentClass [ rdf:type owl:Restriction ;
-                                      owl:onProperty obo:OBI_0000417 ;
-                                      owl:someValuesFrom obo:OBI_0000456
-                                    ] ;
                 rdfs:subClassOf obo:OBI_0000011 ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty obo:OBI_0000299 ;
                                   owl:someValuesFrom obo:OBI_0000047
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty obo:OBI_0000417 ;
-                                  owl:someValuesFrom obo:OBI_0000456
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty obo:OBI_0000293 ;
@@ -27987,37 +28060,12 @@ obo:OBI_0000455 rdf:type owl:Class ;
                 rdfs:label "consume data function"@en .
 
 
-###  http://purl.obolibrary.org/obo/OBI_0000456
-obo:OBI_0000456 rdf:type owl:Class ;
-                rdfs:subClassOf obo:IAO_0000005 ;
-                obo:IAO_0000111 "material transformation objective" ;
-                obo:IAO_0000112 "The objective to create a mouse infected with LCM virus. The objective to create a defined solution of PBS." ;
-                obo:IAO_0000114 obo:IAO_0000122 ;
-                obo:IAO_0000115 "an objective specifiction that creates an specific output object from input materials."@en ;
-                obo:IAO_0000117 "PERSON: Bjoern Peters" ,
-                                "PERSON: Frank Gibson" ,
-                                "PERSON: Jennifer Fostel" ,
-                                "PERSON: Melanie Courtot" ,
-                                "PERSON: Philippe Rocca-Serra" ;
-                obo:IAO_0000118 "artifact  creation objective"@en ;
-                obo:IAO_0000119 "GROUP: OBI PlanAndPlannedProcess Branch" ;
-                rdfs:label "material transformation objective"@en .
-
-
 ###  http://purl.obolibrary.org/obo/OBI_0000457
 obo:OBI_0000457 rdf:type owl:Class ;
-                owl:equivalentClass [ rdf:type owl:Restriction ;
-                                      owl:onProperty obo:OBI_0000417 ;
-                                      owl:someValuesFrom obo:OBI_0000458
-                                    ] ;
                 rdfs:subClassOf obo:OBI_0000094 ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty obo:OBI_0000293 ;
                                   owl:someValuesFrom obo:BFO_0000040
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty obo:OBI_0000417 ;
-                                  owl:someValuesFrom obo:OBI_0000458
                                 ] ;
                 obo:IAO_0000111 "manufacturing" ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
@@ -28032,21 +28080,6 @@ obo:OBI_0000457 rdf:type owl:Class ;
                                 "PERSON: Philippe Rocca-Serra" ;
                 obo:IAO_0000119 "GROUP: OBI PlanAndPlannedProcess Branch" ;
                 rdfs:label "manufacturing"@en .
-
-
-###  http://purl.obolibrary.org/obo/OBI_0000458
-obo:OBI_0000458 rdf:type owl:Class ;
-                rdfs:subClassOf obo:OBI_0000456 ;
-                obo:IAO_0000111 "manufacturing objective" ;
-                obo:IAO_0000114 obo:IAO_0000122 ;
-                obo:IAO_0000115 "is the objective to manufacture a material of a certain function (device)"@en ;
-                obo:IAO_0000117 "PERSON: Bjoern Peters" ,
-                                "PERSON: Frank Gibson" ,
-                                "PERSON: Jennifer Fostel" ,
-                                "PERSON: Melanie Courtot" ,
-                                "PERSON: Philippe Rocca-Serra" ;
-                obo:IAO_0000119 "GROUP: OBI PlanAndPlannedProcess Branch" ;
-                rdfs:label "manufacturing objective"@en .
 
 
 ###  http://purl.obolibrary.org/obo/OBI_0000522
@@ -28070,6 +28103,10 @@ obo:OBI_0000571 rdf:type owl:Class ;
                                                                      obo:OBI_0000245
                                                                    )
                                                      ]
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000054 ;
+                                  owl:allValuesFrom obo:OBI_0000457
                                 ] ;
                 obo:IAO_0000111 "manufacturer role" ;
                 obo:IAO_0000112 "With respect to The Accuri C6 Flow Cytometer System, the organization Accuri bears the role manufacturer role.  With respect to a transformed line of tissue culture cells derived by a specific lab, the lab whose personnel isolated the cll line bears the role manufacturer role.  With respect to a specific antibody produced by an individual scientist, the scientist who purifies, characterizes and distributes the anitbody bears the role manufacturer role." ;
@@ -28228,14 +28265,6 @@ obo:OBI_0400107 rdf:type owl:Class ;
                                 "Trish Whetzel" ;
                 obo:IAO_0000119 "http://en.wikipedia.org/wiki/Computer" ;
                 rdfs:label "computer" .
-
-
-###  http://purl.obolibrary.org/obo/UBERON_0000465
-obo:UBERON_0000465 rdf:type owl:Class .
-
-
-###  http://purl.obolibrary.org/obo/UBERON_0000477
-obo:UBERON_0000477 rdf:type owl:Class .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#ObsoleteClass
@@ -28962,6 +28991,7 @@ obo:IAO_0000121 rdf:type owl:NamedIndividual ,
                          obo:IAO_0000078 ;
                 obo:IAO_0000111 "organizational term"@en ;
                 obo:IAO_0000115 "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"@en ;
+                obo:IAO_0000117 "PERSON:Alan Ruttenberg" ;
                 rdfs:label "organizational term"@en .
 
 
@@ -29185,6 +29215,14 @@ obo:OMO_0001002 rdf:type owl:NamedIndividual ,
 ] .
 
 
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( obo:BFO_0000004
+                obo:BFO_0000020
+                obo:BFO_0000031
+              )
+] .
+
+
 [ rdf:type owl:AllDifferent ;
   owl:distinctMembers ( obo:IAO_0000120
                         obo:IAO_0000121
@@ -29206,5 +29244,113 @@ obo:OMO_0001002 rdf:type owl:NamedIndividual ,
                       )
 ] .
 
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl#d> rdf:type swrl:Variable .
+
+<urn:swrl#e> rdf:type swrl:Variable .
+
+[ rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate obo:BFO_0000016 ;
+                           swrl:argument1 <urn:swrl#d>
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                      swrl:propertyPredicate obo:RO_0000053 ;
+                                      swrl:argument1 <urn:swrl#e> ;
+                                      swrl:argument2 <urn:swrl#d>
+                                    ] ;
+                          rdf:rest rdf:nil
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                           swrl:propertyPredicate obo:RO_0000091 ;
+                           swrl:argument1 <urn:swrl#e> ;
+                           swrl:argument2 <urn:swrl#d>
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+[ rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate obo:BFO_0000019 ;
+                           swrl:argument1 <urn:swrl#d>
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                      swrl:propertyPredicate obo:RO_0000053 ;
+                                      swrl:argument1 <urn:swrl#e> ;
+                                      swrl:argument2 <urn:swrl#d>
+                                    ] ;
+                          rdf:rest rdf:nil
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                           swrl:propertyPredicate obo:RO_0000086 ;
+                           swrl:argument1 <urn:swrl#e> ;
+                           swrl:argument2 <urn:swrl#d>
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+[ rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate obo:BFO_0000023 ;
+                           swrl:argument1 <urn:swrl#d>
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                      swrl:propertyPredicate obo:RO_0000053 ;
+                                      swrl:argument1 <urn:swrl#e> ;
+                                      swrl:argument2 <urn:swrl#d>
+                                    ] ;
+                          rdf:rest rdf:nil
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                           swrl:propertyPredicate obo:RO_0000087 ;
+                           swrl:argument1 <urn:swrl#e> ;
+                           swrl:argument2 <urn:swrl#d>
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
+
+[ rdf:type swrl:Imp ;
+   swrl:body [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:ClassAtom ;
+                           swrl:classPredicate obo:BFO_0000034 ;
+                           swrl:argument1 <urn:swrl#d>
+                         ] ;
+               rdf:rest [ rdf:type swrl:AtomList ;
+                          rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                                      swrl:propertyPredicate obo:RO_0000053 ;
+                                      swrl:argument1 <urn:swrl#e> ;
+                                      swrl:argument2 <urn:swrl#d>
+                                    ] ;
+                          rdf:rest rdf:nil
+                        ]
+             ] ;
+   swrl:head [ rdf:type swrl:AtomList ;
+               rdf:first [ rdf:type swrl:IndividualPropertyAtom ;
+                           swrl:propertyPredicate obo:RO_0000085 ;
+                           swrl:argument1 <urn:swrl#e> ;
+                           swrl:argument2 <urn:swrl#d>
+                         ] ;
+               rdf:rest rdf:nil
+             ]
+ ] .
 
 ###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi

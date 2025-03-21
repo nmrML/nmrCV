@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://nmrML.org/nmrCV/releases/2025-03-17/nmrCV.owl
+data-version: http://nmrml.org/cv/2025-03-20/nmrCV.owl
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
@@ -29,6 +29,8 @@ idspace: foaf http://xmlns.com/foaf/0.1/
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
 idspace: vann http://purl.org/vocab/vann/ 
 ontology: http://nmrML.org/nmrCV.owl
 property_value: dce:contributor "Chris Taylor" xsd:string
@@ -40,7 +42,7 @@ property_value: dce:contributor "Larissa Soldatova" xsd:string
 property_value: dce:contributor "Michael Wilson" xsd:string
 property_value: dce:coverage "Nuclear magnetic resonance (NMR) data annotation as required by the msi sanctioned open\naccess nmrML XML format developed by the COSMOS EU project." xsd:string
 property_value: dce:creator "COSMOS - COordination Of Standards In MetabOlomicS Project - WP2 team" xsd:string
-property_value: dcterms:abstract "WORK IN PROGRESS: This version of the Nuclear Magnetic Resonance Controlled Vocabulary is an ontology that covers the scope of NMR Spectrocopy by defining terms needed to describe NMR Spectroscopy experiments and their outputs with sufficient details to be considered FAIR in the context of research data managment. It is the successor to the version used within nmrML to annotated NMR data, since the NFDI4Chem project identified gaps in the previous version that needed to be filled in a manner that allows nmrCV in a modular way along with other existing OBO/BFO based ontologies." xsd:string
+property_value: dcterms:abstract "With this artifact, the Nuclear Magnetic Resonance Controlled Vocabulary (nmrCV) is undergoing a significant evolution to become an ontology designed to describe NMR spectroscopy experiments and their outputs in detail, supporting FAIR research data management. Initially, nmrCV v1.1.0 was deliberately designed as a controlled vocabulary, not a formal ontology with Description Logic (DL) semantics. It was approved by th Metabolomics Standards Initiative (MSI) and serves to provide descriptors for the nuclear magnetic resonance markup language (nmrML), enabling vendor-agnostic NMR data sharing, particularly within NMR metabolomics. Since version 1.1.0, nmrCV had not been updated nor actively maintained.\n\nRecognizing the need for a DL-enabled NMR spectroscopy ontology suitable for use independently of nmrML within a larger ontology framework, and addressing the limitations of the original controlled vocabulary, Germany's National Research Data Infrastructure project for Chemistry (NFDI4Chem) took on the responsibility for nmrCV's further development and maintenance. This decision was made after a discussion about its optimal integration within the broader ontology landscape at the third Ontologies4Chem workshop in fall 2023.\n\nThe decision to build upon nmrCV v1.1.0 was based on its existing definition of essential concepts, its BFO alignment, and its planned integration with ontologies like the Ontology for Biomedical Investigations (OBI) and the Chemical Entities of Biological Interest (ChEBI). Improvements in the present version include replacing out-of-scope and placeholder terms with more suitable equivalents from established ontologies like OBI and ChEBI, adhering to the OBO Foundry principles, corrections regarding the BFO subsumption and other established ontology design patterns, as well as the introduction of DL semantics.\n\n⚠️ Compatibility Note: Due to these significant changes, which prioritize ontology rigor over nmrML alignment, this and future versions of nmrCV may introduce breaking changes for nmrML users. Therefore, nmrML users are strongly advised to thoroughly test new nmrCV versions before production deployment. Alternatively, users may choose to continue using nmrCV v1.1.0, which was specifically designed for nmrML compatibility." xsd:string
 property_value: dcterms:contributor https://orcid.org/0000-0001-5306-5690
 property_value: dcterms:contributor https://orcid.org/0000-0001-5687-9059
 property_value: dcterms:contributor https://orcid.org/0000-0001-8604-1732
@@ -51,7 +53,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-7899-7192
 property_value: dcterms:contributor https://orcid.org/0000-0002-8148-6895
 property_value: dcterms:contributor https://orcid.org/0000-0003-1144-3600
 property_value: dcterms:contributor https://orcid.org/0009-0001-5998-5030
-property_value: dcterms:description "This artefact is an MSI-approved controlled vocabulary primarily developed under COSMOS EU and PhenoMeNal EU governance. The nmrCV is supporting the nmrML XML format with standardized terms. nmrML is a vendor agnostic open access NMR raw data standard. Its primaly role is analogous to the mzCV for the PSI-approved mzML XML format. It uses BFO2.0 as its Top level. This CV was derived from two predecessors (The NMR CV from the David Wishart Group, developed by Joseph Cruz) and the MSI nmr CV developed by Daniel Schober at the EBI. This simple taxonomy of terms (no DL semantics used) serves the nuclear magnetic resonance markup language (nmrML) with meaningful descriptors to amend the nmrML xml file with CV terms. Metabolomics scientists are encouraged to use this CV to annotrate their raw and experimental context data, i.e. within nmrML. The approach to have an exchange syntax mixed of an xsd and CV stems from the PSI mzML effort. The reason to branch out from an xsd into a CV is, that in areas where the terminology is likely to change faster than the nmrML xsd could be updated and aligned, an externally and decentrallised maintained CV can accompensate for such dynamics in a more flexible way. A second reason for this set-up is that semantic validity of CV terms used in an nmrML XML instance (allowed CV terms, position/relation to each other, cardinality) can be validated by rule-based proprietary validators: By means of cardinality specifications and XPath expressions defined in an XML mapping file (an instances of the CvMappingRules.xsd ), one can define what ontology terms are allowed in a specific location of the data model." xsd:string
+property_value: dcterms:created "2025-03-20" xsd:string
 property_value: dcterms:license https://creativecommons.org/publicdomain/mark/1.0/
 property_value: dcterms:references "https://doi.org/10.1021/acs.analchem.7b02795" xsd:string
 property_value: dcterms:title "nuclear magnetic resonance CV" xsd:string
@@ -60,9 +62,9 @@ property_value: doap:bug-database "https://github.com/nmrML/nmrCV/issues" xsd:st
 property_value: doap:implements "https://github.com/nmrML/nmrML" xsd:string
 property_value: doap:location "https://github.com/nmrML/nmrCV" xsd:string
 property_value: doap:maintainer https://www.wikidata.org/wiki/Q96678459
-property_value: owl:priorVersion nmrCV:v1.1.owl
+property_value: owl:priorVersion https://nmrml.org/cv/v1.1.0/nmrCV.owl
 property_value: owl:versionInfo "2.0_alpha" xsd:string
-property_value: owl:versionInfo "2025-03-17" xsd:string
+property_value: owl:versionInfo "2025-03-20" xsd:string
 property_value: vann:preferredNamespacePrefix "nmrCV" xsd:string
 
 [Term]
@@ -82,6 +84,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: BFO:0000002
 name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 is_a: BFO:0000001 ! entity
 disjoint_from: BFO:0000003 ! occurrent
 property_value: BFO:0000179 "continuant" xsd:string
@@ -101,6 +104,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: BFO:0000003
 name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
 is_a: BFO:0000001 ! entity
 property_value: BFO:0000179 "occurrent" xsd:string
 property_value: BFO:0000180 "Occurrent" xsd:string
@@ -119,7 +123,9 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000004
 name: independent continuant
 def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/017-002"}
+comment: A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.
 is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000031 ! generically dependent continuant
 property_value: BFO:0000179 "ic" xsd:string
@@ -214,6 +220,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000015
 name: process
 def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/083-003"}
+comment: An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.
 is_a: BFO:0000003 ! occurrent
 property_value: BFO:0000179 "process" xsd:string
 property_value: BFO:0000180 "Process" xsd:string
@@ -249,6 +256,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: BFO:0000017
 name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
 is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
 property_value: BFO:0000179 "realizable" xsd:string
@@ -296,7 +304,9 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
+def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/131-004"}
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
+comment: A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000031 ! generically dependent continuant
 property_value: BFO:0000179 "sdc" xsd:string
@@ -313,12 +323,14 @@ property_value: IAO:0000112 "the role of being a doctor" xsd:string
 property_value: IAO:0000112 "the shape of this hole." xsd:string
 property_value: IAO:0000112 "the smell of this portion of mozzarella" xsd:string
 property_value: IAO:0000116 "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc." xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000005", comment="per discussion with Barry Smith"}
+property_value: IAO:0000602 "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/131-004"}
 property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
 id: BFO:0000023
 name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
 is_a: BFO:0000017 ! realizable entity
 property_value: BFO:0000179 "role" xsd:string
 property_value: BFO:0000180 "Role" xsd:string
@@ -457,6 +469,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000031
 name: generically dependent continuant
 def: "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])" [] {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/074-001"}
+comment: A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.
 is_a: BFO:0000002 ! continuant
 property_value: BFO:0000179 "gdc" xsd:string
 property_value: BFO:0000180 "GenericallyDependentContinuant" xsd:string
@@ -509,10 +522,12 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: BFO:0000040
 name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
 is_a: BFO:0000004 ! independent continuant
 disjoint_from: BFO:0000141 ! immaterial entity
 property_value: BFO:0000179 "material" xsd:string
 property_value: BFO:0000180 "MaterialEntity" xsd:string
+property_value: IAO:0000111 "material entity" xsd:string
 property_value: IAO:0000112 "a flame" xsd:string
 property_value: IAO:0000112 "a forest fire" xsd:string
 property_value: IAO:0000112 "a human being" xsd:string
@@ -528,6 +543,7 @@ property_value: IAO:0000112 "the undetached arm of a human being" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity." xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here." xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000600 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])" xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/019-002"}
 property_value: IAO:0000601 "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])" xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/021-002"}
 property_value: IAO:0000601 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])" xsd:string {IAO:0010000="http://purl.obolibrary.org/obo/bfo/axiom/020-002"}
@@ -3099,7 +3115,7 @@ xref: Gmelin:463924 {source="Gmelin"}
 is_a: CHEBI:24835 ! inorganic molecular entity
 is_a: CHEBI:33579 ! main group molecular entity
 is_a: CHEBI:36357 ! polyatomic entity
-is_a: NMRCV:0002000 ! 87Sr spectrum chemical shift reference compound
+is_a: NMR:0002000 ! 87Sr spectrum chemical shift reference compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Cl2Sr" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/2ClH.Sr/h2*1H;/q;;+2/p-2" xsd:string
@@ -5381,6 +5397,24 @@ id: IAO:8000020
 name: EL++ ontology module
 is_a: IAO:8000019 ! ontology module subsetted by OWL profile
 property_value: IAO:0000111 "EL++ ontology module" xsd:string
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+is_a: OBI:0100026 ! organism
+property_value: IAO:0000111 "Homo sapiens" xsd:string
+property_value: IAO:0000118 "human" xsd:string
+property_value: IAO:0000118 "human being" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
+
+[Term]
+id: NMR:0002000
+name: 87Sr spectrum chemical shift reference compound
+def: "A chemical shift reference compound used for 87Sr spectra according to IUPAC recommendations." [] {dcterms:source="https://www.degruyter.com/document/doi/10.1351/pac200880010059/html"}
+comment: This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted.
+is_a: NMR:1400033 ! chemical shift reference compound
+property_value: dcterms:contributor https://orcid.org/0009-0001-5998-5030
+property_value: dcterms:created "2025-02-17T15:49:36Z" xsd:dateTime
 
 [Term]
 id: NMR:0002001
@@ -10887,15 +10921,6 @@ name: Bruker WIN NMR format
 is_a: NMR:1400285 ! NMR software data format
 
 [Term]
-id: NMRCV:0002000
-name: 87Sr spectrum chemical shift reference compound
-def: "A chemical shift reference compound used for 87Srr spectra according to IUPAC recommendations." [] {dcterms:source="https://www.degruyter.com/document/doi/10.1351/pac200880010059/html"}
-comment: This is a grouping class of chemical shift reference compounds based on IUPAC recommendations for 87Sr spectra. The children of this class were manually asserted.
-is_a: NMR:1400033 ! chemical shift reference compound
-property_value: dcterms:contributor https://orcid.org/0009-0001-5998-5030
-property_value: dcterms:created "2025-02-17T15:49:36Z" xsd:dateTime
-
-[Term]
 id: OBI:0000011
 name: planned process
 def: "A process that realizes a plan which is the concretization of a plan specification." []
@@ -10930,7 +10955,6 @@ def: "A planned process which results in physical changes in a specified input m
 is_a: OBI:0000011 ! planned process
 relationship: OBI:0000293 BFO:0000040 {all_only="true"} ! has specified input material entity
 relationship: OBI:0000299 OBI:0000047 ! has specified output processed material
-relationship: OBI:0000417 OBI:0000456 ! achieves_planned_objective material transformation objective
 property_value: IAO:0000111 "material processing" xsd:string
 property_value: IAO:0000112 "A cell lysis, production of a cloning vector, creating a buffer." xsd:string
 property_value: IAO:0000114 IAO:0000122
@@ -11009,47 +11033,16 @@ property_value: IAO:0000117 "PERSON: Frank Gibson" xsd:string
 property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
 
 [Term]
-id: OBI:0000456
-name: material transformation objective
-def: "an objective specifiction that creates an specific output object from input materials." []
-is_a: IAO:0000005 ! objective specification
-property_value: IAO:0000111 "material transformation objective" xsd:string
-property_value: IAO:0000112 "The objective to create a mouse infected with LCM virus. The objective to create a defined solution of PBS." xsd:string
-property_value: IAO:0000114 IAO:0000122
-property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
-property_value: IAO:0000117 "PERSON: Frank Gibson" xsd:string
-property_value: IAO:0000117 "PERSON: Jennifer Fostel" xsd:string
-property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
-property_value: IAO:0000117 "PERSON: Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000118 "artifact  creation objective" xsd:string
-property_value: IAO:0000119 "GROUP: OBI PlanAndPlannedProcess Branch" xsd:string
-
-[Term]
 id: OBI:0000457
 name: manufacturing
 def: "A planned process with the objective to produce a processed material which will have a function for future use." []
 is_a: OBI:0000094 ! material processing
 relationship: OBI:0000293 BFO:0000040 ! has specified input material entity
-relationship: OBI:0000417 OBI:0000458 ! achieves_planned_objective manufacturing objective
 property_value: IAO:0000111 "manufacturing" xsd:string
 property_value: IAO:0000114 IAO:0000122
 property_value: IAO:0000116 "A person or organization (having manufacturer role) is a participant in this process" xsd:string
 property_value: IAO:0000116 "Manufacturing implies reproducibility and responsibility AR" xsd:string
 property_value: IAO:0000116 "This includes a single scientist making a processed material for personal use." xsd:string
-property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
-property_value: IAO:0000117 "PERSON: Frank Gibson" xsd:string
-property_value: IAO:0000117 "PERSON: Jennifer Fostel" xsd:string
-property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
-property_value: IAO:0000117 "PERSON: Philippe Rocca-Serra" xsd:string
-property_value: IAO:0000119 "GROUP: OBI PlanAndPlannedProcess Branch" xsd:string
-
-[Term]
-id: OBI:0000458
-name: manufacturing objective
-def: "is the objective to manufacture a material of a certain function (device)" []
-is_a: OBI:0000456 ! material transformation objective
-property_value: IAO:0000111 "manufacturing objective" xsd:string
-property_value: IAO:0000114 IAO:0000122
 property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string
 property_value: IAO:0000117 "PERSON: Frank Gibson" xsd:string
 property_value: IAO:0000117 "PERSON: Jennifer Fostel" xsd:string
@@ -11072,6 +11065,7 @@ id: OBI:0000571
 name: manufacturer role
 def: "Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process." []
 is_a: BFO:0000023 ! role
+relationship: BFO:0000054 OBI:0000457 {all_only="true"} ! realized in manufacturing
 property_value: IAO:0000111 "manufacturer role" xsd:string
 property_value: IAO:0000112 "With respect to The Accuri C6 Flow Cytometer System, the organization Accuri bears the role manufacturer role.  With respect to a transformed line of tissue culture cells derived by a specific lab, the lab whose personnel isolated the cll line bears the role manufacturer role.  With respect to a specific antibody produced by an individual scientist, the scientist who purifies, characterizes and distributes the anitbody bears the role manufacturer role." xsd:string
 property_value: IAO:0000114 IAO:0000123
@@ -11321,7 +11315,6 @@ property_value: IAO:0000117 "BP, AR, PPPB branch" xsd:string
 property_value: IAO:0000119 "PPPB branch derived" xsd:string
 property_value: IAO:0000232 "modified according to email thread from 1/23/09 in accordince with DT and PPPB branch" xsd:string
 domain: OBI:0000011 ! planned process
-range: IAO:0000005 ! objective specification
 inverse_of: OBI:0000833 ! objective_achieved_by
 
 [Typedef]
@@ -11332,8 +11325,17 @@ property_value: IAO:0000111 "objective_achieved_by" xsd:string
 property_value: IAO:0000114 IAO:0000122
 property_value: IAO:0000117 "OBI" xsd:string
 property_value: IAO:0000119 "OBI" xsd:string
-domain: IAO:0000005 ! objective specification
 range: OBI:0000011 ! planned process
+
+[Typedef]
+id: OBI:0001938
+name: has value specification
+def: "A relation between an information content entity and a value specification that specifies its value." []
+property_value: IAO:0000111 "has value specification" xsd:string
+property_value: IAO:0000114 IAO:0000120
+property_value: IAO:0000117 "PERSON: James A. Overton" xsd:string
+property_value: IAO:0000119 "OBI" xsd:string
+is_a: has_part ! has part
 
 [Typedef]
 id: RO:0000052
@@ -11395,17 +11397,21 @@ holds_over_chain: has_part RO:0000057
 id: RO:0000058
 name: is concretized as
 def: "A relationship between a generically dependent continuant and a specifically dependent continuant or process, in which the generically dependent continuant depends on some independent continuant or process in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants or processes." []
+def: "A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants." []
 property_value: IAO:0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The journal article (a generically dependent continuant) is concretized as the quality (a specifically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)." xsd:string
 property_value: IAO:0000112 "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)." xsd:string
 domain: BFO:0000031 ! generically dependent continuant
+range: BFO:0000020 ! specifically dependent continuant
 inverse_of: RO:0000059 ! concretizes
 
 [Typedef]
 id: RO:0000059
 name: concretizes
+def: "A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant." []
 def: "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant." []
 property_value: IAO:0000112 "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant)." xsd:string
 property_value: IAO:0000112 "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process)." xsd:string
+domain: BFO:0000020 ! specifically dependent continuant
 range: BFO:0000031 ! generically dependent continuant
 
 [Typedef]
@@ -11420,6 +11426,18 @@ property_value: IAO:0000118 "is function of" xsd:string
 domain: BFO:0000034 ! function
 is_a: RO:0000052 ! characteristic of
 inverse_of: RO:0000085 ! has function
+
+[Typedef]
+id: RO:0000080
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this red color is a quality of this apple" xsd:string
+property_value: IAO:0000116 "A quality inheres in its bearer at all times for which the quality exists." xsd:string
+property_value: IAO:0000118 "is quality of" xsd:string
+property_value: IAO:0000118 "quality_of" xsd:string
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000086 ! has quality
 
 [Typedef]
 id: RO:0000081
@@ -11443,6 +11461,31 @@ property_value: IAO:0000118 "has_function" xsd:string
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000034 ! function
 is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000086
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this apple has quality this red color" xsd:string
+property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "has_quality" xsd:string
+range: BFO:0000019 ! quality
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000091
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000016 ! disposition
+is_a: RO:0000053 ! has characteristic
+inverse_of: RO:0000092 ! disposition of
+
+[Typedef]
+id: RO:0000092
+name: disposition of
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+is_a: RO:0000052 ! characteristic of
 
 [Typedef]
 id: RO:0002131
@@ -11554,6 +11597,7 @@ property_value: IAO:0000116 "Everything has itself as a part. Any part of any pa
 property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 property_value: RO:0001900 RO:0001901
 is_cyclic: false
 is_transitive: true
