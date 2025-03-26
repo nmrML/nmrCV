@@ -216,7 +216,7 @@ The decision to build upon nmrCV v1.1.0 was based on its existing definition of 
 
 - [title](http://purl.org/dc/terms/title) "nuclear magnetic resonance CV" 
 
-- [preferredNamespacePrefix](http://purl.org/vocab/vann/preferredNamespacePrefix) "nmrCV" 
+- [preferredNamespacePrefix](http://purl.org/vocab/vann/preferredNamespacePrefix) "nmrCV2025" 
 
 - [bug-database](http://usefulinc.com/ns/doap#bug-database) "https://github.com/nmrML/nmrCV/issues" 
 
