@@ -138,6 +138,8 @@ MIME type  application/rdf+xml
 
 - [documenter](http://usefulinc.com/ns/doap#documenter) "Daniel Schober"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
+- [implements](http://usefulinc.com/ns/doap#implements) "https://github.com/nmrML/nmrML"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
 - [location](http://usefulinc.com/ns/doap#location) "https://github.com/nmrML/nmrML/tree/master/ontologies"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 - [mailing-list](http://usefulinc.com/ns/doap#mailing-list) "https://groups.google.com/forum/?hl=en#!forum/nmrml/join"^^[string](http://www.w3.org/2001/XMLSchema#string) 
@@ -212,19 +214,21 @@ The decision to build upon nmrCV v1.1.0 was based on its existing definition of 
 
 - [license](http://purl.org/dc/terms/license) [<https://creativecommons.org/publicdomain/mark/1.0/>](https://creativecommons.org/publicdomain/mark/1.0/) 
 
-- [references](http://purl.org/dc/terms/references) "https://doi.org/10.1021/acs.analchem.7b02795" 
+- [references](http://purl.org/dc/terms/references) https://doi.org/10.1021/acs.analchem.7b0279
 
 - [title](http://purl.org/dc/terms/title) "nuclear magnetic resonance CV" 
 
-- [preferredNamespacePrefix](http://purl.org/vocab/vann/preferredNamespacePrefix) "nmrCV" 
+- [preferredNamespacePrefix](http://purl.org/vocab/vann/preferredNamespacePrefix) "nmrCV2025" 
 
-- [bug-database](http://usefulinc.com/ns/doap#bug-database) "https://github.com/nmrML/nmrCV/issues" 
+- [bug-database](http://usefulinc.com/ns/doap#bug-database) "https://github.com/nmrML/nmrCV/issues"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [location](http://usefulinc.com/ns/doap#location) "https://github.com/nmrML/nmrCV" 
+- [implements](http://usefulinc.com/ns/doap#implements) [nmrML](https://github.com/nmrML/nmrML) 
+
+- [location](http://usefulinc.com/ns/doap#location) "https://github.com/nmrML/nmrCV"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [maintainer](http://usefulinc.com/ns/doap#maintainer) [NFDI4Chem](https://www.wikidata.org/wiki/Q96678459) 
 
-- [priorVersion](http://www.w3.org/2002/07/owl#priorVersion) [nmrCV.owl](https://nmrml.org/cv/v1.1.0/nmrCV.owl) 
+- [priorVersion](http://www.w3.org/2002/07/owl#priorVersion) https://nmrml.org/cv/v1.1.0/nmrCV.owl
 
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2.0_alpha" 
 
